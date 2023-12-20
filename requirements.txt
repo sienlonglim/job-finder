@@ -5,3 +5,4 @@ pandas
 tqdm
 ipywidgets
 xlsxwriter
+openpyxl
