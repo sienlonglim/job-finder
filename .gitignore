@@ -5,6 +5,7 @@ __pycache__/
 
 #excels
 *.xlsx
+ignore
 
 # C extensions
 *.so
