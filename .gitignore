@@ -1,3 +1,8 @@
+# Folders
+ignore
+logs
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -5,7 +10,7 @@ __pycache__/
 
 #excels
 *.xlsx
-ignore
+
 
 # C extensions
 *.so
