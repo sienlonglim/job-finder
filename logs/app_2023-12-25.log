@@ -1,0 +1,129 @@
+2023-12-25 20:53:53,722 - root - INFO - Added file_handler
+2023-12-25 20:53:53,737 - root - INFO - -------------------------------- GETTING JOB LINKS : data analyst ----------------------------------
+2023-12-25 20:53:53,737 - root - INFO - Searching for data-analyst
+2023-12-25 20:53:53,737 - root - INFO - Searching using JobId: None
+2023-12-25 20:53:54,880 - root - INFO - Page 0 - Cumulative unique links: 22
+2023-12-25 20:53:54,880 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:53:55,979 - root - INFO - Page 1 - Cumulative unique links: 22
+2023-12-25 20:53:55,979 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:53:57,216 - root - INFO - Page 2 - Cumulative unique links: 22
+2023-12-25 20:53:57,216 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:53:58,408 - root - INFO - Page 3 - Cumulative unique links: 40
+2023-12-25 20:53:58,408 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:53:58,933 - root - INFO - Page 4 - Cumulative unique links: 40
+2023-12-25 20:53:58,933 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:54:00,291 - root - INFO - Page 5 - Cumulative unique links: 40
+2023-12-25 20:54:00,291 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:54:01,403 - root - INFO - Page 6 - Cumulative unique links: 40
+2023-12-25 20:54:01,403 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:54:02,549 - root - INFO - Page 7 - Cumulative unique links: 40
+2023-12-25 20:54:02,549 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:54:03,703 - root - INFO - Page 8 - Cumulative unique links: 40
+2023-12-25 20:54:03,703 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:54:05,025 - root - INFO - Page 9 - Cumulative unique links: 43
+2023-12-25 20:54:05,025 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:54:05,431 - root - INFO - Page 10 - Cumulative unique links: 43
+2023-12-25 20:54:05,431 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:54:06,731 - root - INFO - Page 11 - Cumulative unique links: 43
+2023-12-25 20:54:06,731 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:54:06,981 - root - INFO - Page 12 - Cumulative unique links: 43
+2023-12-25 20:54:06,981 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:54:08,317 - root - INFO - Page 13 - Cumulative unique links: 43
+2023-12-25 20:54:08,317 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:54:09,504 - root - INFO - Page 14 - Cumulative unique links: 56
+2023-12-25 20:54:09,504 - root - INFO - Function get_job_links Took 15.7650 seconds - ('data analyst',) {'start_page': 0, 'pages': 15}
+2023-12-25 20:54:09,504 - root - INFO - -------------------------------- GETTING JOB INFO : data analyst ----------------------------------
+2023-12-25 20:55:24,000 - root - INFO - Removed 0 empty rows
+2023-12-25 20:55:24,000 - root - INFO - Removed 0 duplicates
+2023-12-25 20:55:24,000 - root - INFO - Extracted 56 number of jobs
+2023-12-25 20:55:24,000 - root - INFO - Loading main_df from file: files/MAIN_2023-12-25.xlsx
+2023-12-25 20:55:24,389 - root - INFO - Original rows of main_df: 45
+2023-12-25 20:55:24,839 - root - INFO - Read rows from df 0: 56
+2023-12-25 20:55:24,851 - root - INFO - 	Added rows: 56
+2023-12-25 20:58:19,652 - root - INFO - Added file_handler
+2023-12-25 20:58:19,652 - root - INFO - -------------------------------- GETTING JOB LINKS : data analyst ----------------------------------
+2023-12-25 20:58:19,652 - root - INFO - Searching for data-analyst
+2023-12-25 20:58:19,652 - root - INFO - Searching using JobId: None
+2023-12-25 20:58:20,768 - root - INFO - Page 0 - Cumulative unique links: 20
+2023-12-25 20:58:20,784 - root - INFO - Searching using JobId: 3791812116
+2023-12-25 20:58:21,036 - root - INFO - Page 1 - Cumulative unique links: 20
+2023-12-25 20:58:21,036 - root - INFO - Searching using JobId: 3791812116
+2023-12-25 20:58:22,266 - root - INFO - Page 2 - Cumulative unique links: 41
+2023-12-25 20:58:22,266 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:58:23,370 - root - INFO - Page 3 - Cumulative unique links: 47
+2023-12-25 20:58:23,370 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:58:24,738 - root - INFO - Page 4 - Cumulative unique links: 47
+2023-12-25 20:58:24,738 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:58:26,092 - root - INFO - Page 5 - Cumulative unique links: 47
+2023-12-25 20:58:26,092 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:58:27,275 - root - INFO - Page 6 - Cumulative unique links: 47
+2023-12-25 20:58:27,276 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:58:28,615 - root - INFO - Page 7 - Cumulative unique links: 47
+2023-12-25 20:58:28,615 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:58:30,032 - root - INFO - Page 8 - Cumulative unique links: 48
+2023-12-25 20:58:30,032 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:58:31,475 - root - INFO - Page 9 - Cumulative unique links: 48
+2023-12-25 20:58:31,475 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:58:32,673 - root - INFO - Page 10 - Cumulative unique links: 48
+2023-12-25 20:58:32,673 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:58:34,067 - root - INFO - Page 11 - Cumulative unique links: 48
+2023-12-25 20:58:34,068 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:58:35,420 - root - INFO - Page 12 - Cumulative unique links: 48
+2023-12-25 20:58:35,420 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:58:36,629 - root - INFO - Page 13 - Cumulative unique links: 48
+2023-12-25 20:58:36,629 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 20:58:38,033 - root - INFO - Page 14 - Cumulative unique links: 63
+2023-12-25 20:58:38,034 - root - INFO - Function get_job_links Took 18.3695 seconds - ('data analyst',) {'start_page': 0, 'pages': 15}
+2023-12-25 20:58:38,034 - root - INFO - -------------------------------- GETTING JOB INFO : data analyst ----------------------------------
+2023-12-25 21:00:01,583 - root - INFO - Removed 0 empty rows
+2023-12-25 21:00:01,583 - root - INFO - Removed 0 duplicates
+2023-12-25 21:00:01,583 - root - INFO - Extracted 63 number of jobs
+2023-12-25 21:00:01,583 - root - INFO - Loading main_df from file: files/MAIN_2023-12-25.xlsx
+2023-12-25 21:00:02,016 - root - INFO - Original rows of main_df: 56
+2023-12-25 21:00:02,016 - root - INFO - Read rows from df 0: 63
+2023-12-25 21:00:02,018 - root - INFO - 	Added rows: 63
+2023-12-25 21:02:20,304 - root - INFO - Started new run @ 2023-12-25:2102
+2023-12-25 21:02:20,304 - root - INFO - -------------------------------- GETTING JOB LINKS : data analyst ----------------------------------
+2023-12-25 21:02:20,305 - root - INFO - Searching for data-analyst
+2023-12-25 21:02:20,305 - root - INFO - Searching using JobId: None
+2023-12-25 21:02:21,385 - root - INFO - Page 0 - Cumulative unique links: 19
+2023-12-25 21:02:21,385 - root - INFO - Searching using JobId: 3791812116
+2023-12-25 21:02:22,601 - root - INFO - Page 1 - Cumulative unique links: 39
+2023-12-25 21:02:22,601 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 21:02:23,827 - root - INFO - Page 2 - Cumulative unique links: 39
+2023-12-25 21:02:23,827 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 21:02:25,202 - root - INFO - Page 3 - Cumulative unique links: 42
+2023-12-25 21:02:25,202 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 21:02:26,353 - root - INFO - Page 4 - Cumulative unique links: 42
+2023-12-25 21:02:26,353 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 21:02:27,571 - root - INFO - Page 5 - Cumulative unique links: 42
+2023-12-25 21:02:27,571 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 21:02:28,855 - root - INFO - Page 6 - Cumulative unique links: 42
+2023-12-25 21:02:28,855 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 21:02:30,188 - root - INFO - Page 7 - Cumulative unique links: 42
+2023-12-25 21:02:30,188 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 21:02:31,353 - root - INFO - Page 8 - Cumulative unique links: 43
+2023-12-25 21:02:31,353 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 21:02:32,523 - root - INFO - Page 9 - Cumulative unique links: 43
+2023-12-25 21:02:32,523 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 21:02:33,036 - root - INFO - Page 10 - Cumulative unique links: 43
+2023-12-25 21:02:33,036 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 21:02:34,448 - root - INFO - Page 11 - Cumulative unique links: 43
+2023-12-25 21:02:34,449 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 21:02:34,965 - root - INFO - Page 12 - Cumulative unique links: 43
+2023-12-25 21:02:34,965 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 21:02:36,115 - root - INFO - Page 13 - Cumulative unique links: 43
+2023-12-25 21:02:36,115 - root - INFO - Searching using JobId: 3792429156
+2023-12-25 21:02:37,555 - root - INFO - Page 14 - Cumulative unique links: 43
+2023-12-25 21:02:37,555 - root - INFO - Function get_job_links Took 17.2617 seconds - ('data analyst',) {'start_page': 0, 'pages': 15}
+2023-12-25 21:02:37,555 - root - INFO - -------------------------------- GETTING JOB INFO : data analyst ----------------------------------
+2023-12-25 21:03:07,000 - root - ERROR - Index 20: Found no company name for https://sg.linkedin.com/jobs/view/data-analyst-at-starbucks-coffee-singapore-3775365168
+2023-12-25 21:03:07,000 - root - ERROR - Index 20: Found no job title for https://sg.linkedin.com/jobs/view/data-analyst-at-starbucks-coffee-singapore-3775365168
+2023-12-25 21:03:07,000 - root - ERROR - Index 20: Found no description for https://sg.linkedin.com/jobs/view/data-analyst-at-starbucks-coffee-singapore-3775365168
+2023-12-25 21:03:36,016 - root - INFO - Removed 1 empty rows
+2023-12-25 21:03:36,016 - root - INFO - Removed 0 duplicates
+2023-12-25 21:03:36,016 - root - INFO - Extracted 42 number of jobs
+2023-12-25 21:03:36,016 - root - INFO - Loading main_df from file: files/MAIN_2023-12-25.xlsx
+2023-12-25 21:03:36,370 - root - INFO - Original rows of main_df: 63
+2023-12-25 21:03:36,370 - root - INFO - Read rows from df 0: 42
+2023-12-25 21:03:36,371 - root - INFO - 	Added rows: 42

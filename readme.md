@@ -8,7 +8,10 @@ This project retrieves job listings from LinkedIn. Areas include:
 
 ## Upcoming works:
 - Automate with github actions
-- Try to sort jobids to identify latest, circumvent repeating jobs
+
+### 20231225 Improved joblist retriever:
+- Tried to sort jobids to identify latest, circumvent repeating jobs, but still only getting 1/10 of what is really available
+- Need to use Selenium to deal with infinite scrolling to get full number of jobs.
 
 ### 20231223 MVP1:
 - First viable product for joblist scrapper done

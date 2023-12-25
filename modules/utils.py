@@ -12,9 +12,6 @@ headers = {'Accept': 'text/html',
            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
            'Referer': 'http://www.google.com/'}
 
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
-
 def timeit(func):
     @wraps(func)
     def timeit_wrapper(*args, **kwargs):
@@ -26,6 +23,33 @@ def timeit(func):
         return result
     return timeit_wrapper
 
+def configure_logging(file_path=None, streaming=None, level=logging.INFO):
+    '''
+    Initiates the logger
+    '''
+
+    logger = logging.getLogger()
+    logger.setLevel(level)
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    
+    if not len(logger.handlers):
+        # Add a filehandler to output to a file
+        if file_path:
+            file_handler = logging.FileHandler(file_path, mode='a')
+            file_handler.setLevel(level)
+            file_handler.setFormatter(formatter)
+            logger.addHandler(file_handler)
+
+        # Add a streamhandler to output to console
+        if streaming:
+            stream_handler = logging.StreamHandler()
+            stream_handler.setFormatter(formatter)
+            logger.addHandler(stream_handler)    
+
+    return logger
+
+logger = configure_logging(f"logs/app_{datetime.now().strftime('%Y-%m-%d')}.log")
+
 @timeit
 def get_job_links(keyword: str, start_page: int, pages: int)-> tuple:    
     '''Function to retrieve all job links over specified number of pages and search
@@ -36,6 +60,7 @@ def get_job_links(keyword: str, start_page: int, pages: int)-> tuple:
     Returns 
         list of job links
         list of actual urls used
+        counter dictionary of JobId
     '''
     def custom_selector(tag):
         '''
@@ -50,35 +75,50 @@ def get_job_links(keyword: str, start_page: int, pages: int)-> tuple:
     keyword = re.sub(' ', '-', keyword.lower()) # This is used inside custom_selector's scope   
 
     logger.info(f'Searching for {keyword}')
-    job_links = []
-    redirected_urls = []
+    job_links = {}
+    jobId_list = []
     position = start_page
     currentJobId = None
     try:
         for page in range(pages):
+            logger.info(f'Searching using JobId: {currentJobId}')
             if not currentJobId:
-                url = f"https://www.linkedin.com/jobs/search/?geoId=102454443&keywords={title}&location=Singapore&start={position}"
+                url = f"https://www.linkedin.com/jobs/search/?distance=25&geoId=102454443&keywords={title}&location=Singapore&start={position}"
             else:
-                position = 0
-                url = f"https://www.linkedin.com/jobs/search/?currentJobId={currentJobId}&geoId=102454443&keywords={title}&location=Singapore&start={position}"
+                # url = f"https://www.linkedin.com/jobs/search/?currentJobId={currentJobId}&geoId=102454443&keywords={title}&location=Singapore&start={position}"
+                # url = f"https://www.linkedin.com/jobs/search/?currentJobId={currentJobId}&distance=25&geoId=102454443&keywords={title}&origin=JOB_SEARCH_PAGE_KEYWORD_HISTORY&refresh=true&start={position}"
+                url = f"https://www.linkedin.com/jobs/search/?currentJobId={currentJobId}&distance=25&geoId=102454443&keywords={title}&currentJobId={currentJobId}&position=1&pageNum=0&start={position}"
+            
             response = requests.get(url, headers=headers)
-            redirected_urls.append(response.url) # Get the actual url in case of checking
             soup = BeautifulSoup(response.text,'html.parser')
             tags = soup.find_all(custom_selector)
+
+            # Get the link and jobid for each listed job
             for tag in tags:
                 link = tag.get('href')
                 link = link.split('?')[0] # Tidy up the link to remove the trackingid
-                job_links.append(link)
+                job_links.setdefault(link, 0)
+                job_links[link] +=1
 
-            # Get the last jobid to start on the next page
-            currentJobId = re.findall('-([0-9]{6,})', link)[0]
-            logger.info(f'LastJobId found: {currentJobId}')
-            position += 25
-        logger.info(f'Retrieved links: {len(job_links)}')
+                # Get JobID from links
+                jobId = re.findall('-([0-9]{6,})', link)[0]
+                jobId_list.append(jobId) 
+                
+            # Sort the JobId to get the latest number
+            jobId_list.sort(reverse=True)
+            jobId = jobId_list[0]
+            if currentJobId is None:
+                currentJobId = jobId
+            elif currentJobId == jobId:
+                position += 25
+            else:
+                currentJobId = jobId
+                position = 0
+            logger.info(f'Page {page} - Cumulative unique links: {len(job_links)}')
     except Exception as e:
         logger.error(f'Error at page {page}, {e}')
     finally:
-        return job_links, redirected_urls
+        return job_links
     
 def get_job_info(url: str, index: int, return_soup: bool=False):
     '''
@@ -95,10 +135,9 @@ def get_job_info(url: str, index: int, return_soup: bool=False):
     info = {}
 
     # JobID
-
     jobid = re.findall('-(\d{8,})', url) # removed [\?/] from pattern because of url cleaning ? away in new version
     if len(jobid) == 1 :
-        info['job_id'] = jobid[0]
+        info['job_id'] = str(jobid[0])
     else:
         logger.error(f'Index {index}: Found no Job ID or multiple Job IDs for {url}')
     
@@ -122,13 +161,16 @@ def get_job_info(url: str, index: int, return_soup: bool=False):
     criteria = soup.find_all('span', class_="description__job-criteria-text description__job-criteria-text--criteria")
     if criteria:
         criteria = [x.text.strip(' \n') for x in criteria]
-        try:
-            info['level'] = criteria[0]
-            info['job_type'] = criteria[1]
-            info['industry1'] = criteria[2]
-            info['industry2'] = criteria[3]
-        except Exception as e:
-            logger.error(f'Index {index}: {e, criteria, url}')
+        fields = ['level', 'job_type', 'industry1', 'industry2']
+        for field, criterion in zip(fields, criteria):
+            info[field] = criterion
+        # try:
+        #     info['level'] = criteria[0]
+        #     info['job_type'] = criteria[1]
+        #     info['industry1'] = criteria[2]
+        #     info['industry2'] = criteria[3]
+        # except Exception as e:
+        #     logger.error(f'Index {index}: {e, criteria, url}')
 
     # Job scope and requirements
     descriptions = soup.find(class_ = "show-more-less-html__markup show-more-less-html__markup--clamp-after-5 relative overflow-hidden")
@@ -168,7 +210,7 @@ def get_job_info(url: str, index: int, return_soup: bool=False):
     if return_soup:
         return info, soup
     else:
-        return info, None
+        return info
     
 def process_df(data: dict, remove_nulls: bool=True, remove_duplicates: bool=True)-> pd.DataFrame:
     '''
@@ -183,15 +225,14 @@ def process_df(data: dict, remove_nulls: bool=True, remove_duplicates: bool=True
 
     if remove_nulls:
         wNulls = len(df)
-        # df = df[~(df['company'].isnull() & df['job_title'].isnull() & df['level'].isnull() & df['descriptions'].isnull())]
-        df = df[~df.index.duplicated(keep='first')]
+        df = df[~(df['company'].isnull() & df['job_title'].isnull() & df['level'].isnull() & df['descriptions'].isnull())]
         logger.info(f'Removed {wNulls - len(df)} empty rows')
 
     # Deduplication, some jobs are similar but have different link maybe due to their different posting time / reposting
     if remove_duplicates:
         # subset_duplicates = ['company', 'job_title', 'level', 'job_type', 'degree', 'experience', 'spark', 'descriptions', 'industry1']
         wDups = len(df)
-        df = df.drop_duplicates(subset=['job_id'])
+        df = df[~df.index.duplicated(keep='first')]
         logger.info(f'Removed {wDups - len(df)} duplicates')
 
     # Sorting order and values
@@ -201,35 +242,6 @@ def process_df(data: dict, remove_nulls: bool=True, remove_duplicates: bool=True
     logger.info(f'Extracted {len(df)} number of jobs')
 
     return df
-
-def append_to_main(main_df_filename: str, most_recent_filepaths: list)-> pd.DataFrame:
-    '''
-    Function to append a list of excels to a main excel file
-    Inputs:
-        main_df_filepath: str - filepath to the main file OR 
-        most_recent_filepaths: list - list of filepaths to iterate through
-    Returns:
-        pd.DataFrame: a compiled dataframe
-    '''
-
-
-    # Appending to existing dataframe
-    subfolder = 'ignore/'
-    main_df = pd.read_excel(subfolder+main_df_filename)
-    # subset_duplicates = ['company', 'job_title', 'level', 'job_type', 'degree', 'experience', 'spark', 'descriptions', 'industry1']
-    original_rows = len(main_df)
-    logger.info(f'Original rows: {original_rows}')
-
-    for filepath in most_recent_filepaths:
-        if 'MAIN' not in filepath:
-            sub_df = pd.read_excel(filepath, index_col=0)
-            logger.info(f'Read rows: {len(sub_df)}')
-            main_df = pd.concat([main_df, sub_df])
-            main_df = main_df[~main_df.index.duplicated(keep='first')] # This drops by index instead
-    
-    logger.info(f'Added rows: {len(main_df)-original_rows}')
-    
-    return main_df
 
 def update_main(main_df, df_list: list) -> pd.DataFrame:
     '''
@@ -245,7 +257,7 @@ def update_main(main_df, df_list: list) -> pd.DataFrame:
     # Appending to existing dataframe
     if isinstance(main_df, str):
         logger.info(f'Loading main_df from file: {main_df}')
-        main_df = pd.read_excel(main_df)
+        main_df = pd.read_excel(main_df, index_col=0)
     elif isinstance(main_df, pd.DataFrame):
         logger.info('Main_df already in memory')
     original_rows = len(main_df)
