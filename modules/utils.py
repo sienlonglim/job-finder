@@ -79,8 +79,9 @@ def get_job_links(keyword: str, start_page: int, pages: int)-> tuple:
     jobId_list = []
     position = start_page
     currentJobId = None
-    try:
-        for page in range(pages):
+    
+    for page in range(pages):
+        try:
             logger.info(f'Searching using JobId: {currentJobId}')
             if not currentJobId:
                 url = f"https://www.linkedin.com/jobs/search/?distance=25&geoId=102454443&keywords={title}&location=Singapore&start={position}"
@@ -116,10 +117,9 @@ def get_job_links(keyword: str, start_page: int, pages: int)-> tuple:
                 currentJobId = jobId
                 position = 0
             logger.info(f'\t- Cumulative unique links: {len(job_links)}')
-    except Exception as e:
-        logger.error(f'Error at page {page}, {e}')
-    finally:
-        return job_links
+        except Exception as e:
+            logger.error(f'Error at page {page}, {e}')
+    return job_links
     
 def get_job_info(url: str, index: int, return_soup: bool=False):
     '''
