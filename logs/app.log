@@ -6,3 +6,11 @@
 2023-12-26 08:12:27,023 - root - INFO - Function get_job_links Took 0.1084 seconds - ('data analyst',) {'start_page': 0, 'pages': 15}
 2023-12-26 08:12:27,024 - root - INFO - -------------- GETTING JOB INFO : data analyst ---------------
 2023-12-26 08:12:27,024 - root - ERROR - "None of ['job_id'] are in the columns"
+2023-12-26 08:20:48,677 - root - INFO - ----------------------------- Started new run @ 2023-12-26:0820 ----------------------------
+2023-12-26 08:20:48,678 - root - INFO - -------------- GETTING JOB LINKS : data analyst --------------
+2023-12-26 08:20:48,678 - root - INFO - Searching for data-analyst
+2023-12-26 08:20:48,678 - root - INFO - Searching using JobId: None
+2023-12-26 08:20:48,820 - root - ERROR - Error at page 0, list index out of range
+2023-12-26 08:20:48,821 - root - INFO - Function get_job_links Took 0.1430 seconds - ('data analyst',) {'start_page': 0, 'pages': 15}
+2023-12-26 08:20:48,821 - root - INFO - -------------- GETTING JOB INFO : data analyst ---------------
+2023-12-26 08:20:48,821 - root - ERROR - "None of ['job_id'] are in the columns"
