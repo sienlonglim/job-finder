@@ -1,5 +1,6 @@
 import yaml
 import os
+import time
 from datetime import datetime
 from modules.utils import *
 
@@ -18,6 +19,7 @@ if __name__ == '__main__':
             logger_main.info(f"-----------------------------  GETTING JOB LINKS : {keyword} ----------------------------")
             links = get_job_links(keyword, start_page=0, pages=pages)
             main = {}
+            time.sleep(10)
             logger_main.info(f"-----------------------------  GETTING JOB INFO : {keyword} ----------------------------")
             for index, link in enumerate(links):
                 main[index] = get_job_info(link, index)

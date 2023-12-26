@@ -90,7 +90,7 @@ def get_job_links(keyword: str, start_page: int, pages: int)-> tuple:
                 url = f"https://www.linkedin.com/jobs/search/?currentJobId={currentJobId}&distance=25&geoId=102454443&keywords={title}&currentJobId={currentJobId}&position=1&pageNum=0&start={position}"
             
             response = requests.get(url, headers=headers)
-            logger.info(response.status_code)
+            logger.info(f"Page {page} : {response.status_code}")
             soup = BeautifulSoup(response.text,'html.parser')
             tags = soup.find_all(custom_selector)
 
@@ -115,7 +115,7 @@ def get_job_links(keyword: str, start_page: int, pages: int)-> tuple:
             else:
                 currentJobId = jobId
                 position = 0
-            logger.info(f'Page {page} - Cumulative unique links: {len(job_links)}')
+            logger.info(f'\t- Cumulative unique links: {len(job_links)}')
     except Exception as e:
         logger.error(f'Error at page {page}, {e}')
     finally:
@@ -132,6 +132,7 @@ def get_job_info(url: str, index: int, return_soup: bool=False):
         dict
     '''
     response = requests.get(url, headers=headers)
+    logger.info(f"Index {index} : {response.status_code}")
     soup = BeautifulSoup(response.text,'html.parser')
     info = {}
 
