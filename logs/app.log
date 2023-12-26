@@ -194,3 +194,12 @@
 2023-12-26 08:36:12,003 - root - INFO - Original rows of main_df: 105
 2023-12-26 08:36:12,004 - root - INFO - Read rows from df 0: 5
 2023-12-26 08:36:12,004 - root - INFO - 	Added rows: -37
+2023-12-26 08:47:55,834 - root - INFO - ----------------------------- Started new run @ 2023-12-26:0847 ----------------------------
+2023-12-26 08:47:55,835 - root - INFO - -----------------------------  GETTING JOB LINKS : data analyst ----------------------------
+2023-12-26 08:47:55,835 - root - INFO - Searching for data-analyst
+2023-12-26 08:47:55,835 - root - INFO - Searching using JobId: None
+2023-12-26 08:47:55,930 - root - INFO - Page 0 : 429
+2023-12-26 08:47:55,930 - root - ERROR - Error at page 0, list index out of range
+2023-12-26 08:47:55,930 - root - INFO - Function get_job_links Took 0.0958 seconds - ('data analyst',) {'start_page': 0, 'pages': 15}
+2023-12-26 08:48:05,941 - root - INFO - -----------------------------  GETTING JOB INFO : data analyst ----------------------------
+2023-12-26 08:48:05,941 - root - ERROR - "None of ['job_id'] are in the columns"
