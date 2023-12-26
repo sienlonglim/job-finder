@@ -4,7 +4,7 @@ from datetime import datetime
 from modules.utils import *
 
 if __name__ == '__main__':
-    logger_main = configure_logging(f"logs/app_{datetime.now().strftime('%Y-%m-%d')}.log")
+    logger_main = configure_logging(f"logs/main_app_{datetime.now().strftime('%Y-%m-%d')}.log")
     logger_main.info(f"----------------------------- Started new run @ {datetime.now().strftime('%Y-%m-%d:%H%M')} ----------------------------")
     
     with open('config.yaml', 'r') as f:
