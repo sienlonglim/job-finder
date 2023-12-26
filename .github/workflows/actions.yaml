@@ -1,11 +1,9 @@
-name: run main.py
+name: scheduled run main.py
 
 on:
   schedule:
     - cron: '0 0 * * *' # At 8AM everyday for GMT+8, 12AM for UTC
   push:
-    branches:
-      - main
 
 jobs:
   build:
