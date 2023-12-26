@@ -25,6 +25,11 @@ jobs:
 
       - name: execute py script # run main.py
         run: python main.py
+  
+  publish:
+    needs: [build]
+    runs-on: ubuntu-latest
+    steps:
 
       - name: commit files
         run: |
@@ -37,4 +42,4 @@ jobs:
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main 
+          branch: master 
