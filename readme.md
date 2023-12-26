@@ -3,17 +3,18 @@
 
 This project retrieves job listings from LinkedIn. Areas include:
 - Web scrapping
-- Pandas Dataframe wranling
-- SMTP server and MIMEText mailing
+- Pandas Dataframe wrangling
 
 ## Upcoming works:
-- Automate with github actions
+- Use Selenium to deal with infinite scrolling to get full number of jobs.
+- Complete MIMEText mailing
 
 ### 20231225 Improved joblist retriever:
 - Tried to sort jobids to identify latest, circumvent repeating jobs, but still only getting 1/10 of what is really available
-- Need to use Selenium to deal with infinite scrolling to get full number of jobs.
+- Added github workflow
 
 ### 20231223 MVP1:
 - First viable product for joblist scrapper done
 - Added simple logger
+- Working SMTP server
 - Auto-mailer not intergrated as there are no emails to obtain from linkedin for now
