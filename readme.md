@@ -8,6 +8,7 @@ This project retrieves job listings from LinkedIn. Areas include:
 ## Upcoming works:
 - Use Selenium to deal with infinite scrolling to get full number of jobs.
 - Complete MIMEText mailing
+- Renamed repo
 
 ### 20231225 Improved joblist retriever:
 - Tried to sort jobids to identify latest, circumvent repeating jobs, but still only getting 1/10 of what is really available
