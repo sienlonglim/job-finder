@@ -35,7 +35,7 @@ def configure_logging(file_path=None, streaming=None, level=logging.INFO):
     if not len(logger.handlers):
         # Add a filehandler to output to a file
         if file_path:
-            file_handler = logging.FileHandler(file_path, mode='w')
+            file_handler = logging.FileHandler(file_path, mode='a')
             file_handler.setLevel(level)
             file_handler.setFormatter(formatter)
             logger.addHandler(file_handler)
@@ -48,7 +48,7 @@ def configure_logging(file_path=None, streaming=None, level=logging.INFO):
 
     return logger
 
-logger = configure_logging(f"logs/app_{datetime.now().strftime('%Y-%m-%d')}.log")
+logger = configure_logging(f"logs/app.log")
 
 @timeit
 def get_job_links(keyword: str, start_page: int, pages: int)-> tuple:    
