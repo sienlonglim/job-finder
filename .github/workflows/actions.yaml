@@ -25,11 +25,6 @@ jobs:
 
       - name: execute py script # run main.py
         run: python main.py
-  
-  publish:
-    needs: [build]
-    runs-on: ubuntu-latest
-    steps:
 
       - name: commit files
         run: |
