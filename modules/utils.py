@@ -117,6 +117,7 @@ def get_job_links(keyword: str, start_page: int, pages: int)-> tuple:
             logger.info(f'Page {page} - Cumulative unique links: {len(job_links)}')
     except Exception as e:
         logger.error(f'Error at page {page}, {e}')
+        raise(e)
     finally:
         return job_links
     
