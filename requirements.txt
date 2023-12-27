@@ -7,3 +7,4 @@ ipywidgets
 xlsxwriter
 openpyxl
 pyyaml
+selenium

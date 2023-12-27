@@ -1,11 +1,15 @@
 import requests
 import re
 import pandas as pd
+import time
+import logging
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from datetime import datetime
-from time import perf_counter
 from functools import wraps
 from bs4 import BeautifulSoup
-import logging
 
 headers = {'Accept': 'text/html',
            'Accept-Language': 'en-US',
@@ -15,9 +19,9 @@ headers = {'Accept': 'text/html',
 def timeit(func):
     @wraps(func)
     def timeit_wrapper(*args, **kwargs):
-        start_time = perf_counter()
+        start_time = time.perf_counter()
         result = func(*args, **kwargs)
-        end_time = perf_counter()
+        end_time = time.perf_counter()
         total_time = end_time - start_time
         logger.info(f'Function {func.__name__} Took {total_time:.4f} seconds - {args} {kwargs}')
         return result
@@ -58,9 +62,7 @@ def get_job_links(keyword: str, start_page: int, pages: int)-> tuple:
         start_page: int - page to start
         pages: int - number of pages to retrieve
     Returns 
-        list of job links
-        list of actual urls used
-        counter dictionary of JobId
+        dictionary counter of Job links
     '''
     def custom_selector(tag):
         '''
@@ -120,7 +122,82 @@ def get_job_links(keyword: str, start_page: int, pages: int)-> tuple:
         except Exception as e:
             logger.error(f'Error at page {page}, {e}')
     return job_links
+
+def get_job_links_selenium(keyword: str, pages: int)-> tuple:    
+    '''Function to retrieve all job links over specified number of pages and search
+    Inputs:
+        keyword: str - job title and other keywords
+        pages: int - number of pages to retrieve, achieved through scrolling with Selenium
+    Returns 
+        dictionary counter of Job links
+    '''
     
+    title = re.sub(' ', '%20', keyword.lower()) # This is used for building url
+    keyword = re.sub(' ', '-', keyword.lower()) # This is used inside custom_selector's scope   
+
+    logger.info(f'Searching for {keyword}')
+    data = {}
+    keyword = 'data analyst'
+
+    # Not using context manager, because we may need to close and restart if running into an authentication wall
+    driver = webdriver.Chrome()
+    driver.implicitly_wait(30)
+    driver.get(f"https://www.linkedin.com/jobs/search/?distance=25&geoId=102454443&keywords={title}&location=Singapore&start=0")
+    html_source = driver.page_source
+    soup = BeautifulSoup(html_source,'html.parser')
+    retry_count = 0
+    # Sometimes we will run into an authentication wall, retry again until successful
+    while retry_count < 5 and "Sign Up | LinkedIn" in soup.find('title').text:
+        print(f"\tRan into AuthWall, trying again in 5 secs...")
+        driver.quit()
+        time.sleep(5)
+        driver = webdriver.Chrome()
+        driver.get(f"https://www.linkedin.com/jobs/search/?distance=25&geoId=102454443&keywords={title}&location=Singapore&start=0")
+        html_source = driver.page_source
+        soup = BeautifulSoup(html_source,'html.parser')
+        retry_count +=1
+
+    for i in range(1,100):
+        time.sleep(2)
+        webdriver.ActionChains(driver).scroll_by_amount(0, -10).perform() # Need to scroll up a little to trigger infinite scroll
+        time.sleep(2)
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        try: # Occasionally there will be a click to see more button appear, need to click on it, sometimes two clicks are needed
+            element = WebDriverWait(driver, 1).until(
+                EC.presence_of_element_located(
+                    (By.XPATH,'//*[@id="main-content"]/section[2]/button')))
+            if element:
+                driver.execute_script("arguments[0].click()", element)
+                time.sleep(0.5)
+                driver.execute_script("arguments[0].click()", element)
+        except Exception as e:
+            print(e)
+        
+    html_source = driver.page_source
+    driver.quit()
+
+    # Get the full html after scrolling is complete, then parse via bs4
+    soup = BeautifulSoup(html_source,'html.parser')
+    def custom_selector(tag):
+        '''
+        Helper function used to identify a href tag with belongs to the job link
+        Inputs:
+            soup tag
+        Returns soup tag
+        '''
+        return tag.name == "a" and tag.has_attr("href") and keyword in tag.get('href')
+    tags = soup.find_all(custom_selector)
+
+    # Get the link and jobid for each listed job
+    for tag in tags:
+        link = tag.get('href')
+        link = link.split('?')[0] # Tidy up the link to remove the trackingid
+        if 'login' not in link: # To handle a login link that shows at the end
+            data.setdefault(link, 0)
+            data[link] += 1
+    logger.info(f'Unique links: {len(data)}')
+    return data
+
 def get_job_info(url: str, index: int, return_soup: bool=False):
     '''
     Function to retrieve information for an individual job page
@@ -131,9 +208,19 @@ def get_job_info(url: str, index: int, return_soup: bool=False):
     Returns
         dict
     '''
+    retry_count = 0
     response = requests.get(url, headers=headers)
     logger.info(f"Index {index} : {response.status_code}")
     soup = BeautifulSoup(response.text,'html.parser')
+
+    # Sometimes we will run into an authentication wall, retry again until successful
+    while retry_count < 5 and "https://www.linkedin.com/authwall?trk=" in soup.find('script').text:
+        logger.info(f"\tRan into AuthWall, trying again in 5 secs...")
+        time.sleep(5)
+        response = requests.get(url, headers=headers)
+        soup = BeautifulSoup(response.text,'html.parser')
+        retry_count +=1
+
     info = {}
 
     # JobID
@@ -166,13 +253,6 @@ def get_job_info(url: str, index: int, return_soup: bool=False):
         fields = ['level', 'job_type', 'industry1', 'industry2']
         for field, criterion in zip(fields, criteria):
             info[field] = criterion
-        # try:
-        #     info['level'] = criteria[0]
-        #     info['job_type'] = criteria[1]
-        #     info['industry1'] = criteria[2]
-        #     info['industry2'] = criteria[3]
-        # except Exception as e:
-        #     logger.error(f'Index {index}: {e, criteria, url}')
 
     # Job scope and requirements
     descriptions = soup.find(class_ = "show-more-less-html__markup show-more-less-html__markup--clamp-after-5 relative overflow-hidden")
@@ -234,6 +314,7 @@ def process_df(data: dict, remove_nulls: bool=True, remove_duplicates: bool=True
     if remove_duplicates:
         # subset_duplicates = ['company', 'job_title', 'level', 'job_type', 'degree', 'experience', 'spark', 'descriptions', 'industry1']
         wDups = len(df)
+        # df = df[~df.index.duplicated(keep='first')]
         df = df[~df.index.duplicated(keep='first')]
         logger.info(f'Removed {wDups - len(df)} duplicates')
 

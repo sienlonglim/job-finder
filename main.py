@@ -17,7 +17,7 @@ if __name__ == '__main__':
     try:
         for keyword in keyword_list:
             logger_main.info(f"-----------------------------  GETTING JOB LINKS : {keyword} ----------------------------")
-            links = get_job_links(keyword, start_page=0, pages=pages)
+            links = get_job_links_selenium(keyword, pages=pages)
             main = {}
             time.sleep(10)
             logger_main.info(f"-----------------------------  GETTING JOB INFO : {keyword} ----------------------------")
