@@ -203,3 +203,188 @@
 2023-12-26 08:47:55,930 - root - INFO - Function get_job_links Took 0.0958 seconds - ('data analyst',) {'start_page': 0, 'pages': 15}
 2023-12-26 08:48:05,941 - root - INFO - -----------------------------  GETTING JOB INFO : data analyst ----------------------------
 2023-12-26 08:48:05,941 - root - ERROR - "None of ['job_id'] are in the columns"
+2023-12-26 09:49:56,323 - root - INFO - ----------------------------- Started new run @ 2023-12-26:0949 ----------------------------
+2023-12-26 09:49:56,324 - root - INFO - -----------------------------  GETTING JOB LINKS : data analyst ----------------------------
+2023-12-26 09:49:56,324 - root - INFO - Searching for data-analyst
+2023-12-26 09:49:56,324 - root - INFO - Searching using JobId: None
+2023-12-26 09:49:56,973 - root - INFO - Page 0 : 200
+2023-12-26 09:49:57,040 - root - INFO - 	- Cumulative unique links: 23
+2023-12-26 09:49:57,040 - root - INFO - Searching using JobId: 3792429156
+2023-12-26 09:49:58,075 - root - INFO - Page 1 : 200
+2023-12-26 09:49:58,141 - root - INFO - 	- Cumulative unique links: 25
+2023-12-26 09:49:58,142 - root - INFO - Searching using JobId: 3792429156
+2023-12-26 09:49:58,876 - root - INFO - Page 2 : 200
+2023-12-26 09:49:58,940 - root - INFO - 	- Cumulative unique links: 35
+2023-12-26 09:49:58,940 - root - INFO - Searching using JobId: 3792429156
+2023-12-26 09:49:59,003 - root - INFO - Page 3 : 429
+2023-12-26 09:49:59,004 - root - INFO - 	- Cumulative unique links: 35
+2023-12-26 09:49:59,004 - root - INFO - Searching using JobId: 3792429156
+2023-12-26 09:49:59,781 - root - INFO - Page 4 : 200
+2023-12-26 09:49:59,848 - root - INFO - 	- Cumulative unique links: 35
+2023-12-26 09:49:59,848 - root - INFO - Searching using JobId: 3792429156
+2023-12-26 09:49:59,941 - root - INFO - Page 5 : 429
+2023-12-26 09:49:59,942 - root - INFO - 	- Cumulative unique links: 35
+2023-12-26 09:49:59,942 - root - INFO - Searching using JobId: 3792429156
+2023-12-26 09:50:00,805 - root - INFO - Page 6 : 200
+2023-12-26 09:50:00,864 - root - INFO - 	- Cumulative unique links: 35
+2023-12-26 09:50:00,864 - root - INFO - Searching using JobId: 3792429156
+2023-12-26 09:50:00,998 - root - INFO - Page 7 : 429
+2023-12-26 09:50:00,999 - root - INFO - 	- Cumulative unique links: 35
+2023-12-26 09:50:00,999 - root - INFO - Searching using JobId: 3792429156
+2023-12-26 09:50:01,801 - root - INFO - Page 8 : 200
+2023-12-26 09:50:01,891 - root - INFO - 	- Cumulative unique links: 35
+2023-12-26 09:50:01,891 - root - INFO - Searching using JobId: 3792429156
+2023-12-26 09:50:01,951 - root - INFO - Page 9 : 429
+2023-12-26 09:50:01,951 - root - INFO - 	- Cumulative unique links: 35
+2023-12-26 09:50:01,952 - root - INFO - Searching using JobId: 3792429156
+2023-12-26 09:50:02,677 - root - INFO - Page 10 : 200
+2023-12-26 09:50:02,739 - root - INFO - 	- Cumulative unique links: 35
+2023-12-26 09:50:02,739 - root - INFO - Searching using JobId: 3792429156
+2023-12-26 09:50:02,924 - root - INFO - Page 11 : 429
+2023-12-26 09:50:02,924 - root - INFO - 	- Cumulative unique links: 35
+2023-12-26 09:50:02,924 - root - INFO - Searching using JobId: 3792429156
+2023-12-26 09:50:03,264 - root - INFO - Page 12 : 429
+2023-12-26 09:50:03,264 - root - INFO - 	- Cumulative unique links: 35
+2023-12-26 09:50:03,264 - root - INFO - Searching using JobId: 3792429156
+2023-12-26 09:50:04,182 - root - INFO - Page 13 : 200
+2023-12-26 09:50:04,238 - root - INFO - 	- Cumulative unique links: 35
+2023-12-26 09:50:04,238 - root - INFO - Searching using JobId: 3792429156
+2023-12-26 09:50:04,928 - root - INFO - Page 14 : 200
+2023-12-26 09:50:04,987 - root - INFO - 	- Cumulative unique links: 35
+2023-12-26 09:50:04,988 - root - INFO - Function get_job_links Took 8.6643 seconds - ('data analyst',) {'start_page': 0, 'pages': 15}
+2023-12-26 09:50:14,998 - root - INFO - -----------------------------  GETTING JOB INFO : data analyst ----------------------------
+2023-12-26 09:50:15,644 - root - INFO - Index 0 : 200
+2023-12-26 09:50:15,791 - root - INFO - Index 1 : 429
+2023-12-26 09:50:15,791 - root - ERROR - Index 1: Found no company name for https://sg.linkedin.com/jobs/view/data-analyst-at-starbucks-coffee-singapore-3775365168
+2023-12-26 09:50:15,791 - root - ERROR - Index 1: Found no job title for https://sg.linkedin.com/jobs/view/data-analyst-at-starbucks-coffee-singapore-3775365168
+2023-12-26 09:50:15,791 - root - ERROR - Index 1: Found no description for https://sg.linkedin.com/jobs/view/data-analyst-at-starbucks-coffee-singapore-3775365168
+2023-12-26 09:50:15,892 - root - INFO - Index 2 : 429
+2023-12-26 09:50:15,892 - root - ERROR - Index 2: Found no company name for https://sg.linkedin.com/jobs/view/junior-data-analyst-business-intelligence-regional-operations-at-shopee-3727428385
+2023-12-26 09:50:15,892 - root - ERROR - Index 2: Found no job title for https://sg.linkedin.com/jobs/view/junior-data-analyst-business-intelligence-regional-operations-at-shopee-3727428385
+2023-12-26 09:50:15,892 - root - ERROR - Index 2: Found no description for https://sg.linkedin.com/jobs/view/junior-data-analyst-business-intelligence-regional-operations-at-shopee-3727428385
+2023-12-26 09:50:15,975 - root - INFO - Index 3 : 429
+2023-12-26 09:50:15,976 - root - ERROR - Index 3: Found no company name for https://sg.linkedin.com/jobs/view/data-analyst-planning-budgeting-sg-warehouse-at-shopee-3783416267
+2023-12-26 09:50:15,976 - root - ERROR - Index 3: Found no job title for https://sg.linkedin.com/jobs/view/data-analyst-planning-budgeting-sg-warehouse-at-shopee-3783416267
+2023-12-26 09:50:15,976 - root - ERROR - Index 3: Found no description for https://sg.linkedin.com/jobs/view/data-analyst-planning-budgeting-sg-warehouse-at-shopee-3783416267
+2023-12-26 09:50:16,467 - root - INFO - Index 4 : 200
+2023-12-26 09:50:16,633 - root - INFO - Index 5 : 429
+2023-12-26 09:50:16,633 - root - ERROR - Index 5: Found no company name for https://sg.linkedin.com/jobs/view/data-analyst-marketing-analytics-regional-brand-growth-marketing-at-shopee-3775405705
+2023-12-26 09:50:16,633 - root - ERROR - Index 5: Found no job title for https://sg.linkedin.com/jobs/view/data-analyst-marketing-analytics-regional-brand-growth-marketing-at-shopee-3775405705
+2023-12-26 09:50:16,633 - root - ERROR - Index 5: Found no description for https://sg.linkedin.com/jobs/view/data-analyst-marketing-analytics-regional-brand-growth-marketing-at-shopee-3775405705
+2023-12-26 09:50:16,722 - root - INFO - Index 6 : 429
+2023-12-26 09:50:16,723 - root - ERROR - Index 6: Found no company name for https://sg.linkedin.com/jobs/view/data-analyst-sql-python-at-astek-3773645758
+2023-12-26 09:50:16,723 - root - ERROR - Index 6: Found no job title for https://sg.linkedin.com/jobs/view/data-analyst-sql-python-at-astek-3773645758
+2023-12-26 09:50:16,723 - root - ERROR - Index 6: Found no description for https://sg.linkedin.com/jobs/view/data-analyst-sql-python-at-astek-3773645758
+2023-12-26 09:50:16,829 - root - INFO - Index 7 : 429
+2023-12-26 09:50:16,830 - root - ERROR - Index 7: Found no company name for https://sg.linkedin.com/jobs/view/data-analyst-marketplace-product-at-shopee-3721375973
+2023-12-26 09:50:16,830 - root - ERROR - Index 7: Found no job title for https://sg.linkedin.com/jobs/view/data-analyst-marketplace-product-at-shopee-3721375973
+2023-12-26 09:50:16,830 - root - ERROR - Index 7: Found no description for https://sg.linkedin.com/jobs/view/data-analyst-marketplace-product-at-shopee-3721375973
+2023-12-26 09:50:17,401 - root - INFO - Index 8 : 200
+2023-12-26 09:50:18,053 - root - INFO - Index 9 : 200
+2023-12-26 09:50:18,214 - root - INFO - Index 10 : 429
+2023-12-26 09:50:18,214 - root - ERROR - Index 10: Found no company name for https://sg.linkedin.com/jobs/view/data-analyst-marketplace-product-2024-fresh-graduates-at-shopee-3777454584
+2023-12-26 09:50:18,214 - root - ERROR - Index 10: Found no job title for https://sg.linkedin.com/jobs/view/data-analyst-marketplace-product-2024-fresh-graduates-at-shopee-3777454584
+2023-12-26 09:50:18,214 - root - ERROR - Index 10: Found no description for https://sg.linkedin.com/jobs/view/data-analyst-marketplace-product-2024-fresh-graduates-at-shopee-3777454584
+2023-12-26 09:50:18,321 - root - INFO - Index 11 : 429
+2023-12-26 09:50:18,321 - root - ERROR - Index 11: Found no company name for https://sg.linkedin.com/jobs/view/data-analyst-at-allianz-global-investors-3757235292
+2023-12-26 09:50:18,321 - root - ERROR - Index 11: Found no job title for https://sg.linkedin.com/jobs/view/data-analyst-at-allianz-global-investors-3757235292
+2023-12-26 09:50:18,321 - root - ERROR - Index 11: Found no description for https://sg.linkedin.com/jobs/view/data-analyst-at-allianz-global-investors-3757235292
+2023-12-26 09:50:18,422 - root - INFO - Index 12 : 429
+2023-12-26 09:50:18,422 - root - ERROR - Index 12: Found no company name for https://sg.linkedin.com/jobs/view/data-analyst-sql-snowflake-at-hcltech-3774450037
+2023-12-26 09:50:18,423 - root - ERROR - Index 12: Found no job title for https://sg.linkedin.com/jobs/view/data-analyst-sql-snowflake-at-hcltech-3774450037
+2023-12-26 09:50:18,423 - root - ERROR - Index 12: Found no description for https://sg.linkedin.com/jobs/view/data-analyst-sql-snowflake-at-hcltech-3774450037
+2023-12-26 09:50:18,512 - root - INFO - Index 13 : 429
+2023-12-26 09:50:18,513 - root - ERROR - Index 13: Found no company name for https://sg.linkedin.com/jobs/view/data-analyst-singapore-at-yipitdata-3738898017
+2023-12-26 09:50:18,513 - root - ERROR - Index 13: Found no job title for https://sg.linkedin.com/jobs/view/data-analyst-singapore-at-yipitdata-3738898017
+2023-12-26 09:50:18,513 - root - ERROR - Index 13: Found no description for https://sg.linkedin.com/jobs/view/data-analyst-singapore-at-yipitdata-3738898017
+2023-12-26 09:50:18,593 - root - INFO - Index 14 : 429
+2023-12-26 09:50:18,593 - root - ERROR - Index 14: Found no company name for https://sg.linkedin.com/jobs/view/data-analyst-business-intelligence-regional-operations-at-shopee-3684120093
+2023-12-26 09:50:18,593 - root - ERROR - Index 14: Found no job title for https://sg.linkedin.com/jobs/view/data-analyst-business-intelligence-regional-operations-at-shopee-3684120093
+2023-12-26 09:50:18,593 - root - ERROR - Index 14: Found no description for https://sg.linkedin.com/jobs/view/data-analyst-business-intelligence-regional-operations-at-shopee-3684120093
+2023-12-26 09:50:18,685 - root - INFO - Index 15 : 429
+2023-12-26 09:50:18,686 - root - ERROR - Index 15: Found no company name for https://sg.linkedin.com/jobs/view/data-analyst-p9837-at-xiaomi-technology-3731038493
+2023-12-26 09:50:18,686 - root - ERROR - Index 15: Found no job title for https://sg.linkedin.com/jobs/view/data-analyst-p9837-at-xiaomi-technology-3731038493
+2023-12-26 09:50:18,686 - root - ERROR - Index 15: Found no description for https://sg.linkedin.com/jobs/view/data-analyst-p9837-at-xiaomi-technology-3731038493
+2023-12-26 09:50:18,773 - root - INFO - Index 16 : 429
+2023-12-26 09:50:18,773 - root - ERROR - Index 16: Found no company name for https://sg.linkedin.com/jobs/view/data-analyst-at-zespri-international-3789263548
+2023-12-26 09:50:18,773 - root - ERROR - Index 16: Found no job title for https://sg.linkedin.com/jobs/view/data-analyst-at-zespri-international-3789263548
+2023-12-26 09:50:18,773 - root - ERROR - Index 16: Found no description for https://sg.linkedin.com/jobs/view/data-analyst-at-zespri-international-3789263548
+2023-12-26 09:50:18,853 - root - INFO - Index 17 : 429
+2023-12-26 09:50:18,853 - root - ERROR - Index 17: Found no company name for https://sg.linkedin.com/jobs/view/data-analyst-shopeepay-at-seamoney-3727820700
+2023-12-26 09:50:18,853 - root - ERROR - Index 17: Found no job title for https://sg.linkedin.com/jobs/view/data-analyst-shopeepay-at-seamoney-3727820700
+2023-12-26 09:50:18,854 - root - ERROR - Index 17: Found no description for https://sg.linkedin.com/jobs/view/data-analyst-shopeepay-at-seamoney-3727820700
+2023-12-26 09:50:18,943 - root - INFO - Index 18 : 429
+2023-12-26 09:50:18,943 - root - ERROR - Index 18: Found no company name for https://sg.linkedin.com/jobs/view/e-commerce-data-analyst-at-tiktok-3747544708
+2023-12-26 09:50:18,943 - root - ERROR - Index 18: Found no job title for https://sg.linkedin.com/jobs/view/e-commerce-data-analyst-at-tiktok-3747544708
+2023-12-26 09:50:18,943 - root - ERROR - Index 18: Found no description for https://sg.linkedin.com/jobs/view/e-commerce-data-analyst-at-tiktok-3747544708
+2023-12-26 09:50:19,033 - root - INFO - Index 19 : 429
+2023-12-26 09:50:19,034 - root - ERROR - Index 19: Found no company name for https://sg.linkedin.com/jobs/view/data-analyst-at-singtel-3790491475
+2023-12-26 09:50:19,034 - root - ERROR - Index 19: Found no job title for https://sg.linkedin.com/jobs/view/data-analyst-at-singtel-3790491475
+2023-12-26 09:50:19,034 - root - ERROR - Index 19: Found no description for https://sg.linkedin.com/jobs/view/data-analyst-at-singtel-3790491475
+2023-12-26 09:50:19,136 - root - INFO - Index 20 : 429
+2023-12-26 09:50:19,137 - root - ERROR - Index 20: Found no company name for https://sg.linkedin.com/jobs/view/data-analyst-at-menyala-3779862000
+2023-12-26 09:50:19,137 - root - ERROR - Index 20: Found no job title for https://sg.linkedin.com/jobs/view/data-analyst-at-menyala-3779862000
+2023-12-26 09:50:19,137 - root - ERROR - Index 20: Found no description for https://sg.linkedin.com/jobs/view/data-analyst-at-menyala-3779862000
+2023-12-26 09:50:19,249 - root - INFO - Index 21 : 429
+2023-12-26 09:50:19,249 - root - ERROR - Index 21: Found no company name for https://sg.linkedin.com/jobs/view/regional-operations-data-analyst-at-shopee-3616269964
+2023-12-26 09:50:19,249 - root - ERROR - Index 21: Found no job title for https://sg.linkedin.com/jobs/view/regional-operations-data-analyst-at-shopee-3616269964
+2023-12-26 09:50:19,249 - root - ERROR - Index 21: Found no description for https://sg.linkedin.com/jobs/view/regional-operations-data-analyst-at-shopee-3616269964
+2023-12-26 09:50:19,336 - root - INFO - Index 22 : 429
+2023-12-26 09:50:19,336 - root - ERROR - Index 22: Found no company name for https://sg.linkedin.com/jobs/view/data-analyst-at-sistic-singapore-3791685640
+2023-12-26 09:50:19,336 - root - ERROR - Index 22: Found no job title for https://sg.linkedin.com/jobs/view/data-analyst-at-sistic-singapore-3791685640
+2023-12-26 09:50:19,336 - root - ERROR - Index 22: Found no description for https://sg.linkedin.com/jobs/view/data-analyst-at-sistic-singapore-3791685640
+2023-12-26 09:50:19,432 - root - INFO - Index 23 : 429
+2023-12-26 09:50:19,432 - root - ERROR - Index 23: Found no company name for https://sg.linkedin.com/jobs/view/data-analyst-associate-at-pwc-singapore-3772507899
+2023-12-26 09:50:19,432 - root - ERROR - Index 23: Found no job title for https://sg.linkedin.com/jobs/view/data-analyst-associate-at-pwc-singapore-3772507899
+2023-12-26 09:50:19,433 - root - ERROR - Index 23: Found no description for https://sg.linkedin.com/jobs/view/data-analyst-associate-at-pwc-singapore-3772507899
+2023-12-26 09:50:19,516 - root - INFO - Index 24 : 429
+2023-12-26 09:50:19,516 - root - ERROR - Index 24: Found no company name for https://sg.linkedin.com/jobs/view/data-analyst-finance-singapore-at-revolut-3736227202
+2023-12-26 09:50:19,516 - root - ERROR - Index 24: Found no job title for https://sg.linkedin.com/jobs/view/data-analyst-finance-singapore-at-revolut-3736227202
+2023-12-26 09:50:19,517 - root - ERROR - Index 24: Found no description for https://sg.linkedin.com/jobs/view/data-analyst-finance-singapore-at-revolut-3736227202
+2023-12-26 09:50:19,600 - root - INFO - Index 25 : 429
+2023-12-26 09:50:19,600 - root - ERROR - Index 25: Found no company name for https://sg.linkedin.com/jobs/view/regional-marketplace-operations-data-analyst-at-shopee-3725015864
+2023-12-26 09:50:19,600 - root - ERROR - Index 25: Found no job title for https://sg.linkedin.com/jobs/view/regional-marketplace-operations-data-analyst-at-shopee-3725015864
+2023-12-26 09:50:19,600 - root - ERROR - Index 25: Found no description for https://sg.linkedin.com/jobs/view/regional-marketplace-operations-data-analyst-at-shopee-3725015864
+2023-12-26 09:50:19,705 - root - INFO - Index 26 : 429
+2023-12-26 09:50:19,705 - root - ERROR - Index 26: Found no company name for https://sg.linkedin.com/jobs/view/affiliate-data-analyst-at-okx-3748564882
+2023-12-26 09:50:19,705 - root - ERROR - Index 26: Found no job title for https://sg.linkedin.com/jobs/view/affiliate-data-analyst-at-okx-3748564882
+2023-12-26 09:50:19,705 - root - ERROR - Index 26: Found no description for https://sg.linkedin.com/jobs/view/affiliate-data-analyst-at-okx-3748564882
+2023-12-26 09:50:19,796 - root - INFO - Index 27 : 429
+2023-12-26 09:50:19,796 - root - ERROR - Index 27: Found no company name for https://sg.linkedin.com/jobs/view/executive-senior-executive-data-analyst-and-accelerated-digitalisation-at-dhl-supply-chain-3772506851
+2023-12-26 09:50:19,796 - root - ERROR - Index 27: Found no job title for https://sg.linkedin.com/jobs/view/executive-senior-executive-data-analyst-and-accelerated-digitalisation-at-dhl-supply-chain-3772506851
+2023-12-26 09:50:19,796 - root - ERROR - Index 27: Found no description for https://sg.linkedin.com/jobs/view/executive-senior-executive-data-analyst-and-accelerated-digitalisation-at-dhl-supply-chain-3772506851
+2023-12-26 09:50:19,901 - root - INFO - Index 28 : 429
+2023-12-26 09:50:19,901 - root - ERROR - Index 28: Found no company name for https://sg.linkedin.com/jobs/view/senior-business-intelligence-bi-data-analyst-at-dyson-3703618257
+2023-12-26 09:50:19,901 - root - ERROR - Index 28: Found no job title for https://sg.linkedin.com/jobs/view/senior-business-intelligence-bi-data-analyst-at-dyson-3703618257
+2023-12-26 09:50:19,901 - root - ERROR - Index 28: Found no description for https://sg.linkedin.com/jobs/view/senior-business-intelligence-bi-data-analyst-at-dyson-3703618257
+2023-12-26 09:50:19,988 - root - INFO - Index 29 : 429
+2023-12-26 09:50:19,988 - root - ERROR - Index 29: Found no company name for https://sg.linkedin.com/jobs/view/data-analyst-tech-mnc-sql-up7k%2B-at-adecco-3790092207
+2023-12-26 09:50:19,989 - root - ERROR - Index 29: Found no job title for https://sg.linkedin.com/jobs/view/data-analyst-tech-mnc-sql-up7k%2B-at-adecco-3790092207
+2023-12-26 09:50:19,989 - root - ERROR - Index 29: Found no description for https://sg.linkedin.com/jobs/view/data-analyst-tech-mnc-sql-up7k%2B-at-adecco-3790092207
+2023-12-26 09:50:20,076 - root - INFO - Index 30 : 429
+2023-12-26 09:50:20,076 - root - ERROR - Index 30: Found no company name for https://sg.linkedin.com/jobs/view/data-analyst-job-in-singapore-at-cloud-visa-immigration-llp-3786377880
+2023-12-26 09:50:20,077 - root - ERROR - Index 30: Found no job title for https://sg.linkedin.com/jobs/view/data-analyst-job-in-singapore-at-cloud-visa-immigration-llp-3786377880
+2023-12-26 09:50:20,077 - root - ERROR - Index 30: Found no description for https://sg.linkedin.com/jobs/view/data-analyst-job-in-singapore-at-cloud-visa-immigration-llp-3786377880
+2023-12-26 09:50:20,157 - root - INFO - Index 31 : 429
+2023-12-26 09:50:20,157 - root - ERROR - Index 31: Found no company name for https://sg.linkedin.com/jobs/view/data-analyst-at-flo-energy-singapore-pte-ltd-3784788142
+2023-12-26 09:50:20,157 - root - ERROR - Index 31: Found no job title for https://sg.linkedin.com/jobs/view/data-analyst-at-flo-energy-singapore-pte-ltd-3784788142
+2023-12-26 09:50:20,157 - root - ERROR - Index 31: Found no description for https://sg.linkedin.com/jobs/view/data-analyst-at-flo-energy-singapore-pte-ltd-3784788142
+2023-12-26 09:50:20,238 - root - INFO - Index 32 : 429
+2023-12-26 09:50:20,238 - root - ERROR - Index 32: Found no company name for https://sg.linkedin.com/jobs/view/data-analyst-web-google-adobe-analytics-at-michael-page-3621164374
+2023-12-26 09:50:20,238 - root - ERROR - Index 32: Found no job title for https://sg.linkedin.com/jobs/view/data-analyst-web-google-adobe-analytics-at-michael-page-3621164374
+2023-12-26 09:50:20,238 - root - ERROR - Index 32: Found no description for https://sg.linkedin.com/jobs/view/data-analyst-web-google-adobe-analytics-at-michael-page-3621164374
+2023-12-26 09:50:20,350 - root - INFO - Index 33 : 429
+2023-12-26 09:50:20,350 - root - ERROR - Index 33: Found no company name for https://sg.linkedin.com/jobs/view/data-analyst-contract-%3D-12-months-at-zenith-infotech-3789653458
+2023-12-26 09:50:20,350 - root - ERROR - Index 33: Found no job title for https://sg.linkedin.com/jobs/view/data-analyst-contract-%3D-12-months-at-zenith-infotech-3789653458
+2023-12-26 09:50:20,351 - root - ERROR - Index 33: Found no description for https://sg.linkedin.com/jobs/view/data-analyst-contract-%3D-12-months-at-zenith-infotech-3789653458
+2023-12-26 09:50:20,473 - root - INFO - Index 34 : 429
+2023-12-26 09:50:20,474 - root - ERROR - Index 34: Found no company name for https://sg.linkedin.com/jobs/view/director-data-analyst-esg-delivery-at-standard-chartered-bank-3787228517
+2023-12-26 09:50:20,474 - root - ERROR - Index 34: Found no job title for https://sg.linkedin.com/jobs/view/director-data-analyst-esg-delivery-at-standard-chartered-bank-3787228517
+2023-12-26 09:50:20,474 - root - ERROR - Index 34: Found no description for https://sg.linkedin.com/jobs/view/director-data-analyst-esg-delivery-at-standard-chartered-bank-3787228517
+2023-12-26 09:50:20,479 - root - INFO - Removed 31 empty rows
+2023-12-26 09:50:20,479 - root - INFO - Removed 0 duplicates
+2023-12-26 09:50:20,482 - root - INFO - Extracted 4 number of jobs
+2023-12-26 09:50:20,482 - root - INFO - Loading main_df from file: files/MAIN_2023-12-26.xlsx
+2023-12-26 09:50:20,648 - root - INFO - Original rows of main_df: 68
+2023-12-26 09:50:20,649 - root - INFO - Read rows from df 0: 4
+2023-12-26 09:50:20,649 - root - INFO - 	Added rows: 0
