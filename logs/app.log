@@ -1,0 +1,25 @@
+2023-12-28 00:39:09,405 - root - INFO - ----------------------------- Started new run @ 2023-12-28:0039 ----------------------------
+2023-12-28 00:39:09,406 - root - INFO - -----------------------------  GETTING JOB LINKS : data analyst ----------------------------
+2023-12-28 00:39:09,406 - root - INFO - Searching for data-analyst
+2023-12-28 00:39:10,439 - root - ERROR - Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+#0 0x56454ab75d33 <unknown>
+#1 0x56454a832f87 <unknown>
+#2 0x56454a86a87e <unknown>
+#3 0x56454a8674de <unknown>
+#4 0x56454a8b7a90 <unknown>
+#5 0x56454a8ac0e3 <unknown>
+#6 0x56454a874044 <unknown>
+#7 0x56454a87544e <unknown>
+#8 0x56454ab3a861 <unknown>
+#9 0x56454ab3e785 <unknown>
+#10 0x56454ab28285 <unknown>
+#11 0x56454ab3f41f <unknown>
+#12 0x56454ab0c20f <unknown>
+#13 0x56454ab63028 <unknown>
+#14 0x56454ab631f7 <unknown>
+#15 0x56454ab74ed4 <unknown>
+#16 0x7f74df094ac3 <unknown>
+
