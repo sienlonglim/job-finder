@@ -16,11 +16,11 @@ if __name__ == '__main__':
     df_list = []
     try:
         for keyword in keyword_list:
-            logger_main.info(f"-----------------------------  GETTING JOB LINKS : {keyword} ----------------------------")
+            logger_main.info(f"-----------------------------  GETTING LINKS : {keyword} ----------------------------")
             links = get_job_links_selenium(keyword, pages=pages)
             main = {}
             time.sleep(10)
-            logger_main.info(f"-----------------------------  GETTING JOB INFO : {keyword} ----------------------------")
+            logger_main.info(f"-----------------------------  GETTING INFO : {keyword} ----------------------------")
             for index, link in enumerate(links):
                 main[index] = get_job_info(link, index)
             df = process_df(main, remove_nulls=True, remove_duplicates=True)

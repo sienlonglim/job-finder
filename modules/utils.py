@@ -123,11 +123,12 @@ def get_job_links(keyword: str, start_page: int, pages: int)-> tuple:
             logger.error(f'Error at page {page}, {e}')
     return job_links
 
-def get_job_links_selenium(keyword: str, pages: int)-> tuple:    
+def get_job_links_selenium(keyword: str, pages: int, debug: bool = False)-> tuple:    
     '''Function to retrieve all job links over specified number of pages and search
     Inputs:
         keyword: str - job title and other keywords
         pages: int - number of pages to retrieve, achieved through scrolling with Selenium
+        debug: bool - if True, returns the page_source 
     Returns 
         dictionary counter of Job links
     '''
@@ -137,10 +138,9 @@ def get_job_links_selenium(keyword: str, pages: int)-> tuple:
 
     logger.info(f'Searching for {keyword}')
     data = {}
-    keyword = 'data analyst'
 
     # Not using context manager, because we may need to close and restart if running into an authentication wall
-    driver = webdriver.Chrome()
+    driver = webdriver.Firefox()
     driver.implicitly_wait(30)
     driver.get(f"https://www.linkedin.com/jobs/search/?distance=25&geoId=102454443&keywords={title}&location=Singapore&start=0")
     html_source = driver.page_source
@@ -151,7 +151,7 @@ def get_job_links_selenium(keyword: str, pages: int)-> tuple:
         print(f"\tRan into AuthWall, trying again in 5 secs...")
         driver.quit()
         time.sleep(5)
-        driver = webdriver.Chrome()
+        driver = webdriver.Firefox()
         driver.get(f"https://www.linkedin.com/jobs/search/?distance=25&geoId=102454443&keywords={title}&location=Singapore&start=0")
         html_source = driver.page_source
         soup = BeautifulSoup(html_source,'html.parser')
@@ -173,11 +173,11 @@ def get_job_links_selenium(keyword: str, pages: int)-> tuple:
         except Exception as e:
             print(e)
         
-    html_source = driver.page_source
-    driver.quit()
-
     # Get the full html after scrolling is complete, then parse via bs4
+    logger.info('Getting page_source')
+    html_source = driver.page_source
     soup = BeautifulSoup(html_source,'html.parser')
+    driver.quit()
     def custom_selector(tag):
         '''
         Helper function used to identify a href tag with belongs to the job link
@@ -196,7 +196,10 @@ def get_job_links_selenium(keyword: str, pages: int)-> tuple:
             data.setdefault(link, 0)
             data[link] += 1
     logger.info(f'Unique links: {len(data)}')
-    return data
+    if debug:
+        return data, soup
+    else:
+        return data
 
 def get_job_info(url: str, index: int, return_soup: bool=False):
     '''
