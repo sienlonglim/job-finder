@@ -1,0 +1,6 @@
+2023-12-28 10:16:28,128 - root - INFO - ----------------------------- Started new run @ 2023-12-28:1016 ----------------------------
+2023-12-28 10:16:28,144 - root - INFO - -----------------------------  GETTING JOB LINKS : data analyst ----------------------------
+2023-12-28 10:16:28,144 - root - INFO - Searching for data-analyst
+2023-12-28 10:24:12,568 - root - INFO - Unique links: 0
+2023-12-28 10:24:26,627 - root - INFO - -----------------------------  GETTING JOB INFO : data analyst ----------------------------
+2023-12-28 10:24:26,646 - root - ERROR - "None of ['job_id'] are in the columns"
