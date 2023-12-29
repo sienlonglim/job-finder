@@ -348,3 +348,8 @@ Stacktrace:
 2023-12-28 11:23:05,381 - root - INFO - Index 25 : 200
 2023-12-28 11:23:05,688 - root - INFO - Index 26 : 429
 2023-12-28 11:23:05,688 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-29 00:33:13,737 - root - INFO - ----------------------------- Started new run @ 2023-12-29:0033 ----------------------------
+2023-12-29 00:33:13,737 - root - INFO - -----------------------------  GETTING LINKS : data analyst ----------------------------
+2023-12-29 00:33:13,738 - root - INFO - Searching for data-analyst
+2023-12-29 00:33:23,669 - root - ERROR - Message: Process unexpectedly closed with status 1
+
