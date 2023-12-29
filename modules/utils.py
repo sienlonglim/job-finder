@@ -7,6 +7,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver import FirefoxOptions
 from datetime import datetime
 from functools import wraps
 from bs4 import BeautifulSoup
@@ -140,7 +141,11 @@ def get_job_links_selenium(keyword: str, pages: int, debug: bool = False)-> tupl
     data = {}
 
     # Not using context manager, because we may need to close and restart if running into an authentication wall
-    driver = webdriver.Firefox()
+    opts = FirefoxOptions()
+    if not debug:
+        # This will run FireFox without a display, needed to work with GitHub actions
+        opts.add_argument("--headless")
+    driver = webdriver.Firefox(options=opts)
     driver.implicitly_wait(30)
     driver.get(f"https://www.linkedin.com/jobs/search/?distance=25&geoId=102454443&keywords={title}&location=Singapore&start=0")
     html_source = driver.page_source
@@ -151,7 +156,7 @@ def get_job_links_selenium(keyword: str, pages: int, debug: bool = False)-> tupl
         print(f"\tRan into AuthWall, trying again in 5 secs...")
         driver.quit()
         time.sleep(5)
-        driver = webdriver.Firefox()
+        driver = webdriver.Firefox(options=opts)
         driver.get(f"https://www.linkedin.com/jobs/search/?distance=25&geoId=102454443&keywords={title}&location=Singapore&start=0")
         html_source = driver.page_source
         soup = BeautifulSoup(html_source,'html.parser')
@@ -223,7 +228,9 @@ def get_job_info(url: str, index: int, return_soup: bool=False):
         response = requests.get(url, headers=headers)
         soup = BeautifulSoup(response.text,'html.parser')
         retry_count +=1
-
+    if retry_count>0:
+        logger.info(f"\tSuccess : {response.status_code}")
+        
     info = {}
 
     # JobID

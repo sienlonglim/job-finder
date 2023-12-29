@@ -353,3 +353,112 @@ Stacktrace:
 2023-12-29 00:33:13,738 - root - INFO - Searching for data-analyst
 2023-12-29 00:33:23,669 - root - ERROR - Message: Process unexpectedly closed with status 1
 
+2023-12-29 10:27:09,623 - root - INFO - ----------------------------- Started new run @ 2023-12-29:1027 ----------------------------
+2023-12-29 10:27:09,639 - root - INFO - -----------------------------  GETTING LINKS : data analyst ----------------------------
+2023-12-29 10:27:09,639 - root - INFO - Searching for data-analyst
+2023-12-29 10:27:40,552 - root - INFO - Getting page_source
+2023-12-29 10:27:43,753 - root - INFO - Unique links: 92
+2023-12-29 10:27:57,832 - root - INFO - -----------------------------  GETTING INFO : data analyst ----------------------------
+2023-12-29 10:27:58,723 - root - INFO - Index 0 : 200
+2023-12-29 10:28:00,097 - root - INFO - Index 1 : 200
+2023-12-29 10:28:01,425 - root - INFO - Index 2 : 200
+2023-12-29 10:28:02,368 - root - INFO - Index 3 : 200
+2023-12-29 10:28:03,667 - root - INFO - Index 4 : 200
+2023-12-29 10:28:04,657 - root - INFO - Index 5 : 200
+2023-12-29 10:28:06,043 - root - INFO - Index 6 : 200
+2023-12-29 10:28:07,460 - root - INFO - Index 7 : 200
+2023-12-29 10:28:08,840 - root - INFO - Index 8 : 200
+2023-12-29 10:28:09,965 - root - INFO - Index 9 : 200
+2023-12-29 10:28:11,356 - root - INFO - Index 10 : 200
+2023-12-29 10:28:12,725 - root - INFO - Index 11 : 200
+2023-12-29 10:28:13,679 - root - INFO - Index 12 : 200
+2023-12-29 10:28:15,049 - root - INFO - Index 13 : 200
+2023-12-29 10:28:16,400 - root - INFO - Index 14 : 200
+2023-12-29 10:28:17,326 - root - INFO - Index 15 : 200
+2023-12-29 10:28:18,796 - root - INFO - Index 16 : 200
+2023-12-29 10:28:19,684 - root - INFO - Index 17 : 200
+2023-12-29 10:28:19,979 - root - INFO - Index 18 : 429
+2023-12-29 10:28:19,980 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-29 10:28:26,692 - root - INFO - Index 19 : 200
+2023-12-29 10:28:28,049 - root - INFO - Index 20 : 200
+2023-12-29 10:28:29,425 - root - INFO - Index 21 : 200
+2023-12-29 10:28:30,809 - root - INFO - Index 22 : 200
+2023-12-29 10:28:32,165 - root - INFO - Index 23 : 200
+2023-12-29 10:28:33,627 - root - INFO - Index 24 : 200
+2023-12-29 10:28:34,996 - root - INFO - Index 25 : 200
+2023-12-29 10:28:35,922 - root - INFO - Index 26 : 200
+2023-12-29 10:28:36,844 - root - INFO - Index 27 : 200
+2023-12-29 10:28:37,734 - root - INFO - Index 28 : 200
+2023-12-29 10:28:38,692 - root - INFO - Index 29 : 200
+2023-12-29 10:28:38,979 - root - INFO - Index 30 : 429
+2023-12-29 10:28:38,979 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-29 10:28:46,702 - root - INFO - Index 31 : 200
+2023-12-29 10:28:48,126 - root - INFO - Index 32 : 200
+2023-12-29 10:28:49,035 - root - INFO - Index 33 : 200
+2023-12-29 10:28:49,933 - root - INFO - Index 34 : 200
+2023-12-29 10:28:51,302 - root - INFO - Index 35 : 200
+2023-12-29 10:28:52,177 - root - INFO - Index 36 : 200
+2023-12-29 10:28:52,964 - root - INFO - Index 37 : 429
+2023-12-29 10:28:52,964 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-29 10:28:59,846 - root - INFO - Index 38 : 200
+2023-12-29 10:29:00,746 - root - INFO - Index 39 : 200
+2023-12-29 10:29:02,651 - root - INFO - Index 40 : 200
+2023-12-29 10:29:02,981 - root - INFO - Index 41 : 429
+2023-12-29 10:29:02,981 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-29 10:29:10,150 - root - INFO - Index 42 : 200
+2023-12-29 10:29:11,126 - root - INFO - Index 43 : 200
+2023-12-29 10:29:12,048 - root - INFO - Index 44 : 200
+2023-12-29 10:29:12,967 - root - INFO - Index 45 : 200
+2023-12-29 10:29:13,853 - root - INFO - Index 46 : 200
+2023-12-29 10:29:15,263 - root - INFO - Index 47 : 200
+2023-12-29 10:29:16,688 - root - INFO - Index 48 : 200
+2023-12-29 10:29:17,626 - root - INFO - Index 49 : 200
+2023-12-29 10:29:18,507 - root - INFO - Index 50 : 200
+2023-12-29 10:29:19,867 - root - INFO - Index 51 : 200
+2023-12-29 10:29:21,300 - root - INFO - Index 52 : 200
+2023-12-29 10:29:22,676 - root - INFO - Index 53 : 200
+2023-12-29 10:29:24,101 - root - INFO - Index 54 : 200
+2023-12-29 10:29:25,577 - root - INFO - Index 55 : 200
+2023-12-29 10:29:26,540 - root - INFO - Index 56 : 200
+2023-12-29 10:29:27,473 - root - INFO - Index 57 : 200
+2023-12-29 10:29:28,850 - root - INFO - Index 58 : 200
+2023-12-29 10:29:30,266 - root - INFO - Index 59 : 200
+2023-12-29 10:29:31,129 - root - INFO - Index 60 : 200
+2023-12-29 10:29:32,500 - root - INFO - Index 61 : 200
+2023-12-29 10:29:33,926 - root - INFO - Index 62 : 200
+2023-12-29 10:29:35,311 - root - INFO - Index 63 : 200
+2023-12-29 10:29:36,298 - root - INFO - Index 64 : 200
+2023-12-29 10:29:37,157 - root - INFO - Index 65 : 200
+2023-12-29 10:29:38,545 - root - INFO - Index 66 : 200
+2023-12-29 10:29:39,947 - root - INFO - Index 67 : 200
+2023-12-29 10:29:41,331 - root - INFO - Index 68 : 200
+2023-12-29 10:29:42,742 - root - INFO - Index 69 : 200
+2023-12-29 10:29:43,678 - root - INFO - Index 70 : 200
+2023-12-29 10:29:44,648 - root - INFO - Index 71 : 200
+2023-12-29 10:29:45,587 - root - INFO - Index 72 : 200
+2023-12-29 10:29:46,508 - root - INFO - Index 73 : 200
+2023-12-29 10:29:47,379 - root - INFO - Index 74 : 200
+2023-12-29 10:29:48,739 - root - INFO - Index 75 : 200
+2023-12-29 10:29:50,182 - root - INFO - Index 76 : 200
+2023-12-29 10:29:51,592 - root - INFO - Index 77 : 200
+2023-12-29 10:29:52,710 - root - INFO - Index 78 : 200
+2023-12-29 10:29:53,687 - root - INFO - Index 79 : 200
+2023-12-29 10:29:54,597 - root - INFO - Index 80 : 200
+2023-12-29 10:29:55,963 - root - INFO - Index 81 : 200
+2023-12-29 10:29:56,870 - root - INFO - Index 82 : 200
+2023-12-29 10:29:57,859 - root - INFO - Index 83 : 200
+2023-12-29 10:29:59,259 - root - INFO - Index 84 : 200
+2023-12-29 10:30:00,109 - root - INFO - Index 85 : 200
+2023-12-29 10:30:02,228 - root - INFO - Index 86 : 200
+2023-12-29 10:30:03,181 - root - INFO - Index 87 : 200
+2023-12-29 10:30:04,568 - root - INFO - Index 88 : 200
+2023-12-29 10:30:05,912 - root - INFO - Index 89 : 200
+2023-12-29 10:30:07,354 - root - INFO - Index 90 : 200
+2023-12-29 10:30:08,257 - root - INFO - Index 91 : 200
+2023-12-29 10:30:08,445 - root - INFO - Removed 0 empty rows
+2023-12-29 10:30:08,445 - root - INFO - Removed 0 duplicates
+2023-12-29 10:30:08,492 - root - INFO - Extracted 92 number of jobs
+2023-12-29 10:30:08,492 - root - INFO - Loading main_df from file: files/MAIN_2023-12-28.xlsx
+2023-12-29 10:30:09,162 - root - INFO - Original rows of main_df: 360
+2023-12-29 10:30:09,163 - root - INFO - Read rows from df 0: 92
+2023-12-29 10:30:09,165 - root - INFO - 	Added rows: -8
