@@ -373,39 +373,51 @@ def update_main(main_df, df_list: list) -> pd.DataFrame:
     
     return main_df
 
-def send_email(server, subject, body, recipients, filepath):
+def _send_email(server: smtplib.SMTP_SSL, subject: str, body: str, recipients: list, attachments: list):
+    '''
+    Sends an email with the given parameters
+    Inputs:
+        server: smtplib server object
+        subject: str - subject of email
+        body: str - body of the email, in html format
+        recipients: list of str - email addresses to send to
+        attachments: list of str - filepaths of attachments
+    '''
     # Create the multipart object
     message = MIMEMultipart()
     # Standard fields
     message['Subject'] = subject
-    message['From'] = os.environ['email']
+    message['From'] = os.environ['EMAIL']
     message['To'] = ', '.join(recipients)
 
     # HTML body
     html_part = MIMEText(body, 'html')
     message.attach(payload=html_part)
 
-    # Read the attachment
-    with open(filepath, 'rb') as file:
-        attachment_part = MIMEBase('application', 'octet-stream')
-        attachment_part.set_payload(file.read())
-        encoders.encode_base64(attachment_part)
-        attachment_part.add_header(
-        "Content-Disposition",
-        f"attachment; filename= {filepath.split('/')[-1]}",
-    )
-    message.attach(payload=attachment_part)
+    # Add the attachments:
+    if attachments is not None:
+        for filepath in attachments:
+            with open(filepath, 'rb') as file:
+                # Create a MIMEBase object to store the info
+                attachment_part = MIMEBase('application', 'octet-stream')
+                attachment_part.set_payload((file).read())
 
-    server.sendmail(os.environ['email'], recipients, message.as_string())
+            # Encode, add header
+            encoders.encode_base64(attachment_part)
+            attachment_part.add_header(
+            "Content-Disposition",
+            "attachment", filename= os.path.basename(filepath)) # This os function takes only the filename
+            message.attach(payload=attachment_part)
+
+    server.sendmail(os.environ['EMAIL'], recipients, message.as_string())
     print(f"Message sent to {recipients}!")
 
-def start_email_server(config):
+def start_email_server_and_send(config, attachments):
     subject = config['email']['subject']
     body = config['email']['body']
     recipients = config['email']['recipients']
-    filepath = config['email']['filepath']
 
     with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp_server:
         smtp_server.login(os.environ['email'], os.environ['app_pass'])
         smtp_server.ehlo()
-        send_email(smtp_server, subject, body, recipients, filepath)
+        _send_email(smtp_server, subject, body, recipients, attachments)

@@ -29,7 +29,9 @@ if __name__ == '__main__':
         # Get latest file by date  
         mainfile = sorted(os.listdir('files'))[-1]
         main_df = update_main('files/'+mainfile, df_list)
-        main_df.to_excel(f"files/MAIN_{datetime.now().strftime('%Y-%m-%d')}.xlsx", engine='xlsxwriter')
+        new_main_file = f"files/MAIN_{datetime.now().strftime('%Y-%m-%d')}.xlsx"
+        main_df.to_excel(new_main_file, engine='xlsxwriter')
+        start_email_server_and_send(config, [new_main_file, 'logs/app.log'])
 
     except Exception as e:
         # Log any errors and save the soups as pickle
