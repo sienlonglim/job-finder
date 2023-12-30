@@ -462,3 +462,309 @@ Stacktrace:
 2023-12-29 10:30:09,162 - root - INFO - Original rows of main_df: 360
 2023-12-29 10:30:09,163 - root - INFO - Read rows from df 0: 92
 2023-12-29 10:30:09,165 - root - INFO - 	Added rows: -8
+2023-12-30 00:39:26,105 - root - INFO - ----------------------------- Started new run @ 2023-12-30:0039 ----------------------------
+2023-12-30 00:39:26,106 - root - INFO - -----------------------------  GETTING LINKS : data analyst ----------------------------
+2023-12-30 00:39:26,106 - root - INFO - Searching for data-analyst
+2023-12-30 00:43:26,234 - root - INFO - Getting page_source
+2023-12-30 00:43:27,833 - root - INFO - Unique links: 244
+2023-12-30 00:43:37,844 - root - INFO - -----------------------------  GETTING INFO : data analyst ----------------------------
+2023-12-30 00:43:38,524 - root - INFO - Index 0 : 200
+2023-12-30 00:43:39,161 - root - INFO - Index 1 : 200
+2023-12-30 00:43:39,800 - root - INFO - Index 2 : 200
+2023-12-30 00:43:40,497 - root - INFO - Index 3 : 200
+2023-12-30 00:43:41,222 - root - INFO - Index 4 : 200
+2023-12-30 00:43:41,888 - root - INFO - Index 5 : 200
+2023-12-30 00:43:42,597 - root - INFO - Index 6 : 200
+2023-12-30 00:43:43,272 - root - INFO - Index 7 : 200
+2023-12-30 00:43:43,914 - root - INFO - Index 8 : 200
+2023-12-30 00:43:44,515 - root - INFO - Index 9 : 200
+2023-12-30 00:43:44,667 - root - INFO - Index 10 : 429
+2023-12-30 00:43:44,668 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:43:50,347 - root - INFO - 	Success : 200
+2023-12-30 00:43:50,910 - root - INFO - Index 11 : 200
+2023-12-30 00:43:51,514 - root - INFO - Index 12 : 200
+2023-12-30 00:43:52,110 - root - INFO - Index 13 : 200
+2023-12-30 00:43:52,795 - root - INFO - Index 14 : 200
+2023-12-30 00:43:53,455 - root - INFO - Index 15 : 200
+2023-12-30 00:43:54,211 - root - INFO - Index 16 : 200
+2023-12-30 00:43:54,795 - root - INFO - Index 17 : 200
+2023-12-30 00:43:55,417 - root - INFO - Index 18 : 200
+2023-12-30 00:43:56,096 - root - INFO - Index 19 : 200
+2023-12-30 00:43:56,238 - root - INFO - Index 20 : 429
+2023-12-30 00:43:56,238 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:44:01,845 - root - INFO - 	Success : 200
+2023-12-30 00:44:02,446 - root - INFO - Index 21 : 200
+2023-12-30 00:44:03,168 - root - INFO - Index 22 : 200
+2023-12-30 00:44:03,801 - root - INFO - Index 23 : 200
+2023-12-30 00:44:04,420 - root - INFO - Index 24 : 200
+2023-12-30 00:44:05,050 - root - INFO - Index 25 : 200
+2023-12-30 00:44:05,686 - root - INFO - Index 26 : 200
+2023-12-30 00:44:06,315 - root - INFO - Index 27 : 200
+2023-12-30 00:44:07,034 - root - INFO - Index 28 : 200
+2023-12-30 00:44:07,675 - root - INFO - Index 29 : 200
+2023-12-30 00:44:07,837 - root - INFO - Index 30 : 429
+2023-12-30 00:44:07,837 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:44:13,482 - root - INFO - 	Success : 200
+2023-12-30 00:44:14,100 - root - INFO - Index 31 : 200
+2023-12-30 00:44:14,673 - root - INFO - Index 32 : 200
+2023-12-30 00:44:15,351 - root - INFO - Index 33 : 200
+2023-12-30 00:44:15,989 - root - INFO - Index 34 : 200
+2023-12-30 00:44:16,639 - root - INFO - Index 35 : 200
+2023-12-30 00:44:17,306 - root - INFO - Index 36 : 200
+2023-12-30 00:44:18,004 - root - INFO - Index 37 : 200
+2023-12-30 00:44:18,616 - root - INFO - Index 38 : 200
+2023-12-30 00:44:19,205 - root - INFO - Index 39 : 200
+2023-12-30 00:44:19,363 - root - INFO - Index 40 : 429
+2023-12-30 00:44:19,363 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:44:24,980 - root - INFO - 	Success : 200
+2023-12-30 00:44:25,526 - root - INFO - Index 41 : 200
+2023-12-30 00:44:26,193 - root - INFO - Index 42 : 200
+2023-12-30 00:44:26,772 - root - INFO - Index 43 : 200
+2023-12-30 00:44:27,367 - root - INFO - Index 44 : 200
+2023-12-30 00:44:27,976 - root - INFO - Index 45 : 200
+2023-12-30 00:44:28,555 - root - INFO - Index 46 : 200
+2023-12-30 00:44:29,208 - root - INFO - Index 47 : 200
+2023-12-30 00:44:29,869 - root - INFO - Index 48 : 200
+2023-12-30 00:44:30,492 - root - INFO - Index 49 : 200
+2023-12-30 00:44:30,845 - root - INFO - Index 50 : 429
+2023-12-30 00:44:30,845 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:44:36,465 - root - INFO - 	Success : 200
+2023-12-30 00:44:37,015 - root - INFO - Index 51 : 200
+2023-12-30 00:44:37,627 - root - INFO - Index 52 : 200
+2023-12-30 00:44:38,312 - root - INFO - Index 53 : 200
+2023-12-30 00:44:38,953 - root - INFO - Index 54 : 200
+2023-12-30 00:44:39,562 - root - INFO - Index 55 : 200
+2023-12-30 00:44:40,202 - root - INFO - Index 56 : 200
+2023-12-30 00:44:40,814 - root - INFO - Index 57 : 200
+2023-12-30 00:44:41,488 - root - INFO - Index 58 : 200
+2023-12-30 00:44:42,125 - root - INFO - Index 59 : 200
+2023-12-30 00:44:42,363 - root - INFO - Index 60 : 429
+2023-12-30 00:44:42,364 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:44:48,050 - root - INFO - 	Success : 200
+2023-12-30 00:44:48,598 - root - INFO - Index 61 : 200
+2023-12-30 00:44:49,166 - root - INFO - Index 62 : 200
+2023-12-30 00:44:49,771 - root - INFO - Index 63 : 200
+2023-12-30 00:44:50,413 - root - INFO - Index 64 : 200
+2023-12-30 00:44:51,092 - root - INFO - Index 65 : 200
+2023-12-30 00:44:51,762 - root - INFO - Index 66 : 200
+2023-12-30 00:44:52,337 - root - INFO - Index 67 : 200
+2023-12-30 00:44:52,938 - root - INFO - Index 68 : 200
+2023-12-30 00:44:53,561 - root - INFO - Index 69 : 200
+2023-12-30 00:44:53,721 - root - INFO - Index 70 : 429
+2023-12-30 00:44:53,722 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:44:59,297 - root - INFO - 	Success : 200
+2023-12-30 00:44:59,885 - root - INFO - Index 71 : 200
+2023-12-30 00:45:00,586 - root - INFO - Index 72 : 200
+2023-12-30 00:45:01,293 - root - INFO - Index 73 : 200
+2023-12-30 00:45:01,914 - root - INFO - Index 74 : 200
+2023-12-30 00:45:02,547 - root - INFO - Index 75 : 200
+2023-12-30 00:45:03,172 - root - INFO - Index 76 : 200
+2023-12-30 00:45:03,742 - root - INFO - Index 77 : 200
+2023-12-30 00:45:04,391 - root - INFO - Index 78 : 200
+2023-12-30 00:45:05,151 - root - INFO - Index 79 : 200
+2023-12-30 00:45:05,311 - root - INFO - Index 80 : 429
+2023-12-30 00:45:05,311 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:45:11,004 - root - INFO - 	Success : 200
+2023-12-30 00:45:11,490 - root - INFO - Index 81 : 200
+2023-12-30 00:45:12,083 - root - INFO - Index 82 : 200
+2023-12-30 00:45:12,719 - root - INFO - Index 83 : 200
+2023-12-30 00:45:13,316 - root - INFO - Index 84 : 200
+2023-12-30 00:45:13,948 - root - INFO - Index 85 : 200
+2023-12-30 00:45:14,548 - root - INFO - Index 86 : 200
+2023-12-30 00:45:15,140 - root - INFO - Index 87 : 200
+2023-12-30 00:45:15,823 - root - INFO - Index 88 : 200
+2023-12-30 00:45:16,489 - root - INFO - Index 89 : 200
+2023-12-30 00:45:16,649 - root - INFO - Index 90 : 429
+2023-12-30 00:45:16,649 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:45:22,294 - root - INFO - 	Success : 200
+2023-12-30 00:45:22,907 - root - INFO - Index 91 : 200
+2023-12-30 00:45:23,505 - root - INFO - Index 92 : 200
+2023-12-30 00:45:24,096 - root - INFO - Index 93 : 200
+2023-12-30 00:45:24,772 - root - INFO - Index 94 : 200
+2023-12-30 00:45:25,384 - root - INFO - Index 95 : 200
+2023-12-30 00:45:26,059 - root - INFO - Index 96 : 200
+2023-12-30 00:45:26,781 - root - INFO - Index 97 : 200
+2023-12-30 00:45:27,441 - root - INFO - Index 98 : 200
+2023-12-30 00:45:28,030 - root - INFO - Index 99 : 200
+2023-12-30 00:45:28,184 - root - INFO - Index 100 : 429
+2023-12-30 00:45:28,184 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:45:33,783 - root - INFO - 	Success : 200
+2023-12-30 00:45:34,342 - root - INFO - Index 101 : 200
+2023-12-30 00:45:34,936 - root - INFO - Index 102 : 200
+2023-12-30 00:45:35,584 - root - INFO - Index 103 : 200
+2023-12-30 00:45:36,209 - root - INFO - Index 104 : 200
+2023-12-30 00:45:36,842 - root - INFO - Index 105 : 200
+2023-12-30 00:45:37,408 - root - INFO - Index 106 : 200
+2023-12-30 00:45:37,992 - root - INFO - Index 107 : 200
+2023-12-30 00:45:38,592 - root - INFO - Index 108 : 200
+2023-12-30 00:45:39,152 - root - INFO - Index 109 : 200
+2023-12-30 00:45:39,348 - root - INFO - Index 110 : 429
+2023-12-30 00:45:39,348 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:45:44,443 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:45:50,104 - root - INFO - 	Success : 200
+2023-12-30 00:45:50,635 - root - INFO - Index 111 : 200
+2023-12-30 00:45:51,380 - root - INFO - Index 112 : 200
+2023-12-30 00:45:52,048 - root - INFO - Index 113 : 200
+2023-12-30 00:45:52,634 - root - INFO - Index 114 : 200
+2023-12-30 00:45:53,343 - root - INFO - Index 115 : 200
+2023-12-30 00:45:53,992 - root - INFO - Index 116 : 200
+2023-12-30 00:45:54,608 - root - INFO - Index 117 : 200
+2023-12-30 00:45:55,335 - root - INFO - Index 118 : 200
+2023-12-30 00:45:55,988 - root - INFO - Index 119 : 200
+2023-12-30 00:45:56,150 - root - INFO - Index 120 : 429
+2023-12-30 00:45:56,151 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:46:01,764 - root - INFO - 	Success : 200
+2023-12-30 00:46:02,362 - root - INFO - Index 121 : 200
+2023-12-30 00:46:02,973 - root - INFO - Index 122 : 200
+2023-12-30 00:46:03,730 - root - INFO - Index 123 : 200
+2023-12-30 00:46:04,362 - root - INFO - Index 124 : 200
+2023-12-30 00:46:05,069 - root - INFO - Index 125 : 200
+2023-12-30 00:46:05,644 - root - INFO - Index 126 : 200
+2023-12-30 00:46:06,237 - root - INFO - Index 127 : 200
+2023-12-30 00:46:06,994 - root - INFO - Index 128 : 200
+2023-12-30 00:46:07,603 - root - INFO - Index 129 : 200
+2023-12-30 00:46:08,256 - root - INFO - Index 130 : 200
+2023-12-30 00:46:08,430 - root - INFO - Index 131 : 429
+2023-12-30 00:46:08,430 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:46:14,171 - root - INFO - 	Success : 200
+2023-12-30 00:46:14,762 - root - INFO - Index 132 : 200
+2023-12-30 00:46:15,396 - root - INFO - Index 133 : 200
+2023-12-30 00:46:16,020 - root - INFO - Index 134 : 200
+2023-12-30 00:46:16,634 - root - INFO - Index 135 : 200
+2023-12-30 00:46:17,235 - root - INFO - Index 136 : 200
+2023-12-30 00:46:17,840 - root - INFO - Index 137 : 200
+2023-12-30 00:46:18,527 - root - INFO - Index 138 : 200
+2023-12-30 00:46:19,095 - root - INFO - Index 139 : 200
+2023-12-30 00:46:19,726 - root - INFO - Index 140 : 200
+2023-12-30 00:46:19,885 - root - INFO - Index 141 : 429
+2023-12-30 00:46:19,885 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:46:25,538 - root - INFO - 	Success : 200
+2023-12-30 00:46:26,087 - root - INFO - Index 142 : 200
+2023-12-30 00:46:26,696 - root - INFO - Index 143 : 200
+2023-12-30 00:46:27,315 - root - INFO - Index 144 : 200
+2023-12-30 00:46:27,950 - root - INFO - Index 145 : 200
+2023-12-30 00:46:28,106 - root - INFO - Index 146 : 429
+2023-12-30 00:46:28,107 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:46:33,723 - root - INFO - 	Success : 200
+2023-12-30 00:46:34,226 - root - INFO - Index 147 : 200
+2023-12-30 00:46:34,906 - root - INFO - Index 148 : 200
+2023-12-30 00:46:35,490 - root - INFO - Index 149 : 200
+2023-12-30 00:46:36,111 - root - INFO - Index 150 : 200
+2023-12-30 00:46:36,668 - root - INFO - Index 151 : 200
+2023-12-30 00:46:37,287 - root - INFO - Index 152 : 200
+2023-12-30 00:46:37,875 - root - INFO - Index 153 : 200
+2023-12-30 00:46:38,458 - root - INFO - Index 154 : 200
+2023-12-30 00:46:39,082 - root - INFO - Index 155 : 200
+2023-12-30 00:46:39,319 - root - INFO - Index 156 : 429
+2023-12-30 00:46:39,319 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:46:44,897 - root - INFO - 	Success : 200
+2023-12-30 00:46:45,467 - root - INFO - Index 157 : 200
+2023-12-30 00:46:46,084 - root - INFO - Index 158 : 200
+2023-12-30 00:46:46,788 - root - INFO - Index 159 : 200
+2023-12-30 00:46:47,382 - root - INFO - Index 160 : 200
+2023-12-30 00:46:48,013 - root - INFO - Index 161 : 200
+2023-12-30 00:46:48,728 - root - INFO - Index 162 : 200
+2023-12-30 00:46:49,312 - root - INFO - Index 163 : 200
+2023-12-30 00:46:49,961 - root - INFO - Index 164 : 200
+2023-12-30 00:46:50,699 - root - INFO - Index 165 : 200
+2023-12-30 00:46:50,938 - root - INFO - Index 166 : 429
+2023-12-30 00:46:50,939 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:46:56,590 - root - INFO - 	Success : 200
+2023-12-30 00:46:57,110 - root - INFO - Index 167 : 200
+2023-12-30 00:46:57,699 - root - INFO - Index 168 : 200
+2023-12-30 00:46:58,309 - root - INFO - Index 169 : 200
+2023-12-30 00:46:58,883 - root - INFO - Index 170 : 200
+2023-12-30 00:46:59,512 - root - INFO - Index 171 : 200
+2023-12-30 00:47:00,104 - root - INFO - Index 172 : 200
+2023-12-30 00:47:00,758 - root - INFO - Index 173 : 200
+2023-12-30 00:47:01,381 - root - INFO - Index 174 : 200
+2023-12-30 00:47:02,020 - root - INFO - Index 175 : 200
+2023-12-30 00:47:02,212 - root - INFO - Index 176 : 429
+2023-12-30 00:47:02,212 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:47:07,845 - root - INFO - 	Success : 200
+2023-12-30 00:47:08,426 - root - INFO - Index 177 : 200
+2023-12-30 00:47:09,041 - root - INFO - Index 178 : 200
+2023-12-30 00:47:09,658 - root - INFO - Index 179 : 200
+2023-12-30 00:47:10,318 - root - INFO - Index 180 : 200
+2023-12-30 00:47:10,942 - root - INFO - Index 181 : 200
+2023-12-30 00:47:11,543 - root - INFO - Index 182 : 200
+2023-12-30 00:47:12,171 - root - INFO - Index 183 : 200
+2023-12-30 00:47:12,952 - root - INFO - Index 184 : 200
+2023-12-30 00:47:13,597 - root - INFO - Index 185 : 200
+2023-12-30 00:47:13,754 - root - INFO - Index 186 : 429
+2023-12-30 00:47:13,755 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:47:19,321 - root - INFO - 	Success : 200
+2023-12-30 00:47:19,892 - root - INFO - Index 187 : 200
+2023-12-30 00:47:20,508 - root - INFO - Index 188 : 200
+2023-12-30 00:47:21,141 - root - INFO - Index 189 : 200
+2023-12-30 00:47:21,776 - root - INFO - Index 190 : 200
+2023-12-30 00:47:22,546 - root - INFO - Index 191 : 200
+2023-12-30 00:47:23,202 - root - INFO - Index 192 : 200
+2023-12-30 00:47:23,811 - root - INFO - Index 193 : 200
+2023-12-30 00:47:24,363 - root - INFO - Index 194 : 200
+2023-12-30 00:47:24,976 - root - INFO - Index 195 : 200
+2023-12-30 00:47:25,213 - root - INFO - Index 196 : 429
+2023-12-30 00:47:25,213 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:47:30,764 - root - INFO - 	Success : 200
+2023-12-30 00:47:31,286 - root - INFO - Index 197 : 200
+2023-12-30 00:47:31,947 - root - INFO - Index 198 : 200
+2023-12-30 00:47:32,563 - root - INFO - Index 199 : 200
+2023-12-30 00:47:33,312 - root - INFO - Index 200 : 200
+2023-12-30 00:47:33,850 - root - INFO - Index 201 : 200
+2023-12-30 00:47:34,416 - root - INFO - Index 202 : 200
+2023-12-30 00:47:35,032 - root - INFO - Index 203 : 200
+2023-12-30 00:47:35,643 - root - INFO - Index 204 : 200
+2023-12-30 00:47:36,259 - root - INFO - Index 205 : 200
+2023-12-30 00:47:36,996 - root - INFO - Index 206 : 200
+2023-12-30 00:47:37,157 - root - INFO - Index 207 : 429
+2023-12-30 00:47:37,157 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:47:42,769 - root - INFO - 	Success : 200
+2023-12-30 00:47:43,313 - root - INFO - Index 208 : 200
+2023-12-30 00:47:43,901 - root - INFO - Index 209 : 200
+2023-12-30 00:47:44,514 - root - INFO - Index 210 : 200
+2023-12-30 00:47:45,126 - root - INFO - Index 211 : 200
+2023-12-30 00:47:45,695 - root - INFO - Index 212 : 200
+2023-12-30 00:47:46,321 - root - INFO - Index 213 : 200
+2023-12-30 00:47:46,893 - root - INFO - Index 214 : 200
+2023-12-30 00:47:47,443 - root - INFO - Index 215 : 200
+2023-12-30 00:47:52,493 - root - INFO - Index 216 : 200
+2023-12-30 00:47:52,751 - root - INFO - Index 217 : 429
+2023-12-30 00:47:52,751 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:47:58,406 - root - INFO - 	Success : 200
+2023-12-30 00:47:58,953 - root - INFO - Index 218 : 200
+2023-12-30 00:47:59,549 - root - INFO - Index 219 : 200
+2023-12-30 00:48:00,132 - root - INFO - Index 220 : 200
+2023-12-30 00:48:00,690 - root - INFO - Index 221 : 200
+2023-12-30 00:48:01,297 - root - INFO - Index 222 : 200
+2023-12-30 00:48:01,863 - root - INFO - Index 223 : 200
+2023-12-30 00:48:02,500 - root - INFO - Index 224 : 200
+2023-12-30 00:48:03,185 - root - INFO - Index 225 : 200
+2023-12-30 00:48:03,854 - root - INFO - Index 226 : 200
+2023-12-30 00:48:04,128 - root - INFO - Index 227 : 429
+2023-12-30 00:48:04,129 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:48:09,855 - root - INFO - 	Success : 200
+2023-12-30 00:48:10,404 - root - INFO - Index 228 : 200
+2023-12-30 00:48:10,975 - root - INFO - Index 229 : 200
+2023-12-30 00:48:11,586 - root - INFO - Index 230 : 200
+2023-12-30 00:48:12,140 - root - INFO - Index 231 : 200
+2023-12-30 00:48:12,766 - root - INFO - Index 232 : 200
+2023-12-30 00:48:13,359 - root - INFO - Index 233 : 200
+2023-12-30 00:48:13,974 - root - INFO - Index 234 : 200
+2023-12-30 00:48:14,743 - root - INFO - Index 235 : 200
+2023-12-30 00:48:15,424 - root - INFO - Index 236 : 200
+2023-12-30 00:48:15,659 - root - INFO - Index 237 : 429
+2023-12-30 00:48:15,659 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2023-12-30 00:48:21,264 - root - INFO - 	Success : 200
+2023-12-30 00:48:21,749 - root - INFO - Index 238 : 200
+2023-12-30 00:48:22,357 - root - INFO - Index 239 : 200
+2023-12-30 00:48:23,001 - root - INFO - Index 240 : 200
+2023-12-30 00:48:23,634 - root - INFO - Index 241 : 200
+2023-12-30 00:48:24,346 - root - INFO - Index 242 : 200
+2023-12-30 00:48:24,773 - root - INFO - Index 243 : 200
+2023-12-30 00:48:24,825 - root - INFO - Removed 0 empty rows
+2023-12-30 00:48:24,825 - root - INFO - Removed 0 duplicates
+2023-12-30 00:48:24,827 - root - INFO - Extracted 244 number of jobs
+2023-12-30 00:48:24,827 - root - INFO - Loading main_df from file: files/MAIN_2023-12-29.xlsx
+2023-12-30 00:48:25,113 - root - INFO - Original rows of main_df: 352
+2023-12-30 00:48:25,113 - root - INFO - Read rows from df 0: 244
+2023-12-30 00:48:25,114 - root - INFO - 	Added rows: 155
