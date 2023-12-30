@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: '0 0 * * *' # At 8AM everyday for GMT+8, 12AM for UTC
 
+env:
+  email: ${{ secrets.EMAIL }}
+  app_pass: ${{ secrets.APP_PASS }}
+
 jobs:
   build:
     runs-on: ubuntu-latest

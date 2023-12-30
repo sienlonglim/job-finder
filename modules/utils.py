@@ -1,8 +1,6 @@
-import requests
-import re
+import requests, re, time, logging, smtplib
 import pandas as pd
-import time
-import logging
+import os
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -11,6 +9,10 @@ from selenium.webdriver import FirefoxOptions
 from datetime import datetime
 from functools import wraps
 from bs4 import BeautifulSoup
+from email import encoders
+from email.mime.base import MIMEBase
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 
 headers = {'Accept': 'text/html',
            'Accept-Language': 'en-US',
@@ -40,7 +42,7 @@ def configure_logging(file_path=None, streaming=None, level=logging.INFO):
     if not len(logger.handlers):
         # Add a filehandler to output to a file
         if file_path:
-            file_handler = logging.FileHandler(file_path, mode='a')
+            file_handler = logging.FileHandler(file_path, mode='w')
             file_handler.setLevel(level)
             file_handler.setFormatter(formatter)
             logger.addHandler(file_handler)
@@ -322,10 +324,10 @@ def process_df(data: dict, remove_nulls: bool=True, remove_duplicates: bool=True
 
     # Deduplication, some jobs are similar but have different link maybe due to their different posting time / reposting
     if remove_duplicates:
-        # subset_duplicates = ['company', 'job_title', 'level', 'job_type', 'degree', 'experience', 'spark', 'descriptions', 'industry1']
+        duplicate_subset = ['company', 'job_title', 'level', 'job_type', 'descriptions', 'industry1']
         wDups = len(df)
         # df = df[~df.index.duplicated(keep='first')]
-        df = df[~df.index.duplicated(keep='first')]
+        df = df.drop_duplicates(subset=duplicate_subset)
         logger.info(f'Removed {wDups - len(df)} duplicates')
 
     # Sorting order and values
@@ -363,8 +365,47 @@ def update_main(main_df, df_list: list) -> pd.DataFrame:
             df = pd.read_excel(df, index_col=0)
         logger.info(f'Read rows from df {index}: {len(df)}')
         main_df = pd.concat([main_df, df])
-        main_df = main_df[~main_df.index.duplicated(keep='first')] # This drops by index instead
-
+        duplicate_subset = ['company', 'job_title', 'level', 'job_type', 'descriptions', 'industry1']
+    
+    # main_df = main_df[~main_df.index.duplicated(keep='first')] # This drops by index instead
+    main_df = main_df.drop_duplicates(subset=duplicate_subset)
     logger.info(f'\tAdded rows: {len(main_df)-original_rows}')
     
     return main_df
+
+def send_email(server, subject, body, recipients, filepath):
+    # Create the multipart object
+    message = MIMEMultipart()
+    # Standard fields
+    message['Subject'] = subject
+    message['From'] = os.environ['email']
+    message['To'] = ', '.join(recipients)
+
+    # HTML body
+    html_part = MIMEText(body, 'html')
+    message.attach(payload=html_part)
+
+    # Read the attachment
+    with open(filepath, 'rb') as file:
+        attachment_part = MIMEBase('application', 'octet-stream')
+        attachment_part.set_payload(file.read())
+        encoders.encode_base64(attachment_part)
+        attachment_part.add_header(
+        "Content-Disposition",
+        f"attachment; filename= {filepath.split('/')[-1]}",
+    )
+    message.attach(payload=attachment_part)
+
+    server.sendmail(os.environ['email'], recipients, message.as_string())
+    print(f"Message sent to {recipients}!")
+
+def start_email_server(config):
+    subject = config['email']['subject']
+    body = config['email']['body']
+    recipients = config['email']['recipients']
+    filepath = config['email']['filepath']
+
+    with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp_server:
+        smtp_server.login(os.environ['email'], os.environ['app_pass'])
+        smtp_server.ehlo()
+        send_email(smtp_server, subject, body, recipients, filepath)

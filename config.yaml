@@ -1,3 +1,12 @@
 job_titles:
   - 'data analyst'
 pages: 50
+email:
+  recipients: ["limsienlong@gmail.com"]
+  subject: "Daily LinkedIn Excel"
+  body : |
+    <html>
+    <body>
+        <p>This is an <b>HTML</b> email sent from Python using the Gmail SMTP server.</p>
+    </body>
+    </html>
