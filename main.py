@@ -35,7 +35,7 @@ if __name__ == '__main__':
 
     except Exception as e:
         # Log any errors and save the soups as pickle
-        logger_main.error(e)
+        logger_main.error(e, exc_info=True)
     finally:
         handlers = logger_main.handlers[:]
         for handler in handlers:
