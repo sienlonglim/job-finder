@@ -164,7 +164,7 @@ def get_job_links_selenium(keyword: str, pages: int, debug: bool = False)-> tupl
         soup = BeautifulSoup(html_source,'html.parser')
         retry_count +=1
 
-    for i in range(0,pages):
+    for _ in range(0,pages):
         time.sleep(2)
         webdriver.ActionChains(driver).scroll_by_amount(0, -10).perform() # Need to scroll up a little to trigger infinite scroll
         time.sleep(2)

@@ -22,7 +22,11 @@ if __name__ == '__main__':
             time.sleep(10)
             logger_main.info(f"-----------------------------  GETTING INFO : {keyword} ----------------------------")
             for index, link in enumerate(links):
-                main[index] = get_job_info(link, index)
+                try:
+                    main[index] = get_job_info(link, index)
+                except AttributeError as e:
+                    # Nonetype encountered once, unsure what is the cause yet
+                    logger_main.error(e, exc_info=True)
             df = process_df(main, remove_nulls=True, remove_duplicates=True)
             df_list.append(df)
 
@@ -34,7 +38,7 @@ if __name__ == '__main__':
         start_email_server_and_send(config, [new_main_file, 'logs/app.log'])
 
     except Exception as e:
-        # Log any errors and save the soups as pickle
+        # Log any unexpected errors
         logger_main.error(e, exc_info=True)
     finally:
         handlers = logger_main.handlers[:]
