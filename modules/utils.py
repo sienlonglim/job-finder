@@ -387,7 +387,7 @@ def _send_email(server: smtplib.SMTP_SSL, subject: str, body: str, recipients: l
     message = MIMEMultipart()
     # Standard fields
     message['Subject'] = subject
-    message['From'] = os.environ['EMAIL']
+    message['From'] = os.environ['email']
     message['To'] = ', '.join(recipients)
 
     # HTML body
@@ -409,7 +409,7 @@ def _send_email(server: smtplib.SMTP_SSL, subject: str, body: str, recipients: l
             "attachment", filename= os.path.basename(filepath)) # This os function takes only the filename
             message.attach(payload=attachment_part)
 
-    server.sendmail(os.environ['EMAIL'], recipients, message.as_string())
+    server.sendmail(os.environ['email'], recipients, message.as_string())
     print(f"Message sent to {recipients}!")
 
 def start_email_server_and_send(config, attachments):
