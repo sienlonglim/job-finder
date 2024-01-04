@@ -1,231 +1,245 @@
-2024-01-03 00:40:50,405 - root - INFO - ----------------------------- Started new run @ 2024-01-03:0040 ----------------------------
-2024-01-03 00:40:50,406 - root - INFO - -----------------------------  GETTING LINKS : data analyst ----------------------------
-2024-01-03 00:40:50,406 - root - INFO - Searching for data-analyst
-2024-01-03 00:44:49,947 - root - INFO - Getting page_source
-2024-01-03 00:44:51,586 - root - INFO - Unique links: 174
-2024-01-03 00:45:01,597 - root - INFO - -----------------------------  GETTING INFO : data analyst ----------------------------
-2024-01-03 00:45:02,145 - root - INFO - Index 0 : 200
-2024-01-03 00:45:02,738 - root - INFO - Index 1 : 200
-2024-01-03 00:45:03,303 - root - INFO - Index 2 : 200
-2024-01-03 00:45:03,959 - root - INFO - Index 3 : 200
-2024-01-03 00:45:04,463 - root - INFO - Index 4 : 200
-2024-01-03 00:45:05,004 - root - INFO - Index 5 : 200
-2024-01-03 00:45:06,159 - root - INFO - Index 6 : 200
-2024-01-03 00:45:06,963 - root - INFO - Index 7 : 200
-2024-01-03 00:45:07,482 - root - INFO - Index 8 : 200
-2024-01-03 00:45:08,108 - root - INFO - Index 9 : 200
-2024-01-03 00:45:08,242 - root - INFO - Index 10 : 429
-2024-01-03 00:45:08,242 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:45:13,878 - root - INFO - 	Success : 200
-2024-01-03 00:45:13,962 - root - INFO - Index 11 : 429
-2024-01-03 00:45:13,962 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:45:19,602 - root - INFO - 	Success : 200
-2024-01-03 00:45:20,098 - root - INFO - Index 12 : 200
-2024-01-03 00:45:20,692 - root - INFO - Index 13 : 200
-2024-01-03 00:45:21,258 - root - INFO - Index 14 : 200
-2024-01-03 00:45:21,910 - root - INFO - Index 15 : 200
-2024-01-03 00:45:22,486 - root - INFO - Index 16 : 200
-2024-01-03 00:45:23,068 - root - INFO - Index 17 : 200
-2024-01-03 00:45:23,636 - root - INFO - Index 18 : 200
-2024-01-03 00:45:23,768 - root - INFO - Index 19 : 429
-2024-01-03 00:45:23,768 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:45:29,374 - root - INFO - 	Success : 200
-2024-01-03 00:45:29,973 - root - INFO - Index 20 : 200
-2024-01-03 00:45:30,542 - root - INFO - Index 21 : 200
-2024-01-03 00:45:31,104 - root - INFO - Index 22 : 200
-2024-01-03 00:45:31,753 - root - INFO - Index 23 : 200
-2024-01-03 00:45:32,372 - root - INFO - Index 24 : 200
-2024-01-03 00:45:32,949 - root - INFO - Index 25 : 200
-2024-01-03 00:45:33,520 - root - INFO - Index 26 : 200
-2024-01-03 00:45:34,129 - root - INFO - Index 27 : 200
-2024-01-03 00:45:34,748 - root - INFO - Index 28 : 200
-2024-01-03 00:45:34,884 - root - INFO - Index 29 : 429
-2024-01-03 00:45:34,885 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:45:40,449 - root - INFO - 	Success : 200
-2024-01-03 00:45:40,948 - root - INFO - Index 30 : 200
-2024-01-03 00:45:41,541 - root - INFO - Index 31 : 200
-2024-01-03 00:45:42,180 - root - INFO - Index 32 : 200
-2024-01-03 00:45:42,730 - root - INFO - Index 33 : 200
-2024-01-03 00:45:43,283 - root - INFO - Index 34 : 200
-2024-01-03 00:45:43,850 - root - INFO - Index 35 : 200
-2024-01-03 00:45:44,390 - root - INFO - Index 36 : 200
-2024-01-03 00:45:44,916 - root - INFO - Index 37 : 200
-2024-01-03 00:45:45,480 - root - INFO - Index 38 : 200
-2024-01-03 00:45:45,609 - root - INFO - Index 39 : 429
-2024-01-03 00:45:45,610 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:45:51,208 - root - INFO - 	Success : 200
-2024-01-03 00:45:51,703 - root - INFO - Index 40 : 200
-2024-01-03 00:45:52,311 - root - INFO - Index 41 : 200
-2024-01-03 00:45:52,860 - root - INFO - Index 42 : 200
-2024-01-03 00:45:53,470 - root - INFO - Index 43 : 200
-2024-01-03 00:45:54,057 - root - INFO - Index 44 : 200
-2024-01-03 00:45:54,545 - root - INFO - Index 45 : 200
-2024-01-03 00:45:55,141 - root - INFO - Index 46 : 200
-2024-01-03 00:45:55,683 - root - INFO - Index 47 : 200
-2024-01-03 00:45:56,247 - root - INFO - Index 48 : 200
-2024-01-03 00:45:56,381 - root - INFO - Index 49 : 429
-2024-01-03 00:45:56,382 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:46:02,010 - root - INFO - 	Success : 200
-2024-01-03 00:46:02,557 - root - INFO - Index 50 : 200
-2024-01-03 00:46:03,102 - root - INFO - Index 51 : 200
-2024-01-03 00:46:03,794 - root - INFO - Index 52 : 200
-2024-01-03 00:46:04,335 - root - INFO - Index 53 : 200
-2024-01-03 00:46:04,917 - root - INFO - Index 54 : 200
-2024-01-03 00:46:05,468 - root - INFO - Index 55 : 200
-2024-01-03 00:46:06,031 - root - INFO - Index 56 : 200
-2024-01-03 00:46:06,601 - root - INFO - Index 57 : 200
-2024-01-03 00:46:07,188 - root - INFO - Index 58 : 200
-2024-01-03 00:46:07,319 - root - INFO - Index 59 : 429
-2024-01-03 00:46:07,320 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:46:12,915 - root - INFO - 	Success : 200
-2024-01-03 00:46:13,429 - root - INFO - Index 60 : 200
-2024-01-03 00:46:14,106 - root - INFO - Index 61 : 200
-2024-01-03 00:46:14,671 - root - INFO - Index 62 : 200
-2024-01-03 00:46:15,227 - root - INFO - Index 63 : 200
-2024-01-03 00:46:15,822 - root - INFO - Index 64 : 200
-2024-01-03 00:46:16,431 - root - INFO - Index 65 : 200
-2024-01-03 00:46:16,980 - root - INFO - Index 66 : 200
-2024-01-03 00:46:17,494 - root - INFO - Index 67 : 200
-2024-01-03 00:46:18,051 - root - INFO - Index 68 : 200
-2024-01-03 00:46:18,190 - root - INFO - Index 69 : 429
-2024-01-03 00:46:18,190 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:46:23,263 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:46:28,850 - root - INFO - 	Success : 200
-2024-01-03 00:46:29,411 - root - INFO - Index 70 : 200
-2024-01-03 00:46:30,003 - root - INFO - Index 71 : 200
-2024-01-03 00:46:30,641 - root - INFO - Index 72 : 200
-2024-01-03 00:46:31,135 - root - INFO - Index 73 : 200
-2024-01-03 00:46:31,726 - root - INFO - Index 74 : 200
-2024-01-03 00:46:32,309 - root - INFO - Index 75 : 200
-2024-01-03 00:46:32,831 - root - INFO - Index 76 : 200
-2024-01-03 00:46:33,449 - root - INFO - Index 77 : 200
-2024-01-03 00:46:34,053 - root - INFO - Index 78 : 200
-2024-01-03 00:46:34,184 - root - INFO - Index 79 : 429
-2024-01-03 00:46:34,184 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:46:39,256 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:46:44,878 - root - INFO - 	Success : 200
-2024-01-03 00:46:45,343 - root - INFO - Index 80 : 200
-2024-01-03 00:46:45,897 - root - INFO - Index 81 : 200
-2024-01-03 00:46:46,408 - root - INFO - Index 82 : 200
-2024-01-03 00:46:47,041 - root - INFO - Index 83 : 200
-2024-01-03 00:46:47,580 - root - INFO - Index 84 : 200
-2024-01-03 00:46:48,123 - root - INFO - Index 85 : 200
-2024-01-03 00:46:48,733 - root - INFO - Index 86 : 200
-2024-01-03 00:46:49,292 - root - INFO - Index 87 : 200
-2024-01-03 00:46:49,864 - root - INFO - Index 88 : 200
-2024-01-03 00:46:49,998 - root - INFO - Index 89 : 429
-2024-01-03 00:46:49,999 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:46:55,072 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:47:00,624 - root - INFO - 	Success : 200
-2024-01-03 00:47:01,155 - root - INFO - Index 90 : 200
-2024-01-03 00:47:01,774 - root - INFO - Index 91 : 200
-2024-01-03 00:47:02,340 - root - INFO - Index 92 : 200
-2024-01-03 00:47:02,885 - root - INFO - Index 93 : 200
-2024-01-03 00:47:03,458 - root - INFO - Index 94 : 200
-2024-01-03 00:47:04,007 - root - INFO - Index 95 : 200
-2024-01-03 00:47:04,532 - root - INFO - Index 96 : 200
-2024-01-03 00:47:05,141 - root - INFO - Index 97 : 200
-2024-01-03 00:47:05,612 - root - INFO - Index 98 : 200
-2024-01-03 00:47:05,745 - root - INFO - Index 99 : 429
-2024-01-03 00:47:05,745 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:47:10,826 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:47:16,330 - root - INFO - 	Success : 200
-2024-01-03 00:47:16,837 - root - INFO - Index 100 : 200
-2024-01-03 00:47:17,406 - root - INFO - Index 101 : 200
-2024-01-03 00:47:17,965 - root - INFO - Index 102 : 200
-2024-01-03 00:47:18,517 - root - INFO - Index 103 : 200
-2024-01-03 00:47:19,085 - root - INFO - Index 104 : 200
-2024-01-03 00:47:19,711 - root - INFO - Index 105 : 200
-2024-01-03 00:47:20,314 - root - INFO - Index 106 : 200
-2024-01-03 00:47:20,909 - root - INFO - Index 107 : 200
-2024-01-03 00:47:21,451 - root - INFO - Index 108 : 200
-2024-01-03 00:47:21,633 - root - INFO - Index 109 : 429
-2024-01-03 00:47:21,634 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:47:27,192 - root - INFO - 	Success : 200
-2024-01-03 00:47:27,719 - root - INFO - Index 110 : 200
-2024-01-03 00:47:28,297 - root - INFO - Index 111 : 200
-2024-01-03 00:47:28,914 - root - INFO - Index 112 : 200
-2024-01-03 00:47:29,519 - root - INFO - Index 113 : 200
-2024-01-03 00:47:30,195 - root - INFO - Index 114 : 200
-2024-01-03 00:47:30,823 - root - INFO - Index 115 : 200
-2024-01-03 00:47:31,481 - root - INFO - Index 116 : 200
-2024-01-03 00:47:32,103 - root - INFO - Index 117 : 200
-2024-01-03 00:47:32,743 - root - INFO - Index 118 : 200
-2024-01-03 00:47:32,886 - root - INFO - Index 119 : 429
-2024-01-03 00:47:32,887 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:47:38,465 - root - INFO - 	Success : 200
-2024-01-03 00:47:38,983 - root - INFO - Index 120 : 200
-2024-01-03 00:47:39,541 - root - INFO - Index 121 : 200
-2024-01-03 00:47:40,156 - root - INFO - Index 122 : 200
-2024-01-03 00:47:40,747 - root - INFO - Index 123 : 200
-2024-01-03 00:47:41,141 - root - INFO - Index 124 : 200
-2024-01-03 00:47:41,682 - root - INFO - Index 125 : 200
-2024-01-03 00:47:42,271 - root - INFO - Index 126 : 200
-2024-01-03 00:47:42,848 - root - INFO - Index 127 : 200
-2024-01-03 00:47:43,384 - root - INFO - Index 128 : 200
-2024-01-03 00:47:43,532 - root - INFO - Index 129 : 429
-2024-01-03 00:47:43,533 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:47:49,036 - root - INFO - 	Success : 200
-2024-01-03 00:47:49,544 - root - INFO - Index 130 : 200
-2024-01-03 00:47:50,099 - root - INFO - Index 131 : 200
-2024-01-03 00:47:50,709 - root - INFO - Index 132 : 200
-2024-01-03 00:47:51,263 - root - INFO - Index 133 : 200
-2024-01-03 00:47:51,792 - root - INFO - Index 134 : 200
-2024-01-03 00:47:52,230 - root - INFO - Index 135 : 200
-2024-01-03 00:47:52,774 - root - INFO - Index 136 : 200
-2024-01-03 00:47:53,319 - root - INFO - Index 137 : 200
-2024-01-03 00:47:53,924 - root - INFO - Index 138 : 200
-2024-01-03 00:47:54,056 - root - INFO - Index 139 : 429
-2024-01-03 00:47:54,056 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:47:59,123 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:48:04,743 - root - INFO - 	Success : 200
-2024-01-03 00:48:05,235 - root - INFO - Index 140 : 200
-2024-01-03 00:48:05,802 - root - INFO - Index 141 : 200
-2024-01-03 00:48:06,401 - root - INFO - Index 142 : 200
-2024-01-03 00:48:06,932 - root - INFO - Index 143 : 200
-2024-01-03 00:48:07,463 - root - INFO - Index 144 : 200
-2024-01-03 00:48:08,069 - root - INFO - Index 145 : 200
-2024-01-03 00:48:08,641 - root - INFO - Index 146 : 200
-2024-01-03 00:48:09,351 - root - INFO - Index 147 : 200
-2024-01-03 00:48:09,881 - root - INFO - Index 148 : 200
-2024-01-03 00:48:10,231 - root - INFO - Index 149 : 429
-2024-01-03 00:48:10,231 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:48:15,330 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:48:20,914 - root - INFO - 	Success : 200
-2024-01-03 00:48:21,418 - root - INFO - Index 150 : 200
-2024-01-03 00:48:21,937 - root - INFO - Index 151 : 200
-2024-01-03 00:48:22,456 - root - INFO - Index 152 : 200
-2024-01-03 00:48:23,068 - root - INFO - Index 153 : 200
-2024-01-03 00:48:23,671 - root - INFO - Index 154 : 200
-2024-01-03 00:48:24,065 - root - INFO - Index 155 : 200
-2024-01-03 00:48:24,671 - root - INFO - Index 156 : 200
-2024-01-03 00:48:25,198 - root - INFO - Index 157 : 200
-2024-01-03 00:48:25,763 - root - INFO - Index 158 : 200
-2024-01-03 00:48:25,900 - root - INFO - Index 159 : 429
-2024-01-03 00:48:25,900 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:48:30,967 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:48:36,539 - root - INFO - 	Success : 200
-2024-01-03 00:48:37,080 - root - INFO - Index 160 : 200
-2024-01-03 00:48:37,650 - root - INFO - Index 161 : 200
-2024-01-03 00:48:38,215 - root - INFO - Index 162 : 200
-2024-01-03 00:48:38,801 - root - INFO - Index 163 : 200
-2024-01-03 00:48:39,437 - root - INFO - Index 164 : 200
-2024-01-03 00:48:40,133 - root - INFO - Index 165 : 200
-2024-01-03 00:48:40,779 - root - INFO - Index 166 : 200
-2024-01-03 00:48:41,353 - root - INFO - Index 167 : 200
-2024-01-03 00:48:41,954 - root - INFO - Index 168 : 200
-2024-01-03 00:48:42,092 - root - INFO - Index 169 : 429
-2024-01-03 00:48:42,092 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:48:47,158 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
-2024-01-03 00:48:52,784 - root - INFO - 	Success : 200
-2024-01-03 00:48:53,227 - root - INFO - Index 170 : 200
-2024-01-03 00:48:53,772 - root - INFO - Index 171 : 200
-2024-01-03 00:48:54,275 - root - INFO - Index 172 : 200
-2024-01-03 00:48:54,909 - root - INFO - Index 173 : 200
-2024-01-03 00:48:54,985 - root - INFO - Removed 0 empty rows
-2024-01-03 00:48:54,987 - root - INFO - Removed 14 duplicates
-2024-01-03 00:48:54,989 - root - INFO - Extracted 160 number of jobs
-2024-01-03 00:48:54,989 - root - INFO - Loading main_df from file: files/MAIN_2024-01-02.xlsx
-2024-01-03 00:48:55,183 - root - INFO - Original rows of main_df: 263
-2024-01-03 00:48:55,183 - root - INFO - Read rows from df 0: 160
-2024-01-03 00:48:55,187 - root - INFO - 	Added rows: 14
+2024-01-04 00:41:00,523 - root - INFO - ----------------------------- Started new run @ 2024-01-04:0041 ----------------------------
+2024-01-04 00:41:00,524 - root - INFO - -----------------------------  GETTING LINKS : data analyst ----------------------------
+2024-01-04 00:41:00,525 - root - INFO - Searching for data-analyst
+2024-01-04 00:41:00,895 - selenium.webdriver.common.selenium_manager - WARNING - The geckodriver version (0.33.0) detected in PATH at /usr/bin/geckodriver might not be compatible with the detected firefox version (121.0); currently, geckodriver 0.34.0 is recommended for firefox 121.*, so it is advised to delete the driver in PATH and retry
+2024-01-04 00:44:56,573 - root - INFO - Getting page_source
+2024-01-04 00:44:58,218 - root - INFO - Unique links: 226
+2024-01-04 00:45:08,229 - root - INFO - -----------------------------  GETTING INFO : data analyst ----------------------------
+2024-01-04 00:45:08,779 - root - INFO - Index 0 : 200
+2024-01-04 00:45:09,414 - root - INFO - Index 1 : 200
+2024-01-04 00:45:10,015 - root - INFO - Index 2 : 200
+2024-01-04 00:45:10,668 - root - INFO - Index 3 : 200
+2024-01-04 00:45:12,831 - root - INFO - Index 4 : 200
+2024-01-04 00:45:13,391 - root - INFO - Index 5 : 200
+2024-01-04 00:45:13,976 - root - INFO - Index 6 : 200
+2024-01-04 00:45:14,600 - root - INFO - Index 7 : 200
+2024-01-04 00:45:15,244 - root - INFO - Index 8 : 200
+2024-01-04 00:45:15,851 - root - INFO - Index 9 : 200
+2024-01-04 00:45:15,983 - root - INFO - Index 10 : 429
+2024-01-04 00:45:15,983 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:45:21,586 - root - INFO - 	Success : 200
+2024-01-04 00:45:22,150 - root - INFO - Index 11 : 200
+2024-01-04 00:45:22,772 - root - INFO - Index 12 : 200
+2024-01-04 00:45:23,348 - root - INFO - Index 13 : 200
+2024-01-04 00:45:23,921 - root - INFO - Index 14 : 200
+2024-01-04 00:45:24,611 - root - INFO - Index 15 : 200
+2024-01-04 00:45:25,183 - root - INFO - Index 16 : 200
+2024-01-04 00:45:25,797 - root - INFO - Index 17 : 200
+2024-01-04 00:45:26,403 - root - INFO - Index 18 : 200
+2024-01-04 00:45:27,012 - root - INFO - Index 19 : 200
+2024-01-04 00:45:27,144 - root - INFO - Index 20 : 429
+2024-01-04 00:45:27,145 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:45:32,211 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:45:37,830 - root - INFO - 	Success : 200
+2024-01-04 00:45:38,398 - root - INFO - Index 21 : 200
+2024-01-04 00:45:39,027 - root - INFO - Index 22 : 200
+2024-01-04 00:45:39,630 - root - INFO - Index 23 : 200
+2024-01-04 00:45:40,262 - root - INFO - Index 24 : 200
+2024-01-04 00:45:40,886 - root - INFO - Index 25 : 200
+2024-01-04 00:45:41,517 - root - INFO - Index 26 : 200
+2024-01-04 00:45:42,153 - root - INFO - Index 27 : 200
+2024-01-04 00:45:42,708 - root - INFO - Index 28 : 200
+2024-01-04 00:45:43,397 - root - INFO - Index 29 : 200
+2024-01-04 00:45:43,990 - root - INFO - Index 30 : 200
+2024-01-04 00:45:44,116 - root - INFO - Index 31 : 429
+2024-01-04 00:45:44,117 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:45:49,738 - root - INFO - 	Success : 200
+2024-01-04 00:45:50,196 - root - INFO - Index 32 : 200
+2024-01-04 00:45:50,788 - root - INFO - Index 33 : 200
+2024-01-04 00:45:51,483 - root - INFO - Index 34 : 200
+2024-01-04 00:45:52,065 - root - INFO - Index 35 : 200
+2024-01-04 00:45:52,662 - root - INFO - Index 36 : 200
+2024-01-04 00:45:53,244 - root - INFO - Index 37 : 200
+2024-01-04 00:45:53,937 - root - INFO - Index 38 : 200
+2024-01-04 00:45:54,480 - root - INFO - Index 39 : 200
+2024-01-04 00:45:55,064 - root - INFO - Index 40 : 200
+2024-01-04 00:45:55,204 - root - INFO - Index 41 : 429
+2024-01-04 00:45:55,205 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:46:00,273 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:46:05,863 - root - INFO - 	Success : 200
+2024-01-04 00:46:06,451 - root - INFO - Index 42 : 200
+2024-01-04 00:46:07,055 - root - INFO - Index 43 : 200
+2024-01-04 00:46:07,652 - root - INFO - Index 44 : 200
+2024-01-04 00:46:08,302 - root - INFO - Index 45 : 200
+2024-01-04 00:46:08,861 - root - INFO - Index 46 : 200
+2024-01-04 00:46:09,575 - root - INFO - Index 47 : 200
+2024-01-04 00:46:10,169 - root - INFO - Index 48 : 200
+2024-01-04 00:46:10,778 - root - INFO - Index 49 : 200
+2024-01-04 00:46:11,391 - root - INFO - Index 50 : 200
+2024-01-04 00:46:11,549 - root - INFO - Index 51 : 429
+2024-01-04 00:46:11,549 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:46:16,627 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:46:22,248 - root - INFO - 	Success : 200
+2024-01-04 00:46:22,902 - root - INFO - Index 52 : 200
+2024-01-04 00:46:23,499 - root - INFO - Index 53 : 200
+2024-01-04 00:46:24,112 - root - INFO - Index 54 : 200
+2024-01-04 00:46:24,657 - root - INFO - Index 55 : 200
+2024-01-04 00:46:25,203 - root - INFO - Index 56 : 200
+2024-01-04 00:46:25,767 - root - INFO - Index 57 : 200
+2024-01-04 00:46:26,387 - root - INFO - Index 58 : 200
+2024-01-04 00:46:27,003 - root - INFO - Index 59 : 200
+2024-01-04 00:46:27,148 - root - INFO - Index 60 : 429
+2024-01-04 00:46:27,149 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:46:32,224 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:46:37,763 - root - INFO - 	Success : 200
+2024-01-04 00:46:38,322 - root - INFO - Index 61 : 200
+2024-01-04 00:46:38,943 - root - INFO - Index 62 : 200
+2024-01-04 00:46:39,578 - root - INFO - Index 63 : 200
+2024-01-04 00:46:40,203 - root - INFO - Index 64 : 200
+2024-01-04 00:46:40,914 - root - INFO - Index 65 : 200
+2024-01-04 00:46:41,485 - root - INFO - Index 66 : 200
+2024-01-04 00:46:42,007 - root - INFO - Index 67 : 200
+2024-01-04 00:46:42,593 - root - INFO - Index 68 : 200
+2024-01-04 00:46:42,726 - root - INFO - Index 69 : 429
+2024-01-04 00:46:42,727 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:46:48,378 - root - INFO - 	Success : 200
+2024-01-04 00:46:48,443 - root - INFO - Index 70 : 429
+2024-01-04 00:46:48,443 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:46:54,057 - root - INFO - 	Success : 200
+2024-01-04 00:46:54,617 - root - INFO - Index 71 : 200
+2024-01-04 00:46:55,236 - root - INFO - Index 72 : 200
+2024-01-04 00:46:55,889 - root - INFO - Index 73 : 200
+2024-01-04 00:46:56,469 - root - INFO - Index 74 : 200
+2024-01-04 00:46:57,044 - root - INFO - Index 75 : 200
+2024-01-04 00:46:57,613 - root - INFO - Index 76 : 200
+2024-01-04 00:46:58,240 - root - INFO - Index 77 : 200
+2024-01-04 00:46:58,369 - root - INFO - Index 78 : 429
+2024-01-04 00:46:58,369 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:47:04,065 - root - INFO - 	Success : 200
+2024-01-04 00:47:04,135 - root - INFO - Index 79 : 429
+2024-01-04 00:47:04,135 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:47:09,745 - root - INFO - 	Success : 200
+2024-01-04 00:47:10,257 - root - INFO - Index 80 : 200
+2024-01-04 00:47:10,837 - root - INFO - Index 81 : 200
+2024-01-04 00:47:10,967 - root - INFO - Index 82 : 429
+2024-01-04 00:47:10,967 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:47:18,815 - root - INFO - 	Success : 200
+2024-01-04 00:47:19,333 - root - INFO - Index 83 : 200
+2024-01-04 00:47:19,892 - root - INFO - Index 84 : 200
+2024-01-04 00:47:20,520 - root - INFO - Index 85 : 200
+2024-01-04 00:47:21,091 - root - INFO - Index 86 : 200
+2024-01-04 00:47:21,641 - root - INFO - Index 87 : 200
+2024-01-04 00:47:22,275 - root - INFO - Index 88 : 200
+2024-01-04 00:47:22,875 - root - INFO - Index 89 : 200
+2024-01-04 00:47:23,503 - root - INFO - Index 90 : 200
+2024-01-04 00:47:24,037 - root - INFO - Index 91 : 200
+2024-01-04 00:47:24,170 - root - INFO - Index 92 : 429
+2024-01-04 00:47:24,171 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:47:29,785 - root - INFO - 	Success : 200
+2024-01-04 00:47:30,259 - root - INFO - Index 93 : 200
+2024-01-04 00:47:30,800 - root - INFO - Index 94 : 200
+2024-01-04 00:47:31,566 - root - INFO - Index 95 : 200
+2024-01-04 00:47:31,754 - root - INFO - Index 96 : 429
+2024-01-04 00:47:31,755 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:47:37,394 - root - INFO - 	Success : 200
+2024-01-04 00:47:37,941 - root - INFO - Index 97 : 200
+2024-01-04 00:47:38,564 - root - INFO - Index 98 : 200
+2024-01-04 00:47:39,145 - root - INFO - Index 99 : 200
+2024-01-04 00:47:39,753 - root - INFO - Index 100 : 200
+2024-01-04 00:47:39,886 - root - INFO - Index 101 : 429
+2024-01-04 00:47:39,886 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:47:44,950 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:47:50,599 - root - INFO - 	Success : 200
+2024-01-04 00:47:51,106 - root - INFO - Index 102 : 200
+2024-01-04 00:47:51,833 - root - INFO - Index 103 : 200
+2024-01-04 00:47:52,347 - root - INFO - Index 104 : 200
+2024-01-04 00:47:52,959 - root - INFO - Index 105 : 200
+2024-01-04 00:47:53,540 - root - INFO - Index 106 : 200
+2024-01-04 00:47:54,187 - root - INFO - Index 107 : 200
+2024-01-04 00:47:54,793 - root - INFO - Index 108 : 200
+2024-01-04 00:47:55,422 - root - INFO - Index 109 : 200
+2024-01-04 00:47:55,606 - root - INFO - Index 110 : 429
+2024-01-04 00:47:55,606 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:48:00,683 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:48:06,301 - root - INFO - 	Success : 200
+2024-01-04 00:48:06,781 - root - INFO - Index 111 : 200
+2024-01-04 00:48:06,917 - root - INFO - Index 112 : 429
+2024-01-04 00:48:06,917 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:48:12,536 - root - INFO - 	Success : 200
+2024-01-04 00:48:13,013 - root - INFO - Index 113 : 200
+2024-01-04 00:48:13,626 - root - INFO - Index 114 : 200
+2024-01-04 00:48:14,374 - root - INFO - Index 115 : 200
+2024-01-04 00:48:14,929 - root - INFO - Index 116 : 200
+2024-01-04 00:48:15,510 - root - INFO - Index 117 : 200
+2024-01-04 00:48:16,133 - root - INFO - Index 118 : 200
+2024-01-04 00:48:16,276 - root - INFO - Index 119 : 429
+2024-01-04 00:48:16,277 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:48:21,860 - root - INFO - 	Success : 200
+2024-01-04 00:48:22,403 - root - INFO - Index 120 : 200
+2024-01-04 00:48:22,540 - root - INFO - Index 121 : 429
+2024-01-04 00:48:22,541 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:48:28,200 - root - INFO - 	Success : 200
+2024-01-04 00:48:28,785 - root - INFO - Index 122 : 200
+2024-01-04 00:48:29,460 - root - INFO - Index 123 : 200
+2024-01-04 00:48:30,094 - root - INFO - Index 124 : 200
+2024-01-04 00:48:30,717 - root - INFO - Index 125 : 200
+2024-01-04 00:48:31,372 - root - INFO - Index 126 : 200
+2024-01-04 00:48:31,946 - root - INFO - Index 127 : 200
+2024-01-04 00:48:32,097 - root - INFO - Index 128 : 429
+2024-01-04 00:48:32,098 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:48:37,685 - root - INFO - 	Success : 200
+2024-01-04 00:48:38,353 - root - INFO - Index 129 : 200
+2024-01-04 00:48:38,494 - root - INFO - Index 130 : 429
+2024-01-04 00:48:38,495 - root - INFO - 	Ran into AuthWall, trying again in 5 secs...
+2024-01-04 00:48:44,104 - root - INFO - 	Success : 200
+2024-01-04 00:48:44,652 - root - INFO - Index 131 : 200
+2024-01-04 00:48:45,223 - root - INFO - Index 132 : 200
+2024-01-04 00:53:29,052 - root - ERROR - ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/urllib3/connection.py", line 461, in getresponse
+    httplib_response = super().getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/http/client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/urllib3/util/retry.py", line 470, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/urllib3/connection.py", line 461, in getresponse
+    httplib_response = super().getresponse()
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/http/client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/jobs_retriever_automailer/jobs_retriever_automailer/main.py", line 26, in <module>
+    main[index] = get_job_info(link, index)
+  File "/home/runner/work/jobs_retriever_automailer/jobs_retriever_automailer/modules/utils.py", line 222, in get_job_info
+    response = requests.get(url, headers=headers)
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
