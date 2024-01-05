@@ -421,3 +421,4 @@ def start_email_server_and_send(config, attachments):
         smtp_server.login(os.environ['email'], os.environ['app_pass'])
         smtp_server.ehlo()
         _send_email(smtp_server, subject, body, recipients, attachments)
+        logger.info('Email sent!')

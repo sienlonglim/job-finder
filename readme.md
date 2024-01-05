@@ -7,6 +7,7 @@ This project involves automation in retrieving job listings from LinkedIn and ma
 - MIME emailing
 
 ## Upcoming works:
+- Write new excel if no main files exist
 
 ### 20231231 Added mailer with attachments:
 - Completed MIMEText mailing
