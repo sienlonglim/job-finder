@@ -31,11 +31,25 @@ if __name__ == '__main__':
             df_list.append(df)
 
         # Get latest file by date  
-        mainfile = sorted(os.listdir('files'))[-1]
-        main_df = update_main('files/'+mainfile, df_list)
-        new_main_file = f"files/MAIN_{datetime.now().strftime('%Y-%m-%d')}.xlsx"
-        main_df.to_excel(new_main_file, engine='xlsxwriter')
-        start_email_server_and_send(config, [new_main_file, 'logs/app.log'])
+        file_directory = sorted(os.listdir('files'))
+        if len(file_directory)>0:
+            mainfile = file_directory[-1]
+            mainfilepath = f'files/{mainfile}'
+            filename = 'MAIN'
+        else:
+            mainfilepath = None
+            filename = 'BATCH'
+        
+        # Merge and clean files
+        main_df = update_main(mainfilepath, df_list)
+        save_filepath = f"files/{filename}_{datetime.now().strftime('%Y-%m-%d')}.xlsx" # If not merging, filename will start with BATCH, otherwise it will be MAIN
+        main_df.to_excel(save_filepath, engine='xlsxwriter')
+
+        # Send mail, if successful, delete file from repository
+        if start_email_server_and_send(config, [save_filepath, 'logs/app.log']):
+            if os.path.exists(save_filepath):
+                os.remove(save_filepath)
+                logger.info(f"{save_filepath} deleted")
 
     except Exception as e:
         # Log any unexpected errors

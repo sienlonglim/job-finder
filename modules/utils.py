@@ -131,7 +131,7 @@ def get_job_links_selenium(keyword: str, pages: int, debug: bool = False)-> tupl
     Inputs:
         keyword: str - job title and other keywords
         pages: int - number of pages to retrieve, achieved through scrolling with Selenium
-        debug: bool - if True, returns the page_source 
+        debug: bool - if True, returns the page_source and also runs without headless mode
     Returns 
         dictionary counter of Job links
     '''
@@ -224,13 +224,26 @@ def get_job_info(url: str, index: int, return_soup: bool=False):
     soup = BeautifulSoup(response.text,'html.parser')
 
     # Sometimes we will run into an authentication wall, retry again until successful
-    while retry_count < 5 and "https://www.linkedin.com/authwall?trk=" in soup.find('script').text:
-        logger.info(f"\tRan into AuthWall, trying again in 5 secs...")
+    # while retry_count < 5 and "https://www.linkedin.com/authwall?trk=" in soup.find('script').text:
+    while retry_count < 5 and (response.status_code!=200):
+        if soup.content:
+            if "https://www.linkedin.com/authwall?trk=" in soup.find('script').text: 
+                logger.info(f"\tRan into AuthWall, trying again in 5 secs...")
+            else:
+                break
+        else:
+            logger.info(f"\tEmpty soup, trying again in 5 secs...")
+        
         time.sleep(5)
-        response = requests.get(url, headers=headers)
-        soup = BeautifulSoup(response.text,'html.parser')
         retry_count +=1
-    if retry_count>0:
+        response = requests.get(url, headers=headers)
+        if response:
+            soup = BeautifulSoup(response.text,'html.parser')
+        else:
+            logger.info(f'\t\tRetry {retry_count}: {response.status_code}')
+        
+    # Print status, if retry was successful, else give up
+    if retry_count>0 and response.status_code == 200:
         logger.info(f"\tSuccess : {response.status_code}")
         
     info = {}
@@ -345,16 +358,23 @@ def update_main(main_df, df_list: list) -> pd.DataFrame:
         main_df: 
             if str: filepath to mainfile
             if pandas dataframe : main df to append to
+            if None: create a new file
         df_list: list - list of dataframes or filepaths to iterate through
     Returns:
         pd.DataFrame: a compiled dataframe
     '''
-    # Appending to existing dataframe
+    # Appending to existing dataframe depending on input
     if isinstance(main_df, str):
         logger.info(f'Loading main_df from file: {main_df}')
         main_df = pd.read_excel(main_df, index_col=0)
     elif isinstance(main_df, pd.DataFrame):
         logger.info('Main_df already in memory')
+    else:
+        logger.info('No main file, creating new file')
+        main_df = df_list.pop()
+        if isinstance(main_df, str):
+            main_df = pd.read_excel(main_df, index_col=0)
+
     original_rows = len(main_df)
     logger.info(f'Original rows of main_df: {original_rows}')
 
@@ -365,8 +385,9 @@ def update_main(main_df, df_list: list) -> pd.DataFrame:
             df = pd.read_excel(df, index_col=0)
         logger.info(f'Read rows from df {index}: {len(df)}')
         main_df = pd.concat([main_df, df])
-        duplicate_subset = ['company', 'job_title', 'level', 'job_type', 'descriptions', 'industry1']
     
+    # Drop duplicates
+    duplicate_subset = ['company', 'job_title', 'level', 'job_type', 'descriptions', 'industry1']
     # main_df = main_df[~main_df.index.duplicated(keep='first')] # This drops by index instead
     main_df = main_df.drop_duplicates(subset=duplicate_subset)
     logger.info(f'\tAdded rows: {len(main_df)-original_rows}')
@@ -421,4 +442,5 @@ def start_email_server_and_send(config, attachments):
         smtp_server.login(os.environ['email'], os.environ['app_pass'])
         smtp_server.ehlo()
         _send_email(smtp_server, subject, body, recipients, attachments)
-        logger.info('Email sent!')
+    logger.info('Email sent!')
+    return True
