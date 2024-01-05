@@ -2,8 +2,10 @@ name: scheduled run main.py
 
 on:
   schedule:
-    - cron: '0 0 * * *' # At 8AM everyday for GMT+8, 12AM for UTC
-
+    - cron: '0 0 10 * *' # At 8AM for GMT+8, 12AM for UTC
+    - cron: '0 0 20 * *' 
+    - cron: '0 0 30 * *' 
+    
 env:
   email: ${{ secrets.EMAIL }}
   app_pass: ${{ secrets.APP_PASS }}
