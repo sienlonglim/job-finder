@@ -1,0 +1,10 @@
+2024-01-10 05:24:08,230 - root - INFO - ----------------------------- Started new run @ 2024-01-10:0524 ----------------------------
+2024-01-10 05:24:08,232 - root - INFO - -----------------------------  GETTING LINKS : data analyst ----------------------------
+2024-01-10 05:24:08,232 - root - INFO - Searching for data-analyst
+2024-01-10 05:24:19,466 - root - ERROR - 'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "/home/runner/work/jobs_retriever_automailer/jobs_retriever_automailer/main.py", line 20, in <module>
+    links = get_job_links_selenium(keyword, pages=pages)
+  File "/home/runner/work/jobs_retriever_automailer/jobs_retriever_automailer/modules/utils.py", line 157, in get_job_links_selenium
+    while retry_count < 5 and "Sign Up | LinkedIn" in soup.find('title').text:
+AttributeError: 'NoneType' object has no attribute 'text'
