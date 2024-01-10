@@ -153,9 +153,19 @@ def get_job_links_selenium(keyword: str, pages: int, debug: bool = False)-> tupl
     html_source = driver.page_source
     soup = BeautifulSoup(html_source,'html.parser')
     retry_count = 0
+
     # Sometimes we will run into an authentication wall, retry again until successful
-    while retry_count < 5 and "Sign Up | LinkedIn" in soup.find('title').text:
-        print(f"\tRan into AuthWall, trying again in 5 secs...")
+    while retry_count < 5:
+        if soup.content:
+            if "Sign Up | LinkedIn" in soup.find('title').text: 
+                logger.info(f"\tRan into AuthWall, trying again in 5 secs...")
+            else:
+                break
+        else:
+            logger.info(f"\tEmpty soup, trying again in 5 secs...")
+            
+    # while retry_count < 5 and "Sign Up | LinkedIn" in soup.find('title').text:
+        # print(f"\tRan into AuthWall, trying again in 5 secs...")
         driver.quit()
         time.sleep(5)
         driver = webdriver.Firefox(options=opts)
