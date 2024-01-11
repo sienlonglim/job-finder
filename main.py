@@ -31,7 +31,7 @@ if __name__ == '__main__':
             df_list.append(df)
 
         # Get latest file by date  
-        file_directory = sorted(os.listdir('files'))
+        file_directory = sorted([file for file in os.listdir('files') if file.startswith('MAIN')])
         if len(file_directory)>0:
             mainfile = file_directory[-1]
             mainfilepath = f'files/{mainfile}'
