@@ -1,247 +1,216 @@
-2024-01-11 01:20:17,272 - root - INFO - ----------------------------- Started new run @ 2024-01-11:0120 ----------------------------
-2024-01-11 01:20:17,274 - root - INFO - -----------------------------  GETTING LINKS : data analyst ----------------------------
-2024-01-11 01:20:17,274 - root - INFO - Searching for data-analyst
-2024-01-11 01:20:34,046 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:20:44,161 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:20:52,990 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:21:02,057 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:21:11,029 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:25:06,900 - root - INFO - Getting page_source
-2024-01-11 01:25:08,375 - root - INFO - Unique links: 155
-2024-01-11 01:25:18,386 - root - INFO - -----------------------------  GETTING INFO : data analyst ----------------------------
-2024-01-11 01:25:18,875 - root - INFO - Index 0 : 200
-2024-01-11 01:25:19,698 - root - INFO - Index 1 : 200
-2024-01-11 01:25:20,280 - root - INFO - Index 2 : 200
-2024-01-11 01:25:20,859 - root - INFO - Index 3 : 200
-2024-01-11 01:25:21,593 - root - INFO - Index 4 : 200
-2024-01-11 01:25:22,212 - root - INFO - Index 5 : 200
-2024-01-11 01:25:22,789 - root - INFO - Index 6 : 200
-2024-01-11 01:25:23,396 - root - INFO - Index 7 : 200
-2024-01-11 01:25:23,962 - root - INFO - Index 8 : 200
-2024-01-11 01:25:24,577 - root - INFO - Index 9 : 200
-2024-01-11 01:25:24,703 - root - INFO - Index 10 : 429
-2024-01-11 01:25:24,703 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:25:29,821 - root - INFO - 		Retry 1: 429
-2024-01-11 01:25:29,822 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:25:34,910 - root - INFO - 		Retry 2: 429
-2024-01-11 01:25:34,910 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:25:39,988 - root - INFO - 		Retry 3: 429
-2024-01-11 01:25:39,989 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:25:45,643 - root - INFO - 	Success : 200
-2024-01-11 01:25:46,231 - root - INFO - Index 11 : 200
-2024-01-11 01:25:46,803 - root - INFO - Index 12 : 200
-2024-01-11 01:25:47,380 - root - INFO - Index 13 : 200
-2024-01-11 01:25:47,951 - root - INFO - Index 14 : 200
-2024-01-11 01:25:48,546 - root - INFO - Index 15 : 200
-2024-01-11 01:25:49,165 - root - INFO - Index 16 : 200
-2024-01-11 01:25:49,794 - root - INFO - Index 17 : 200
-2024-01-11 01:25:50,433 - root - INFO - Index 18 : 200
-2024-01-11 01:25:50,993 - root - INFO - Index 19 : 200
-2024-01-11 01:25:51,112 - root - INFO - Index 20 : 429
-2024-01-11 01:25:51,112 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:25:56,203 - root - INFO - 		Retry 1: 429
-2024-01-11 01:25:56,204 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:26:01,764 - root - INFO - 	Success : 200
-2024-01-11 01:26:02,286 - root - INFO - Index 21 : 200
-2024-01-11 01:26:02,830 - root - INFO - Index 22 : 200
-2024-01-11 01:26:03,332 - root - INFO - Index 23 : 200
-2024-01-11 01:26:03,894 - root - INFO - Index 24 : 200
-2024-01-11 01:26:04,469 - root - INFO - Index 25 : 200
-2024-01-11 01:26:05,188 - root - INFO - Index 26 : 200
-2024-01-11 01:26:05,817 - root - INFO - Index 27 : 200
-2024-01-11 01:26:06,471 - root - INFO - Index 28 : 200
-2024-01-11 01:26:07,121 - root - INFO - Index 29 : 200
-2024-01-11 01:26:07,263 - root - INFO - Index 30 : 429
-2024-01-11 01:26:07,263 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:26:12,345 - root - INFO - 		Retry 1: 429
-2024-01-11 01:26:12,345 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:26:17,927 - root - INFO - 	Success : 200
-2024-01-11 01:26:18,420 - root - INFO - Index 31 : 200
-2024-01-11 01:26:19,009 - root - INFO - Index 32 : 200
-2024-01-11 01:26:19,537 - root - INFO - Index 33 : 200
-2024-01-11 01:26:20,249 - root - INFO - Index 34 : 200
-2024-01-11 01:26:20,833 - root - INFO - Index 35 : 200
-2024-01-11 01:26:21,416 - root - INFO - Index 36 : 200
-2024-01-11 01:26:21,966 - root - INFO - Index 37 : 200
-2024-01-11 01:26:22,638 - root - INFO - Index 38 : 200
-2024-01-11 01:26:23,245 - root - INFO - Index 39 : 200
-2024-01-11 01:26:23,377 - root - INFO - Index 40 : 429
-2024-01-11 01:26:23,377 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:26:28,477 - root - INFO - 		Retry 1: 429
-2024-01-11 01:26:28,477 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:26:34,110 - root - INFO - 	Success : 200
-2024-01-11 01:26:34,838 - root - INFO - Index 41 : 200
-2024-01-11 01:26:34,980 - root - INFO - Index 42 : 429
-2024-01-11 01:26:34,980 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:26:40,558 - root - INFO - 	Success : 200
-2024-01-11 01:26:41,283 - root - INFO - Index 43 : 200
-2024-01-11 01:26:41,890 - root - INFO - Index 44 : 200
-2024-01-11 01:26:42,527 - root - INFO - Index 45 : 200
-2024-01-11 01:26:43,172 - root - INFO - Index 46 : 200
-2024-01-11 01:26:43,799 - root - INFO - Index 47 : 200
-2024-01-11 01:26:44,399 - root - INFO - Index 48 : 200
-2024-01-11 01:26:44,575 - root - INFO - Index 49 : 429
-2024-01-11 01:26:44,575 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:26:50,198 - root - INFO - 	Success : 200
-2024-01-11 01:26:50,745 - root - INFO - Index 50 : 200
-2024-01-11 01:26:51,327 - root - INFO - Index 51 : 200
-2024-01-11 01:26:51,956 - root - INFO - Index 52 : 200
-2024-01-11 01:26:52,570 - root - INFO - Index 53 : 200
-2024-01-11 01:26:53,188 - root - INFO - Index 54 : 200
-2024-01-11 01:26:53,762 - root - INFO - Index 55 : 200
-2024-01-11 01:26:54,383 - root - INFO - Index 56 : 200
-2024-01-11 01:26:55,004 - root - INFO - Index 57 : 200
-2024-01-11 01:26:55,614 - root - INFO - Index 58 : 200
-2024-01-11 01:26:55,752 - root - INFO - Index 59 : 429
-2024-01-11 01:26:55,752 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:27:00,828 - root - INFO - 		Retry 1: 429
-2024-01-11 01:27:00,828 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:27:06,449 - root - INFO - 	Success : 200
-2024-01-11 01:27:06,967 - root - INFO - Index 60 : 200
-2024-01-11 01:27:07,563 - root - INFO - Index 61 : 200
-2024-01-11 01:27:08,139 - root - INFO - Index 62 : 200
-2024-01-11 01:27:08,764 - root - INFO - Index 63 : 200
-2024-01-11 01:27:08,953 - root - INFO - Index 64 : 429
-2024-01-11 01:27:08,954 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:27:14,489 - root - INFO - 	Success : 200
-2024-01-11 01:27:15,064 - root - INFO - Index 65 : 200
-2024-01-11 01:27:15,664 - root - INFO - Index 66 : 200
-2024-01-11 01:27:16,233 - root - INFO - Index 67 : 200
-2024-01-11 01:27:16,366 - root - INFO - Index 68 : 429
-2024-01-11 01:27:16,367 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:27:22,018 - root - INFO - 	Success : 200
-2024-01-11 01:27:22,483 - root - INFO - Index 69 : 200
-2024-01-11 01:27:23,053 - root - INFO - Index 70 : 200
-2024-01-11 01:27:23,670 - root - INFO - Index 71 : 200
-2024-01-11 01:27:24,251 - root - INFO - Index 72 : 200
-2024-01-11 01:27:24,385 - root - INFO - Index 73 : 429
-2024-01-11 01:27:24,385 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:27:29,985 - root - INFO - 	Success : 200
-2024-01-11 01:27:30,595 - root - INFO - Index 74 : 200
-2024-01-11 01:27:31,233 - root - INFO - Index 75 : 200
-2024-01-11 01:27:31,803 - root - INFO - Index 76 : 200
-2024-01-11 01:27:31,944 - root - INFO - Index 77 : 429
-2024-01-11 01:27:31,944 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:27:37,572 - root - INFO - 	Success : 200
-2024-01-11 01:27:38,109 - root - INFO - Index 78 : 200
-2024-01-11 01:27:38,693 - root - INFO - Index 79 : 200
-2024-01-11 01:27:39,300 - root - INFO - Index 80 : 200
-2024-01-11 01:27:39,823 - root - INFO - Index 81 : 200
-2024-01-11 01:27:39,970 - root - INFO - Index 82 : 429
-2024-01-11 01:27:39,971 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:27:45,509 - root - INFO - 	Success : 200
-2024-01-11 01:27:46,042 - root - INFO - Index 83 : 200
-2024-01-11 01:27:46,580 - root - INFO - Index 84 : 200
-2024-01-11 01:27:47,162 - root - INFO - Index 85 : 200
-2024-01-11 01:27:47,342 - root - INFO - Index 86 : 429
-2024-01-11 01:27:47,342 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:27:52,927 - root - INFO - 	Success : 200
-2024-01-11 01:27:53,455 - root - INFO - Index 87 : 200
-2024-01-11 01:27:54,047 - root - INFO - Index 88 : 200
-2024-01-11 01:27:54,573 - root - INFO - Index 89 : 200
-2024-01-11 01:27:55,146 - root - INFO - Index 90 : 200
-2024-01-11 01:27:55,460 - root - INFO - Index 91 : 429
-2024-01-11 01:27:55,461 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:28:01,098 - root - INFO - 	Success : 200
-2024-01-11 01:28:01,716 - root - INFO - Index 92 : 200
-2024-01-11 01:28:02,338 - root - INFO - Index 93 : 200
-2024-01-11 01:28:02,924 - root - INFO - Index 94 : 200
-2024-01-11 01:28:03,069 - root - INFO - Index 95 : 429
-2024-01-11 01:28:03,069 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:28:08,657 - root - INFO - 	Success : 200
-2024-01-11 01:28:09,150 - root - INFO - Index 96 : 200
-2024-01-11 01:28:09,739 - root - INFO - Index 97 : 200
-2024-01-11 01:28:10,366 - root - INFO - Index 98 : 200
-2024-01-11 01:28:10,916 - root - INFO - Index 99 : 200
-2024-01-11 01:28:11,061 - root - INFO - Index 100 : 429
-2024-01-11 01:28:11,061 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:28:16,700 - root - INFO - 	Success : 200
-2024-01-11 01:28:17,233 - root - INFO - Index 101 : 200
-2024-01-11 01:28:17,815 - root - INFO - Index 102 : 200
-2024-01-11 01:28:18,415 - root - INFO - Index 103 : 200
-2024-01-11 01:28:18,547 - root - INFO - Index 104 : 429
-2024-01-11 01:28:18,548 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:28:24,145 - root - INFO - 	Success : 200
-2024-01-11 01:28:24,626 - root - INFO - Index 105 : 200
-2024-01-11 01:28:25,231 - root - INFO - Index 106 : 200
-2024-01-11 01:28:25,811 - root - INFO - Index 107 : 200
-2024-01-11 01:28:26,341 - root - INFO - Index 108 : 200
-2024-01-11 01:28:26,521 - root - INFO - Index 109 : 429
-2024-01-11 01:28:26,521 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:28:32,127 - root - INFO - 	Success : 200
-2024-01-11 01:28:32,685 - root - INFO - Index 110 : 200
-2024-01-11 01:28:33,142 - root - INFO - Index 111 : 200
-2024-01-11 01:28:36,323 - root - INFO - Index 112 : 500
-2024-01-11 01:28:36,335 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:28:41,950 - root - INFO - 	Success : 200
-2024-01-11 01:28:42,480 - root - INFO - Index 113 : 200
-2024-01-11 01:28:43,027 - root - INFO - Index 114 : 200
-2024-01-11 01:28:43,628 - root - INFO - Index 115 : 200
-2024-01-11 01:28:44,268 - root - INFO - Index 116 : 200
-2024-01-11 01:28:44,832 - root - INFO - Index 117 : 200
-2024-01-11 01:28:45,473 - root - INFO - Index 118 : 200
-2024-01-11 01:28:46,069 - root - INFO - Index 119 : 200
-2024-01-11 01:28:46,661 - root - INFO - Index 120 : 200
-2024-01-11 01:28:47,272 - root - INFO - Index 121 : 200
-2024-01-11 01:28:47,402 - root - INFO - Index 122 : 429
-2024-01-11 01:28:47,402 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:28:52,480 - root - INFO - 		Retry 1: 429
-2024-01-11 01:28:52,481 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:28:58,053 - root - INFO - 	Success : 200
-2024-01-11 01:28:58,622 - root - INFO - Index 123 : 200
-2024-01-11 01:28:59,246 - root - INFO - Index 124 : 200
-2024-01-11 01:28:59,867 - root - INFO - Index 125 : 200
-2024-01-11 01:29:00,402 - root - INFO - Index 126 : 200
-2024-01-11 01:29:00,964 - root - INFO - Index 127 : 200
-2024-01-11 01:29:01,427 - root - INFO - Index 128 : 200
-2024-01-11 01:29:02,076 - root - INFO - Index 129 : 200
-2024-01-11 01:29:02,683 - root - INFO - Index 130 : 200
-2024-01-11 01:29:03,405 - root - INFO - Index 131 : 200
-2024-01-11 01:29:03,551 - root - INFO - Index 132 : 429
-2024-01-11 01:29:03,551 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:29:08,623 - root - INFO - 		Retry 1: 429
-2024-01-11 01:29:08,623 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:29:14,246 - root - INFO - 	Success : 200
-2024-01-11 01:29:14,799 - root - INFO - Index 133 : 200
-2024-01-11 01:29:15,875 - root - INFO - Index 134 : 200
-2024-01-11 01:29:16,461 - root - INFO - Index 135 : 200
-2024-01-11 01:29:16,984 - root - INFO - Index 136 : 200
-2024-01-11 01:29:17,486 - root - INFO - Index 137 : 200
-2024-01-11 01:29:18,134 - root - INFO - Index 138 : 200
-2024-01-11 01:29:18,845 - root - INFO - Index 139 : 200
-2024-01-11 01:29:18,977 - root - INFO - Index 140 : 429
-2024-01-11 01:29:18,978 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:29:24,531 - root - INFO - 	Success : 200
-2024-01-11 01:29:24,601 - root - INFO - Index 141 : 429
-2024-01-11 01:29:24,601 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:29:30,169 - root - INFO - 	Success : 200
-2024-01-11 01:29:30,773 - root - INFO - Index 142 : 200
-2024-01-11 01:29:31,336 - root - INFO - Index 143 : 200
-2024-01-11 01:29:31,932 - root - INFO - Index 144 : 200
-2024-01-11 01:29:32,549 - root - INFO - Index 145 : 200
-2024-01-11 01:29:33,228 - root - INFO - Index 146 : 200
-2024-01-11 01:29:33,920 - root - INFO - Index 147 : 200
-2024-01-11 01:29:34,539 - root - INFO - Index 148 : 200
-2024-01-11 01:29:35,148 - root - INFO - Index 149 : 200
-2024-01-11 01:29:35,725 - root - INFO - Index 150 : 200
-2024-01-11 01:29:36,288 - root - INFO - Index 151 : 200
-2024-01-11 01:29:36,855 - root - INFO - Index 152 : 200
-2024-01-11 01:29:36,989 - root - INFO - Index 153 : 429
-2024-01-11 01:29:36,989 - root - INFO - 	Empty soup, trying again in 5 secs...
-2024-01-11 01:29:42,593 - root - INFO - 	Success : 200
-2024-01-11 01:29:43,083 - root - INFO - Index 154 : 200
-2024-01-11 01:29:43,157 - root - INFO - Removed 0 empty rows
-2024-01-11 01:29:43,160 - root - INFO - Removed 16 duplicates
-2024-01-11 01:29:43,161 - root - INFO - Extracted 139 number of jobs
-2024-01-11 01:29:43,161 - root - INFO - Loading main_df from file: files/dummyfile.txt
-2024-01-11 01:29:43,162 - root - ERROR - Excel file format cannot be determined, you must specify an engine manually.
-Traceback (most recent call last):
-  File "/home/runner/work/jobs_retriever_automailer/jobs_retriever_automailer/main.py", line 44, in <module>
-    main_df = update_main(mainfilepath, df_list)
-  File "/home/runner/work/jobs_retriever_automailer/jobs_retriever_automailer/modules/utils.py", line 379, in update_main
-    main_df = pd.read_excel(main_df, index_col=0)
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 504, in read_excel
-    io = ExcelFile(
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1567, in __init__
-    raise ValueError(
-ValueError: Excel file format cannot be determined, you must specify an engine manually.
+2024-01-11 03:37:59,559 - root - INFO - ----------------------------- Started new run @ 2024-01-11:0337 ----------------------------
+2024-01-11 03:37:59,560 - root - INFO - -----------------------------  GETTING LINKS : data analyst ----------------------------
+2024-01-11 03:37:59,560 - root - INFO - Searching for data-analyst
+2024-01-11 03:38:03,796 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:38:12,487 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:38:21,454 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:38:30,390 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:38:39,671 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:42:34,718 - root - INFO - Getting page_source
+2024-01-11 03:42:36,285 - root - INFO - Unique links: 155
+2024-01-11 03:42:46,295 - root - INFO - -----------------------------  GETTING INFO : data analyst ----------------------------
+2024-01-11 03:42:46,888 - root - INFO - Index 0 : 200
+2024-01-11 03:42:47,004 - root - INFO - Index 1 : 429
+2024-01-11 03:42:47,004 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:42:52,651 - root - INFO - 	Success : 200
+2024-01-11 03:42:53,218 - root - INFO - Index 2 : 200
+2024-01-11 03:42:53,882 - root - INFO - Index 3 : 200
+2024-01-11 03:42:54,475 - root - INFO - Index 4 : 200
+2024-01-11 03:42:55,142 - root - INFO - Index 5 : 200
+2024-01-11 03:42:55,831 - root - INFO - Index 6 : 200
+2024-01-11 03:42:55,964 - root - INFO - Index 7 : 429
+2024-01-11 03:42:55,964 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:43:01,662 - root - INFO - 	Success : 200
+2024-01-11 03:43:02,222 - root - INFO - Index 8 : 200
+2024-01-11 03:43:02,851 - root - INFO - Index 9 : 200
+2024-01-11 03:43:02,983 - root - INFO - Index 10 : 429
+2024-01-11 03:43:02,983 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:43:08,563 - root - INFO - 	Success : 200
+2024-01-11 03:43:09,151 - root - INFO - Index 11 : 200
+2024-01-11 03:43:09,722 - root - INFO - Index 12 : 200
+2024-01-11 03:43:10,313 - root - INFO - Index 13 : 200
+2024-01-11 03:43:10,942 - root - INFO - Index 14 : 200
+2024-01-11 03:43:11,619 - root - INFO - Index 15 : 200
+2024-01-11 03:43:11,788 - root - INFO - Index 16 : 429
+2024-01-11 03:43:11,788 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:43:16,882 - root - INFO - 		Retry 1: 429
+2024-01-11 03:43:16,883 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:43:21,955 - root - INFO - 		Retry 2: 429
+2024-01-11 03:43:21,956 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:43:27,526 - root - INFO - 	Success : 200
+2024-01-11 03:43:28,044 - root - INFO - Index 17 : 200
+2024-01-11 03:43:28,687 - root - INFO - Index 18 : 200
+2024-01-11 03:43:29,253 - root - INFO - Index 19 : 200
+2024-01-11 03:43:29,850 - root - INFO - Index 20 : 200
+2024-01-11 03:43:30,458 - root - INFO - Index 21 : 200
+2024-01-11 03:43:31,051 - root - INFO - Index 22 : 200
+2024-01-11 03:43:31,659 - root - INFO - Index 23 : 200
+2024-01-11 03:43:32,250 - root - INFO - Index 24 : 200
+2024-01-11 03:43:32,857 - root - INFO - Index 25 : 200
+2024-01-11 03:43:32,995 - root - INFO - Index 26 : 429
+2024-01-11 03:43:32,995 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:43:38,634 - root - INFO - 	Success : 200
+2024-01-11 03:43:39,164 - root - INFO - Index 27 : 200
+2024-01-11 03:43:39,785 - root - INFO - Index 28 : 200
+2024-01-11 03:43:40,368 - root - INFO - Index 29 : 200
+2024-01-11 03:43:40,975 - root - INFO - Index 30 : 200
+2024-01-11 03:43:41,514 - root - INFO - Index 31 : 200
+2024-01-11 03:43:42,195 - root - INFO - Index 32 : 200
+2024-01-11 03:43:42,822 - root - INFO - Index 33 : 200
+2024-01-11 03:43:43,224 - root - INFO - Index 34 : 200
+2024-01-11 03:43:43,763 - root - INFO - Index 35 : 200
+2024-01-11 03:43:43,918 - root - INFO - Index 36 : 429
+2024-01-11 03:43:43,918 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:43:49,603 - root - INFO - 	Success : 200
+2024-01-11 03:43:50,160 - root - INFO - Index 37 : 200
+2024-01-11 03:43:50,786 - root - INFO - Index 38 : 200
+2024-01-11 03:43:51,382 - root - INFO - Index 39 : 200
+2024-01-11 03:43:52,052 - root - INFO - Index 40 : 200
+2024-01-11 03:43:52,649 - root - INFO - Index 41 : 200
+2024-01-11 03:43:53,203 - root - INFO - Index 42 : 200
+2024-01-11 03:43:53,801 - root - INFO - Index 43 : 200
+2024-01-11 03:43:54,189 - root - INFO - Index 44 : 200
+2024-01-11 03:43:54,763 - root - INFO - Index 45 : 200
+2024-01-11 03:43:54,894 - root - INFO - Index 46 : 429
+2024-01-11 03:43:54,894 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:44:00,527 - root - INFO - 	Success : 200
+2024-01-11 03:44:01,163 - root - INFO - Index 47 : 200
+2024-01-11 03:44:01,813 - root - INFO - Index 48 : 200
+2024-01-11 03:44:02,437 - root - INFO - Index 49 : 200
+2024-01-11 03:44:02,945 - root - INFO - Index 50 : 200
+2024-01-11 03:44:03,644 - root - INFO - Index 51 : 200
+2024-01-11 03:44:04,230 - root - INFO - Index 52 : 200
+2024-01-11 03:44:04,853 - root - INFO - Index 53 : 200
+2024-01-11 03:44:05,505 - root - INFO - Index 54 : 200
+2024-01-11 03:44:06,106 - root - INFO - Index 55 : 200
+2024-01-11 03:44:06,277 - root - INFO - Index 56 : 429
+2024-01-11 03:44:06,277 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:44:11,879 - root - INFO - 	Success : 200
+2024-01-11 03:44:12,520 - root - INFO - Index 57 : 200
+2024-01-11 03:44:13,112 - root - INFO - Index 58 : 200
+2024-01-11 03:44:13,747 - root - INFO - Index 59 : 200
+2024-01-11 03:44:14,312 - root - INFO - Index 60 : 200
+2024-01-11 03:44:14,905 - root - INFO - Index 61 : 200
+2024-01-11 03:44:15,477 - root - INFO - Index 62 : 200
+2024-01-11 03:44:47,609 - root - INFO - Index 63 : 200
+2024-01-11 03:44:48,186 - root - INFO - Index 64 : 200
+2024-01-11 03:44:48,825 - root - INFO - Index 65 : 200
+2024-01-11 03:44:48,957 - root - INFO - Index 66 : 429
+2024-01-11 03:44:48,958 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:44:54,583 - root - INFO - 	Success : 200
+2024-01-11 03:44:55,174 - root - INFO - Index 67 : 200
+2024-01-11 03:44:55,811 - root - INFO - Index 68 : 200
+2024-01-11 03:44:56,358 - root - INFO - Index 69 : 200
+2024-01-11 03:44:56,981 - root - INFO - Index 70 : 200
+2024-01-11 03:44:57,663 - root - INFO - Index 71 : 200
+2024-01-11 03:44:57,823 - root - INFO - Index 72 : 429
+2024-01-11 03:44:57,823 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:45:03,372 - root - INFO - 	Success : 200
+2024-01-11 03:45:03,930 - root - INFO - Index 73 : 200
+2024-01-11 03:45:04,540 - root - INFO - Index 74 : 200
+2024-01-11 03:45:05,070 - root - INFO - Index 75 : 200
+2024-01-11 03:45:05,632 - root - INFO - Index 76 : 200
+2024-01-11 03:45:06,211 - root - INFO - Index 77 : 200
+2024-01-11 03:45:06,879 - root - INFO - Index 78 : 200
+2024-01-11 03:45:07,439 - root - INFO - Index 79 : 200
+2024-01-11 03:45:08,369 - root - INFO - Index 80 : 200
+2024-01-11 03:45:09,265 - root - INFO - Index 81 : 200
+2024-01-11 03:45:09,402 - root - INFO - Index 82 : 429
+2024-01-11 03:45:09,402 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:45:14,960 - root - INFO - 	Success : 200
+2024-01-11 03:45:15,602 - root - INFO - Index 83 : 200
+2024-01-11 03:45:16,254 - root - INFO - Index 84 : 200
+2024-01-11 03:45:16,839 - root - INFO - Index 85 : 200
+2024-01-11 03:45:17,435 - root - INFO - Index 86 : 200
+2024-01-11 03:45:18,001 - root - INFO - Index 87 : 200
+2024-01-11 03:45:18,664 - root - INFO - Index 88 : 200
+2024-01-11 03:45:19,384 - root - INFO - Index 89 : 200
+2024-01-11 03:45:19,951 - root - INFO - Index 90 : 200
+2024-01-11 03:45:20,489 - root - INFO - Index 91 : 200
+2024-01-11 03:45:20,650 - root - INFO - Index 92 : 429
+2024-01-11 03:45:20,650 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:45:26,222 - root - INFO - 	Success : 200
+2024-01-11 03:45:26,711 - root - INFO - Index 93 : 200
+2024-01-11 03:45:27,267 - root - INFO - Index 94 : 200
+2024-01-11 03:45:27,871 - root - INFO - Index 95 : 200
+2024-01-11 03:45:28,001 - root - INFO - Index 96 : 429
+2024-01-11 03:45:28,001 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:45:33,660 - root - INFO - 	Success : 200
+2024-01-11 03:45:34,232 - root - INFO - Index 97 : 200
+2024-01-11 03:45:34,846 - root - INFO - Index 98 : 200
+2024-01-11 03:45:35,392 - root - INFO - Index 99 : 200
+2024-01-11 03:45:35,983 - root - INFO - Index 100 : 200
+2024-01-11 03:45:36,599 - root - INFO - Index 101 : 200
+2024-01-11 03:45:37,151 - root - INFO - Index 102 : 200
+2024-01-11 03:45:37,753 - root - INFO - Index 103 : 200
+2024-01-11 03:45:38,404 - root - INFO - Index 104 : 200
+2024-01-11 03:45:39,052 - root - INFO - Index 105 : 200
+2024-01-11 03:45:39,640 - root - INFO - Index 106 : 200
+2024-01-11 03:45:40,294 - root - INFO - Index 107 : 200
+2024-01-11 03:45:40,978 - root - INFO - Index 108 : 200
+2024-01-11 03:45:41,381 - root - INFO - Index 109 : 200
+2024-01-11 03:45:41,925 - root - INFO - Index 110 : 200
+2024-01-11 03:45:42,060 - root - INFO - Index 111 : 429
+2024-01-11 03:45:42,060 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:45:47,646 - root - INFO - 	Success : 200
+2024-01-11 03:45:48,137 - root - INFO - Index 112 : 200
+2024-01-11 03:45:48,811 - root - INFO - Index 113 : 200
+2024-01-11 03:45:49,409 - root - INFO - Index 114 : 200
+2024-01-11 03:45:50,018 - root - INFO - Index 115 : 200
+2024-01-11 03:45:50,535 - root - INFO - Index 116 : 200
+2024-01-11 03:45:51,144 - root - INFO - Index 117 : 200
+2024-01-11 03:45:51,726 - root - INFO - Index 118 : 200
+2024-01-11 03:45:52,359 - root - INFO - Index 119 : 200
+2024-01-11 03:45:53,062 - root - INFO - Index 120 : 200
+2024-01-11 03:45:53,198 - root - INFO - Index 121 : 429
+2024-01-11 03:45:53,198 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:45:58,859 - root - INFO - 	Success : 200
+2024-01-11 03:45:59,413 - root - INFO - Index 122 : 200
+2024-01-11 03:46:00,144 - root - INFO - Index 123 : 200
+2024-01-11 03:46:00,787 - root - INFO - Index 124 : 200
+2024-01-11 03:46:01,497 - root - INFO - Index 125 : 200
+2024-01-11 03:46:02,094 - root - INFO - Index 126 : 200
+2024-01-11 03:46:02,733 - root - INFO - Index 127 : 200
+2024-01-11 03:46:03,322 - root - INFO - Index 128 : 200
+2024-01-11 03:46:04,211 - root - INFO - Index 129 : 200
+2024-01-11 03:46:04,849 - root - INFO - Index 130 : 200
+2024-01-11 03:46:05,022 - root - INFO - Index 131 : 429
+2024-01-11 03:46:05,022 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:46:10,630 - root - INFO - 	Success : 200
+2024-01-11 03:46:11,158 - root - INFO - Index 132 : 200
+2024-01-11 03:46:11,742 - root - INFO - Index 133 : 200
+2024-01-11 03:46:12,349 - root - INFO - Index 134 : 200
+2024-01-11 03:46:12,967 - root - INFO - Index 135 : 200
+2024-01-11 03:46:13,530 - root - INFO - Index 136 : 200
+2024-01-11 03:46:14,154 - root - INFO - Index 137 : 200
+2024-01-11 03:46:15,022 - root - INFO - Index 138 : 200
+2024-01-11 03:46:15,586 - root - INFO - Index 139 : 200
+2024-01-11 03:46:16,113 - root - INFO - Index 140 : 200
+2024-01-11 03:46:16,252 - root - INFO - Index 141 : 429
+2024-01-11 03:46:16,252 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:46:21,816 - root - INFO - 	Success : 200
+2024-01-11 03:46:22,414 - root - INFO - Index 142 : 200
+2024-01-11 03:46:23,047 - root - INFO - Index 143 : 200
+2024-01-11 03:46:23,620 - root - INFO - Index 144 : 200
+2024-01-11 03:46:24,231 - root - INFO - Index 145 : 200
+2024-01-11 03:46:24,940 - root - INFO - Index 146 : 200
+2024-01-11 03:46:25,533 - root - INFO - Index 147 : 200
+2024-01-11 03:46:26,071 - root - INFO - Index 148 : 200
+2024-01-11 03:46:26,642 - root - INFO - Index 149 : 200
+2024-01-11 03:46:27,189 - root - INFO - Index 150 : 200
+2024-01-11 03:46:27,322 - root - INFO - Index 151 : 429
+2024-01-11 03:46:27,322 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:46:32,888 - root - INFO - 	Success : 200
+2024-01-11 03:46:32,962 - root - INFO - Index 152 : 429
+2024-01-11 03:46:32,963 - root - INFO - 	Empty soup, trying again in 5 secs...
+2024-01-11 03:46:38,519 - root - INFO - 	Success : 200
+2024-01-11 03:46:39,053 - root - INFO - Index 153 : 200
+2024-01-11 03:46:39,601 - root - INFO - Index 154 : 200
+2024-01-11 03:46:39,675 - root - INFO - Removed 0 empty rows
+2024-01-11 03:46:39,677 - root - INFO - Removed 16 duplicates
+2024-01-11 03:46:39,678 - root - INFO - Extracted 139 number of jobs
+2024-01-11 03:46:39,679 - root - INFO - No main file, creating new file
+2024-01-11 03:46:39,679 - root - INFO - Original rows of main_df: 139
+2024-01-11 03:46:39,680 - root - INFO - 	Added rows: 0
+2024-01-11 03:46:41,695 - root - INFO - Email sent!
+2024-01-11 03:46:41,695 - root - INFO - files/BATCH_2024-01-11.xlsx deleted
