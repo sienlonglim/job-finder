@@ -397,7 +397,7 @@ def update_main(main_df, df_list: list) -> pd.DataFrame:
         main_df = pd.concat([main_df, df])
     
     # Drop duplicates
-    duplicate_subset = ['company', 'job_title', 'level', 'job_type', 'descriptions', 'industry1']
+    duplicate_subset = ['company', 'job_title', 'level', 'job_type', 'experience', 'spark', 'degree']
     # main_df = main_df[~main_df.index.duplicated(keep='first')] # This drops by index instead
     main_df = main_df.drop_duplicates(subset=duplicate_subset)
     logger.info(f'\tAdded rows: {len(main_df)-original_rows}')

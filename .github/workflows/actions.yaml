@@ -1,10 +1,10 @@
 name: scheduled run main.py
 
 on:
-  push:
-    branches:
-      - main
-      - master
+  # push:
+  #   branches:
+  #     - main
+  #     - master
   schedule:
     - cron: '0 0 * * 3' # At 8AM for GMT+8, 12AM for UTC
     
