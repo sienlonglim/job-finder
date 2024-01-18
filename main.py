@@ -45,8 +45,14 @@ if __name__ == '__main__':
         save_filepath = f"files/{filename}_{datetime.now().strftime('%Y-%m-%d')}.xlsx" # If not merging, filename will start with BATCH, otherwise it will be MAIN
         main_df.to_excel(save_filepath, engine='xlsxwriter')
 
+        # Read the log file to send
+        body = ''
+        with open('logs/app.log', 'r') as f:
+            for line in f.readlines():
+                body += line
+
         # Send mail, if successful, delete file from repository
-        if start_email_server_and_send(config, [save_filepath, 'logs/app.log']):
+        if start_email_server_and_send(config, body, [save_filepath, 'logs/app.log']):
             if os.path.exists(save_filepath):
                 os.remove(save_filepath)
                 logger.info(f"{save_filepath} deleted")

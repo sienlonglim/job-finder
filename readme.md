@@ -7,7 +7,12 @@ This project involves automation in retrieving job listings from LinkedIn and ma
 - MIME emailing
 
 ## Upcoming works:
-- Write new excel if no main files exist
+- TBD
+
+### 20230118 Mail log file and remove excels from repo
+- Modified code so that no sheets are stored in the repo, to protect LinkedIn data
+- Sheets will be mailed together with log file as the content
+- Owner will need to run a script to manual merge the sheets
 
 ### 20231231 Added mailer with attachments:
 - Completed MIMEText mailing

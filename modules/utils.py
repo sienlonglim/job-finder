@@ -422,8 +422,11 @@ def _send_email(server: smtplib.SMTP_SSL, subject: str, body: str, recipients: l
     message['To'] = ', '.join(recipients)
 
     # HTML body
-    html_part = MIMEText(body, 'html')
-    message.attach(payload=html_part)
+    # html_part = MIMEText(body, 'html')
+
+    # Normal body
+    email_content = MIMEText(body)
+    message.attach(payload=email_content)
 
     # Add the attachments:
     if attachments is not None:
@@ -443,9 +446,8 @@ def _send_email(server: smtplib.SMTP_SSL, subject: str, body: str, recipients: l
     server.sendmail(os.environ['email'], recipients, message.as_string())
     print(f"Message sent to {recipients}!")
 
-def start_email_server_and_send(config, attachments):
+def start_email_server_and_send(config, body, attachments):
     subject = config['email']['subject']
-    body = config['email']['body']
     recipients = config['email']['recipients']
 
     with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp_server:
