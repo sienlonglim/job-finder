@@ -3,10 +3,10 @@ name: scheduled run main.py
 on:
   schedule:
     - cron: '0 0 * * 2,4' # At 8AM for GMT+8, 12AM for UTC, every Tue and Thu
-  push:
-    branches:
-      - main
-      - master
+  # push:
+  #   branches:
+  #     - main
+  #     - master
     
 env:
   email: ${{ secrets.EMAIL }}
