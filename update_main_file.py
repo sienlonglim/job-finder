@@ -1,6 +1,6 @@
 from modules.utils import *
 
-logger = configure_logging(streaming=True)
+logger = configure_logging('utils_logger', streaming=True)
 batchfiles = [file for file in os.listdir('ignore') if file.startswith('BATCH')]
 batchfiles = ['ignore/' + filename for filename in batchfiles]
 file_directory = sorted([file for file in os.listdir('ignore') if file.startswith('MAIN')])

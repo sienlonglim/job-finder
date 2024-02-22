@@ -30,12 +30,12 @@ def timeit(func):
         return result
     return timeit_wrapper
 
-def configure_logging(file_path=None, streaming=None, level=logging.INFO):
+def configure_logging(name, file_path=None, streaming=None, level=logging.INFO):
     '''
     Initiates the logger
     '''
 
-    logger = logging.getLogger()
+    logger = logging.getLogger(name)
     logger.setLevel(level)
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     
@@ -55,7 +55,7 @@ def configure_logging(file_path=None, streaming=None, level=logging.INFO):
 
     return logger
 
-logger = configure_logging(f"logs/app.log")
+logger = configure_logging('utils_logger')
 
 @timeit
 def get_job_links(keyword: str, start_page: int, pages: int)-> tuple:    

@@ -7,7 +7,7 @@ This project involves automation in retrieving job listings from LinkedIn and ma
 - MIME emailing
 
 ## Upcoming works:
-- TBD
+- Use namespace to control logger instantiation
 
 ### 20230118 Mail log file and remove excels from repo
 - Modified code so that no sheets are stored in the repo, to protect LinkedIn data

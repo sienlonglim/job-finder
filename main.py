@@ -5,7 +5,7 @@ from datetime import datetime
 from modules.utils import *
 
 if __name__ == '__main__':
-    logger_main = configure_logging(f"logs/app.log")
+    logger_main = configure_logging('utils_logger', "logs/app.log")
     logger_main.info(f"----------------------------- Started new run @ {datetime.now().strftime('%Y-%m-%d:%H%M')} ----------------------------")
     
     with open('config.yaml', 'r') as f:
@@ -52,10 +52,10 @@ if __name__ == '__main__':
                 body += line
 
         # Send mail, if successful, delete file from repository
-        if start_email_server_and_send(config, body, [save_filepath, 'logs/app.log']):
+        if start_email_server_and_send(config, body, [save_filepath, 'logs/app.log']): 
             if os.path.exists(save_filepath):
                 os.remove(save_filepath)
-                logger.info(f"{save_filepath} deleted")
+                logger_main.info(f"{save_filepath} deleted")
 
     except Exception as e:
         # Log any unexpected errors
