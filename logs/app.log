@@ -1,549 +1,384 @@
-2024-07-30 01:24:04,589 - utils_logger - INFO - ----------------------------- Started new run @ 2024-07-30:0124 ----------------------------
-2024-07-30 01:24:04,590 - utils_logger - INFO - -----------------------------  GETTING LINKS : data scientist ----------------------------
-2024-07-30 01:24:04,590 - utils_logger - INFO - Searching for data-scientist
-2024-07-30 01:24:17,462 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:24:26,224 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:24:33,532 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:24:40,859 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:24:49,267 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:26:51,275 - utils_logger - INFO - Getting page_source
-2024-07-30 01:26:52,324 - utils_logger - INFO - Unique links: 88
-2024-07-30 01:27:02,335 - utils_logger - INFO - -----------------------------  GETTING INFO : data scientist ----------------------------
-2024-07-30 01:27:02,464 - utils_logger - INFO - Index 0 : 429
-2024-07-30 01:27:02,465 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:27:07,567 - utils_logger - INFO - 		Retry 1: 429
-2024-07-30 01:27:07,567 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:27:13,406 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:27:14,055 - utils_logger - INFO - Index 1 : 200
-2024-07-30 01:27:14,152 - utils_logger - INFO - Index 2 : 429
-2024-07-30 01:27:14,153 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:27:19,246 - utils_logger - INFO - 		Retry 1: 429
-2024-07-30 01:27:19,246 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:27:24,332 - utils_logger - INFO - 		Retry 2: 429
-2024-07-30 01:27:24,332 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:27:29,381 - utils_logger - INFO - 		Retry 3: 429
-2024-07-30 01:27:29,381 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:27:35,244 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:27:35,889 - utils_logger - INFO - Index 3 : 200
-2024-07-30 01:27:36,079 - utils_logger - INFO - Index 4 : 429
-2024-07-30 01:27:36,080 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:27:41,853 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:27:42,377 - utils_logger - INFO - Index 5 : 200
-2024-07-30 01:27:43,013 - utils_logger - INFO - Index 6 : 200
-2024-07-30 01:27:43,734 - utils_logger - INFO - Index 7 : 200
-2024-07-30 01:27:44,513 - utils_logger - INFO - Index 8 : 200
-2024-07-30 01:27:44,683 - utils_logger - INFO - Index 9 : 429
-2024-07-30 01:27:44,683 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:27:50,531 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:27:51,088 - utils_logger - INFO - Index 10 : 200
-2024-07-30 01:27:51,850 - utils_logger - INFO - Index 11 : 200
-2024-07-30 01:27:51,959 - utils_logger - INFO - Index 12 : 429
-2024-07-30 01:27:51,960 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:27:57,558 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:27:57,597 - utils_logger - INFO - Index 13 : 429
-2024-07-30 01:27:57,597 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:28:03,245 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:28:03,988 - utils_logger - INFO - Index 14 : 200
-2024-07-30 01:28:04,589 - utils_logger - INFO - Index 15 : 200
-2024-07-30 01:28:05,190 - utils_logger - INFO - Index 16 : 200
-2024-07-30 01:28:05,300 - utils_logger - INFO - Index 17 : 429
-2024-07-30 01:28:05,300 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:28:10,988 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:28:11,629 - utils_logger - INFO - Index 18 : 200
-2024-07-30 01:28:12,268 - utils_logger - INFO - Index 19 : 200
-2024-07-30 01:28:12,386 - utils_logger - INFO - Index 20 : 429
-2024-07-30 01:28:12,386 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:28:18,051 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:28:18,761 - utils_logger - INFO - Index 21 : 200
-2024-07-30 01:28:19,429 - utils_logger - INFO - Index 22 : 200
-2024-07-30 01:28:19,545 - utils_logger - INFO - Index 23 : 429
-2024-07-30 01:28:19,545 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:28:24,593 - utils_logger - INFO - 		Retry 1: 429
-2024-07-30 01:28:24,594 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:28:30,253 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:28:30,880 - utils_logger - INFO - Index 24 : 200
-2024-07-30 01:28:31,049 - utils_logger - INFO - Index 25 : 429
-2024-07-30 01:28:31,049 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:28:36,921 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:28:36,967 - utils_logger - INFO - Index 26 : 429
-2024-07-30 01:28:36,967 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:28:42,417 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:28:43,016 - utils_logger - INFO - Index 27 : 200
-2024-07-30 01:28:43,617 - utils_logger - INFO - Index 28 : 200
-2024-07-30 01:28:44,339 - utils_logger - INFO - Index 29 : 200
-2024-07-30 01:28:44,945 - utils_logger - INFO - Index 30 : 200
-2024-07-30 01:28:45,640 - utils_logger - INFO - Index 31 : 200
-2024-07-30 01:28:46,301 - utils_logger - INFO - Index 32 : 200
-2024-07-30 01:28:47,086 - utils_logger - INFO - Index 33 : 200
-2024-07-30 01:28:47,290 - utils_logger - INFO - Index 34 : 429
-2024-07-30 01:28:47,291 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:28:52,385 - utils_logger - INFO - 		Retry 1: 429
-2024-07-30 01:28:52,385 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:28:58,223 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:28:58,329 - utils_logger - INFO - Index 35 : 429
-2024-07-30 01:28:58,330 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:29:03,993 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:29:04,083 - utils_logger - INFO - Index 36 : 429
-2024-07-30 01:29:04,083 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:29:09,766 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:29:10,376 - utils_logger - INFO - Index 37 : 200
-2024-07-30 01:29:10,494 - utils_logger - INFO - Index 38 : 429
-2024-07-30 01:29:10,494 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:29:16,234 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:29:16,708 - utils_logger - INFO - Index 39 : 200
-2024-07-30 01:29:17,338 - utils_logger - INFO - Index 40 : 200
-2024-07-30 01:29:18,237 - utils_logger - INFO - Index 41 : 200
-2024-07-30 01:29:18,894 - utils_logger - INFO - Index 42 : 200
-2024-07-30 01:29:19,030 - utils_logger - INFO - Index 43 : 429
-2024-07-30 01:29:19,031 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:29:24,076 - utils_logger - INFO - 		Retry 1: 429
-2024-07-30 01:29:24,076 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:29:29,686 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:29:30,221 - utils_logger - INFO - Index 44 : 200
-2024-07-30 01:29:30,362 - utils_logger - INFO - Index 45 : 429
-2024-07-30 01:29:30,362 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:29:36,047 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:29:36,607 - utils_logger - INFO - Index 46 : 200
-2024-07-30 01:29:37,191 - utils_logger - INFO - Index 47 : 200
-2024-07-30 01:29:38,189 - utils_logger - INFO - Index 48 : 200
-2024-07-30 01:29:38,349 - utils_logger - INFO - Index 49 : 429
-2024-07-30 01:29:38,349 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:29:44,025 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:29:44,069 - utils_logger - INFO - Index 50 : 429
-2024-07-30 01:29:44,070 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:29:49,714 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:29:50,384 - utils_logger - INFO - Index 51 : 200
-2024-07-30 01:29:51,032 - utils_logger - INFO - Index 52 : 200
-2024-07-30 01:29:51,213 - utils_logger - INFO - Index 53 : 429
-2024-07-30 01:29:51,213 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:29:56,774 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:29:57,351 - utils_logger - INFO - Index 54 : 200
-2024-07-30 01:29:57,514 - utils_logger - INFO - Index 55 : 429
-2024-07-30 01:29:57,515 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:30:03,125 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:30:03,792 - utils_logger - INFO - Index 56 : 200
-2024-07-30 01:30:04,494 - utils_logger - INFO - Index 57 : 200
-2024-07-30 01:30:05,152 - utils_logger - INFO - Index 58 : 200
-2024-07-30 01:30:05,858 - utils_logger - INFO - Index 59 : 200
-2024-07-30 01:30:06,559 - utils_logger - INFO - Index 60 : 200
-2024-07-30 01:30:07,319 - utils_logger - INFO - Index 61 : 200
-2024-07-30 01:30:07,469 - utils_logger - INFO - Index 62 : 429
-2024-07-30 01:30:07,470 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:30:13,295 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:30:13,916 - utils_logger - INFO - Index 63 : 200
-2024-07-30 01:30:14,567 - utils_logger - INFO - Index 64 : 200
-2024-07-30 01:30:14,679 - utils_logger - INFO - Index 65 : 429
-2024-07-30 01:30:14,680 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:30:19,786 - utils_logger - INFO - 		Retry 1: 429
-2024-07-30 01:30:19,786 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:30:26,388 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:30:26,925 - utils_logger - INFO - Index 66 : 200
-2024-07-30 01:30:27,634 - utils_logger - INFO - Index 67 : 200
-2024-07-30 01:30:28,330 - utils_logger - INFO - Index 68 : 200
-2024-07-30 01:30:28,999 - utils_logger - INFO - Index 69 : 200
-2024-07-30 01:30:29,552 - utils_logger - INFO - Index 70 : 200
-2024-07-30 01:30:30,355 - utils_logger - INFO - Index 71 : 200
-2024-07-30 01:30:31,103 - utils_logger - INFO - Index 72 : 200
-2024-07-30 01:30:31,788 - utils_logger - INFO - Index 73 : 200
-2024-07-30 01:30:32,532 - utils_logger - INFO - Index 74 : 200
-2024-07-30 01:30:32,724 - utils_logger - INFO - Index 75 : 429
-2024-07-30 01:30:32,725 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:30:37,772 - utils_logger - INFO - 		Retry 1: 429
-2024-07-30 01:30:37,772 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:30:43,315 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:30:44,126 - utils_logger - INFO - Index 76 : 200
-2024-07-30 01:30:44,895 - utils_logger - INFO - Index 77 : 200
-2024-07-30 01:30:45,059 - utils_logger - INFO - Index 78 : 429
-2024-07-30 01:30:45,059 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:30:50,723 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:30:51,314 - utils_logger - INFO - Index 79 : 200
-2024-07-30 01:30:51,897 - utils_logger - INFO - Index 80 : 200
-2024-07-30 01:30:52,851 - utils_logger - INFO - Index 81 : 200
-2024-07-30 01:30:53,469 - utils_logger - INFO - Index 82 : 200
-2024-07-30 01:30:54,206 - utils_logger - INFO - Index 83 : 200
-2024-07-30 01:30:54,383 - utils_logger - INFO - Index 84 : 429
-2024-07-30 01:30:54,383 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:30:59,452 - utils_logger - INFO - 		Retry 1: 429
-2024-07-30 01:30:59,452 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:31:05,217 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:31:05,271 - utils_logger - INFO - Index 85 : 429
-2024-07-30 01:31:05,272 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:31:10,361 - utils_logger - INFO - 		Retry 1: 429
-2024-07-30 01:31:10,362 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:31:16,074 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:31:16,583 - utils_logger - INFO - Index 86 : 200
-2024-07-30 01:31:17,236 - utils_logger - INFO - Index 87 : 200
-2024-07-30 01:31:17,370 - utils_logger - INFO - Removed 0 empty rows
-2024-07-30 01:31:17,371 - utils_logger - INFO - Removed 0 duplicates
-2024-07-30 01:31:17,373 - utils_logger - INFO - Extracted 88 number of jobs
-2024-07-30 01:31:17,373 - utils_logger - INFO - -----------------------------  GETTING LINKS : data engineer ----------------------------
-2024-07-30 01:31:17,373 - utils_logger - INFO - Searching for data-engineer
-2024-07-30 01:31:20,163 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:31:28,702 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:31:37,236 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:31:45,818 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:31:54,406 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:33:56,480 - utils_logger - INFO - Getting page_source
-2024-07-30 01:33:57,555 - utils_logger - INFO - Unique links: 102
-2024-07-30 01:34:07,556 - utils_logger - INFO - -----------------------------  GETTING INFO : data engineer ----------------------------
-2024-07-30 01:34:08,212 - utils_logger - INFO - Index 0 : 200
-2024-07-30 01:34:08,916 - utils_logger - INFO - Index 1 : 200
-2024-07-30 01:34:09,568 - utils_logger - INFO - Index 2 : 200
-2024-07-30 01:34:10,170 - utils_logger - INFO - Index 3 : 200
-2024-07-30 01:34:10,741 - utils_logger - INFO - Index 4 : 200
-2024-07-30 01:34:11,287 - utils_logger - INFO - Index 5 : 200
-2024-07-30 01:34:11,883 - utils_logger - INFO - Index 6 : 200
-2024-07-30 01:34:12,527 - utils_logger - INFO - Index 7 : 200
-2024-07-30 01:34:13,295 - utils_logger - INFO - Index 8 : 200
-2024-07-30 01:34:13,440 - utils_logger - INFO - Index 9 : 429
-2024-07-30 01:34:13,440 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:34:18,488 - utils_logger - INFO - 		Retry 1: 429
-2024-07-30 01:34:18,489 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:34:24,194 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:34:24,809 - utils_logger - INFO - Index 10 : 200
-2024-07-30 01:34:25,371 - utils_logger - INFO - Index 11 : 200
-2024-07-30 01:34:25,964 - utils_logger - INFO - Index 12 : 200
-2024-07-30 01:34:26,634 - utils_logger - INFO - Index 13 : 200
-2024-07-30 01:34:26,728 - utils_logger - INFO - Index 14 : 429
-2024-07-30 01:34:26,729 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:34:32,375 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:34:32,467 - utils_logger - INFO - Index 15 : 429
-2024-07-30 01:34:32,467 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:34:38,148 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:34:38,680 - utils_logger - INFO - Index 16 : 200
-2024-07-30 01:34:38,779 - utils_logger - INFO - Index 17 : 429
-2024-07-30 01:34:38,779 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:34:44,428 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:34:45,098 - utils_logger - INFO - Index 18 : 200
-2024-07-30 01:34:45,904 - utils_logger - INFO - Index 19 : 200
-2024-07-30 01:34:46,080 - utils_logger - INFO - Index 20 : 429
-2024-07-30 01:34:46,080 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:34:51,659 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:34:52,261 - utils_logger - INFO - Index 21 : 200
-2024-07-30 01:34:52,871 - utils_logger - INFO - Index 22 : 200
-2024-07-30 01:34:53,580 - utils_logger - INFO - Index 23 : 200
-2024-07-30 01:34:54,251 - utils_logger - INFO - Index 24 : 200
-2024-07-30 01:34:54,920 - utils_logger - INFO - Index 25 : 200
-2024-07-30 01:34:55,062 - utils_logger - INFO - Index 26 : 429
-2024-07-30 01:34:55,063 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:35:00,779 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:35:01,453 - utils_logger - INFO - Index 27 : 200
-2024-07-30 01:35:02,087 - utils_logger - INFO - Index 28 : 200
-2024-07-30 01:35:02,203 - utils_logger - INFO - Index 29 : 429
-2024-07-30 01:35:02,203 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:35:07,861 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:35:08,465 - utils_logger - INFO - Index 30 : 200
-2024-07-30 01:35:09,087 - utils_logger - INFO - Index 31 : 200
-2024-07-30 01:35:09,722 - utils_logger - INFO - Index 32 : 200
-2024-07-30 01:35:10,333 - utils_logger - INFO - Index 33 : 200
-2024-07-30 01:35:10,980 - utils_logger - INFO - Index 34 : 200
-2024-07-30 01:35:11,737 - utils_logger - INFO - Index 35 : 200
-2024-07-30 01:35:12,492 - utils_logger - INFO - Index 36 : 200
-2024-07-30 01:35:13,256 - utils_logger - INFO - Index 37 : 200
-2024-07-30 01:35:13,873 - utils_logger - INFO - Index 38 : 200
-2024-07-30 01:35:13,977 - utils_logger - INFO - Index 39 : 429
-2024-07-30 01:35:13,977 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:35:19,046 - utils_logger - INFO - 		Retry 1: 429
-2024-07-30 01:35:19,046 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:35:24,684 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:35:25,457 - utils_logger - INFO - Index 40 : 200
-2024-07-30 01:35:26,136 - utils_logger - INFO - Index 41 : 200
-2024-07-30 01:35:26,762 - utils_logger - INFO - Index 42 : 200
-2024-07-30 01:35:26,930 - utils_logger - INFO - Index 43 : 429
-2024-07-30 01:35:26,931 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:35:32,647 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:35:32,749 - utils_logger - INFO - Index 44 : 429
-2024-07-30 01:35:32,749 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:35:37,858 - utils_logger - INFO - 		Retry 1: 429
-2024-07-30 01:35:37,858 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:35:42,931 - utils_logger - INFO - 		Retry 2: 429
-2024-07-30 01:35:42,931 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:35:48,624 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:35:49,171 - utils_logger - INFO - Index 45 : 200
-2024-07-30 01:35:49,902 - utils_logger - INFO - Index 46 : 200
-2024-07-30 01:35:50,543 - utils_logger - INFO - Index 47 : 200
-2024-07-30 01:35:51,219 - utils_logger - INFO - Index 48 : 200
-2024-07-30 01:35:51,846 - utils_logger - INFO - Index 49 : 200
-2024-07-30 01:35:52,474 - utils_logger - INFO - Index 50 : 200
-2024-07-30 01:35:53,160 - utils_logger - INFO - Index 51 : 200
-2024-07-30 01:35:53,835 - utils_logger - INFO - Index 52 : 200
-2024-07-30 01:35:54,571 - utils_logger - INFO - Index 53 : 200
-2024-07-30 01:35:54,729 - utils_logger - INFO - Index 54 : 429
-2024-07-30 01:35:54,729 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:35:59,773 - utils_logger - INFO - 		Retry 1: 429
-2024-07-30 01:35:59,773 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:36:04,900 - utils_logger - INFO - 		Retry 2: 429
-2024-07-30 01:36:04,900 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:36:10,644 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:36:11,207 - utils_logger - INFO - Index 55 : 200
-2024-07-30 01:36:11,344 - utils_logger - INFO - Index 56 : 429
-2024-07-30 01:36:11,345 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:36:17,103 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:36:17,642 - utils_logger - INFO - Index 57 : 200
-2024-07-30 01:36:18,357 - utils_logger - INFO - Index 58 : 200
-2024-07-30 01:36:19,023 - utils_logger - INFO - Index 59 : 200
-2024-07-30 01:36:19,143 - utils_logger - INFO - Index 60 : 429
-2024-07-30 01:36:19,143 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:36:24,770 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:36:25,320 - utils_logger - INFO - Index 61 : 200
-2024-07-30 01:36:25,939 - utils_logger - INFO - Index 62 : 200
-2024-07-30 01:36:26,630 - utils_logger - INFO - Index 63 : 200
-2024-07-30 01:36:27,485 - utils_logger - INFO - Index 64 : 200
-2024-07-30 01:36:28,159 - utils_logger - INFO - Index 65 : 200
-2024-07-30 01:36:28,316 - utils_logger - INFO - Index 66 : 429
-2024-07-30 01:36:28,316 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:36:33,899 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:36:34,525 - utils_logger - INFO - Index 67 : 200
-2024-07-30 01:36:34,654 - utils_logger - INFO - Index 68 : 429
-2024-07-30 01:36:34,654 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:36:39,758 - utils_logger - INFO - 		Retry 1: 429
-2024-07-30 01:36:39,758 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:36:45,492 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:36:46,071 - utils_logger - INFO - Index 69 : 200
-2024-07-30 01:36:46,973 - utils_logger - INFO - Index 70 : 200
-2024-07-30 01:36:47,568 - utils_logger - INFO - Index 71 : 200
-2024-07-30 01:36:48,262 - utils_logger - INFO - Index 72 : 200
-2024-07-30 01:36:49,029 - utils_logger - INFO - Index 73 : 200
-2024-07-30 01:36:49,744 - utils_logger - INFO - Index 74 : 200
-2024-07-30 01:36:50,386 - utils_logger - INFO - Index 75 : 200
-2024-07-30 01:36:50,575 - utils_logger - INFO - Index 76 : 429
-2024-07-30 01:36:50,575 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:36:56,390 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:36:56,974 - utils_logger - INFO - Index 77 : 200
-2024-07-30 01:36:57,704 - utils_logger - INFO - Index 78 : 200
-2024-07-30 01:36:57,866 - utils_logger - INFO - Index 79 : 429
-2024-07-30 01:36:57,867 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:37:02,914 - utils_logger - INFO - 		Retry 1: 429
-2024-07-30 01:37:02,914 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:37:08,014 - utils_logger - INFO - 		Retry 2: 429
-2024-07-30 01:37:08,014 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:37:13,663 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:37:14,381 - utils_logger - INFO - Index 80 : 200
-2024-07-30 01:37:15,062 - utils_logger - INFO - Index 81 : 200
-2024-07-30 01:37:15,792 - utils_logger - INFO - Index 82 : 200
-2024-07-30 01:37:16,495 - utils_logger - INFO - Index 83 : 200
-2024-07-30 01:37:17,288 - utils_logger - INFO - Index 84 : 200
-2024-07-30 01:37:18,043 - utils_logger - INFO - Index 85 : 200
-2024-07-30 01:37:18,841 - utils_logger - INFO - Index 86 : 200
-2024-07-30 01:37:19,615 - utils_logger - INFO - Index 87 : 200
-2024-07-30 01:37:19,791 - utils_logger - INFO - Index 88 : 429
-2024-07-30 01:37:19,792 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:37:25,418 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:37:25,959 - utils_logger - INFO - Index 89 : 200
-2024-07-30 01:37:26,679 - utils_logger - INFO - Index 90 : 200
-2024-07-30 01:37:26,801 - utils_logger - INFO - Index 91 : 429
-2024-07-30 01:37:26,802 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:37:32,550 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:37:32,655 - utils_logger - INFO - Index 92 : 429
-2024-07-30 01:37:32,655 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:37:38,298 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:37:38,936 - utils_logger - INFO - Index 93 : 200
-2024-07-30 01:37:39,670 - utils_logger - INFO - Index 94 : 200
-2024-07-30 01:37:40,438 - utils_logger - INFO - Index 95 : 200
-2024-07-30 01:37:41,113 - utils_logger - INFO - Index 96 : 200
-2024-07-30 01:37:41,717 - utils_logger - INFO - Index 97 : 200
-2024-07-30 01:37:41,890 - utils_logger - INFO - Index 98 : 429
-2024-07-30 01:37:41,890 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:37:47,549 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:37:48,152 - utils_logger - INFO - Index 99 : 200
-2024-07-30 01:37:48,799 - utils_logger - INFO - Index 100 : 200
-2024-07-30 01:37:49,423 - utils_logger - INFO - Index 101 : 200
-2024-07-30 01:37:49,509 - utils_logger - INFO - Removed 0 empty rows
-2024-07-30 01:37:49,510 - utils_logger - INFO - Removed 1 duplicates
-2024-07-30 01:37:49,512 - utils_logger - INFO - Extracted 101 number of jobs
-2024-07-30 01:37:49,512 - utils_logger - INFO - -----------------------------  GETTING LINKS : data analyst ----------------------------
-2024-07-30 01:37:49,512 - utils_logger - INFO - Searching for data-analyst
-2024-07-30 01:37:52,532 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:37:59,876 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:38:08,316 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:38:17,084 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:38:25,590 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:40:27,597 - utils_logger - INFO - Getting page_source
-2024-07-30 01:40:28,785 - utils_logger - INFO - Unique links: 114
-2024-07-30 01:40:38,796 - utils_logger - INFO - -----------------------------  GETTING INFO : data analyst ----------------------------
-2024-07-30 01:40:39,481 - utils_logger - INFO - Index 0 : 200
-2024-07-30 01:40:40,351 - utils_logger - INFO - Index 1 : 200
-2024-07-30 01:40:40,997 - utils_logger - INFO - Index 2 : 200
-2024-07-30 01:40:41,654 - utils_logger - INFO - Index 3 : 200
-2024-07-30 01:40:42,338 - utils_logger - INFO - Index 4 : 200
-2024-07-30 01:40:43,112 - utils_logger - INFO - Index 5 : 200
-2024-07-30 01:40:43,853 - utils_logger - INFO - Index 6 : 200
-2024-07-30 01:40:44,590 - utils_logger - INFO - Index 7 : 200
-2024-07-30 01:40:45,528 - utils_logger - INFO - Index 8 : 200
-2024-07-30 01:40:45,622 - utils_logger - INFO - Index 9 : 429
-2024-07-30 01:40:45,622 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:40:50,667 - utils_logger - INFO - 		Retry 1: 429
-2024-07-30 01:40:50,667 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:40:56,414 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:40:57,071 - utils_logger - INFO - Index 10 : 200
-2024-07-30 01:40:57,877 - utils_logger - INFO - Index 11 : 200
-2024-07-30 01:40:58,663 - utils_logger - INFO - Index 12 : 200
-2024-07-30 01:40:59,368 - utils_logger - INFO - Index 13 : 200
-2024-07-30 01:41:00,068 - utils_logger - INFO - Index 14 : 200
-2024-07-30 01:41:00,758 - utils_logger - INFO - Index 15 : 200
-2024-07-30 01:41:01,334 - utils_logger - INFO - Index 16 : 200
-2024-07-30 01:41:01,475 - utils_logger - INFO - Index 17 : 429
-2024-07-30 01:41:01,475 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:41:07,184 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:41:07,822 - utils_logger - INFO - Index 18 : 200
-2024-07-30 01:41:07,919 - utils_logger - INFO - Index 19 : 429
-2024-07-30 01:41:07,919 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:41:13,611 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:41:14,175 - utils_logger - INFO - Index 20 : 200
-2024-07-30 01:41:14,797 - utils_logger - INFO - Index 21 : 200
-2024-07-30 01:41:15,426 - utils_logger - INFO - Index 22 : 200
-2024-07-30 01:41:15,567 - utils_logger - INFO - Index 23 : 429
-2024-07-30 01:41:15,567 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:41:20,614 - utils_logger - INFO - 		Retry 1: 429
-2024-07-30 01:41:20,614 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:41:25,734 - utils_logger - INFO - 		Retry 2: 429
-2024-07-30 01:41:25,734 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:41:31,369 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:41:31,943 - utils_logger - INFO - Index 24 : 200
-2024-07-30 01:41:32,579 - utils_logger - INFO - Index 25 : 200
-2024-07-30 01:41:32,741 - utils_logger - INFO - Index 26 : 429
-2024-07-30 01:41:32,741 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:41:38,405 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:41:38,981 - utils_logger - INFO - Index 27 : 200
-2024-07-30 01:41:39,529 - utils_logger - INFO - Index 28 : 200
-2024-07-30 01:41:40,121 - utils_logger - INFO - Index 29 : 200
-2024-07-30 01:41:40,727 - utils_logger - INFO - Index 30 : 200
-2024-07-30 01:41:40,925 - utils_logger - INFO - Index 31 : 429
-2024-07-30 01:41:40,926 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:41:46,694 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:41:47,204 - utils_logger - INFO - Index 32 : 200
-2024-07-30 01:41:47,865 - utils_logger - INFO - Index 33 : 200
-2024-07-30 01:41:48,559 - utils_logger - INFO - Index 34 : 200
-2024-07-30 01:41:49,234 - utils_logger - INFO - Index 35 : 200
-2024-07-30 01:41:49,333 - utils_logger - INFO - Index 36 : 429
-2024-07-30 01:41:49,333 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:41:54,854 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:41:55,458 - utils_logger - INFO - Index 37 : 200
-2024-07-30 01:41:56,055 - utils_logger - INFO - Index 38 : 200
-2024-07-30 01:41:56,732 - utils_logger - INFO - Index 39 : 200
-2024-07-30 01:41:56,883 - utils_logger - INFO - Index 40 : 429
-2024-07-30 01:41:56,884 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:42:02,670 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:42:03,224 - utils_logger - INFO - Index 41 : 200
-2024-07-30 01:42:03,965 - utils_logger - INFO - Index 42 : 200
-2024-07-30 01:42:04,599 - utils_logger - INFO - Index 43 : 200
-2024-07-30 01:42:05,448 - utils_logger - INFO - Index 44 : 200
-2024-07-30 01:42:06,183 - utils_logger - INFO - Index 45 : 200
-2024-07-30 01:42:07,062 - utils_logger - INFO - Index 46 : 200
-2024-07-30 01:42:07,608 - utils_logger - INFO - Index 47 : 200
-2024-07-30 01:42:08,325 - utils_logger - INFO - Index 48 : 200
-2024-07-30 01:42:09,329 - utils_logger - INFO - Index 49 : 200
-2024-07-30 01:42:09,440 - utils_logger - INFO - Index 50 : 429
-2024-07-30 01:42:09,440 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:42:14,548 - utils_logger - INFO - 		Retry 1: 429
-2024-07-30 01:42:14,548 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:42:19,594 - utils_logger - INFO - 		Retry 2: 429
-2024-07-30 01:42:19,594 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:42:25,215 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:42:25,318 - utils_logger - INFO - Index 51 : 429
-2024-07-30 01:42:25,319 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:42:30,978 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:42:31,606 - utils_logger - INFO - Index 52 : 200
-2024-07-30 01:42:32,461 - utils_logger - INFO - Index 53 : 200
-2024-07-30 01:42:33,201 - utils_logger - INFO - Index 54 : 200
-2024-07-30 01:42:33,933 - utils_logger - INFO - Index 55 : 200
-2024-07-30 01:42:34,742 - utils_logger - INFO - Index 56 : 200
-2024-07-30 01:42:34,906 - utils_logger - INFO - Index 57 : 429
-2024-07-30 01:42:34,906 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:42:40,559 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:42:40,907 - utils_logger - INFO - Index 58 : 200
-2024-07-30 01:42:41,032 - utils_logger - INFO - Index 59 : 429
-2024-07-30 01:42:41,032 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:42:46,703 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:42:47,263 - utils_logger - INFO - Index 60 : 200
-2024-07-30 01:42:47,933 - utils_logger - INFO - Index 61 : 200
-2024-07-30 01:42:48,601 - utils_logger - INFO - Index 62 : 200
-2024-07-30 01:42:49,287 - utils_logger - INFO - Index 63 : 200
-2024-07-30 01:42:49,937 - utils_logger - INFO - Index 64 : 200
-2024-07-30 01:42:50,614 - utils_logger - INFO - Index 65 : 200
-2024-07-30 01:42:50,803 - utils_logger - INFO - Index 66 : 429
-2024-07-30 01:42:50,804 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:42:56,181 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:42:56,888 - utils_logger - INFO - Index 67 : 200
-2024-07-30 01:42:57,099 - utils_logger - INFO - Index 68 : 429
-2024-07-30 01:42:57,099 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:43:02,727 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:43:03,288 - utils_logger - INFO - Index 69 : 200
-2024-07-30 01:43:03,976 - utils_logger - INFO - Index 70 : 200
-2024-07-30 01:43:04,646 - utils_logger - INFO - Index 71 : 200
-2024-07-30 01:43:05,304 - utils_logger - INFO - Index 72 : 200
-2024-07-30 01:43:05,401 - utils_logger - INFO - Index 73 : 429
-2024-07-30 01:43:05,402 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:43:11,121 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:43:11,704 - utils_logger - INFO - Index 74 : 200
-2024-07-30 01:43:12,452 - utils_logger - INFO - Index 75 : 200
-2024-07-30 01:43:12,582 - utils_logger - INFO - Index 76 : 429
-2024-07-30 01:43:12,583 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:43:18,249 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:43:18,295 - utils_logger - INFO - Index 77 : 429
-2024-07-30 01:43:18,295 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:43:23,397 - utils_logger - INFO - 		Retry 1: 429
-2024-07-30 01:43:23,397 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:43:29,190 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:43:29,818 - utils_logger - INFO - Index 78 : 200
-2024-07-30 01:43:30,474 - utils_logger - INFO - Index 79 : 200
-2024-07-30 01:43:31,127 - utils_logger - INFO - Index 80 : 200
-2024-07-30 01:43:31,882 - utils_logger - INFO - Index 81 : 200
-2024-07-30 01:43:32,539 - utils_logger - INFO - Index 82 : 200
-2024-07-30 01:43:33,329 - utils_logger - INFO - Index 83 : 200
-2024-07-30 01:43:33,490 - utils_logger - INFO - Index 84 : 429
-2024-07-30 01:43:33,490 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:43:38,614 - utils_logger - INFO - 		Retry 1: 429
-2024-07-30 01:43:38,614 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:43:44,293 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:43:44,823 - utils_logger - INFO - Index 85 : 200
-2024-07-30 01:43:45,560 - utils_logger - INFO - Index 86 : 200
-2024-07-30 01:43:46,221 - utils_logger - INFO - Index 87 : 200
-2024-07-30 01:43:46,872 - utils_logger - INFO - Index 88 : 200
-2024-07-30 01:43:47,590 - utils_logger - INFO - Index 89 : 200
-2024-07-30 01:43:48,336 - utils_logger - INFO - Index 90 : 200
-2024-07-30 01:43:48,989 - utils_logger - INFO - Index 91 : 200
-2024-07-30 01:43:49,164 - utils_logger - INFO - Index 92 : 429
-2024-07-30 01:43:49,165 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:43:54,956 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:43:55,004 - utils_logger - INFO - Index 93 : 429
-2024-07-30 01:43:55,005 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:44:00,713 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:44:01,299 - utils_logger - INFO - Index 94 : 200
-2024-07-30 01:44:01,889 - utils_logger - INFO - Index 95 : 200
-2024-07-30 01:44:02,521 - utils_logger - INFO - Index 96 : 200
-2024-07-30 01:44:03,466 - utils_logger - INFO - Index 97 : 200
-2024-07-30 01:44:04,210 - utils_logger - INFO - Index 98 : 200
-2024-07-30 01:44:04,858 - utils_logger - INFO - Index 99 : 200
-2024-07-30 01:44:05,713 - utils_logger - INFO - Index 100 : 200
-2024-07-30 01:44:06,473 - utils_logger - INFO - Index 101 : 200
-2024-07-30 01:44:06,641 - utils_logger - INFO - Index 102 : 429
-2024-07-30 01:44:06,642 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:44:11,724 - utils_logger - INFO - 		Retry 1: 429
-2024-07-30 01:44:11,724 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:44:17,317 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:44:17,902 - utils_logger - INFO - Index 103 : 200
-2024-07-30 01:44:18,669 - utils_logger - INFO - Index 104 : 200
-2024-07-30 01:44:19,310 - utils_logger - INFO - Index 105 : 200
-2024-07-30 01:44:19,479 - utils_logger - INFO - Index 106 : 429
-2024-07-30 01:44:19,479 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:44:25,193 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:44:25,795 - utils_logger - INFO - Index 107 : 200
-2024-07-30 01:44:26,473 - utils_logger - INFO - Index 108 : 200
-2024-07-30 01:44:27,107 - utils_logger - INFO - Index 109 : 200
-2024-07-30 01:44:27,727 - utils_logger - INFO - Index 110 : 200
-2024-07-30 01:44:28,343 - utils_logger - INFO - Index 111 : 200
-2024-07-30 01:44:28,461 - utils_logger - INFO - Index 112 : 429
-2024-07-30 01:44:28,462 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
-2024-07-30 01:44:34,170 - utils_logger - INFO - 	Success : 200
-2024-07-30 01:44:34,715 - utils_logger - INFO - Index 113 : 200
-2024-07-30 01:44:34,796 - utils_logger - INFO - Removed 0 empty rows
-2024-07-30 01:44:34,798 - utils_logger - INFO - Removed 1 duplicates
-2024-07-30 01:44:34,799 - utils_logger - INFO - Extracted 113 number of jobs
-2024-07-30 01:44:34,799 - utils_logger - INFO - No main file, creating new file
-2024-07-30 01:44:34,799 - utils_logger - INFO - Original rows of main_df: 113
-2024-07-30 01:44:34,799 - utils_logger - INFO - Read rows from df 0: 88
-2024-07-30 01:44:34,799 - utils_logger - INFO - Read rows from df 1: 101
-2024-07-30 01:44:34,802 - utils_logger - INFO - 	Added rows: 187
-2024-07-30 01:44:37,830 - utils_logger - INFO - Email sent!
-2024-07-30 01:44:37,830 - utils_logger - INFO - files/BATCH_2024-07-30.xlsx deleted
+2024-08-01 01:37:20,347 - utils_logger - INFO - ----------------------------- Started new run @ 2024-08-01:0137 ----------------------------
+2024-08-01 01:37:20,348 - utils_logger - INFO - -----------------------------  GETTING LINKS : data scientist ----------------------------
+2024-08-01 01:37:20,348 - utils_logger - INFO - Searching for data-scientist
+2024-08-01 01:37:32,779 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:37:41,456 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:37:49,882 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:37:58,314 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:38:06,842 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:40:08,816 - utils_logger - INFO - Getting page_source
+2024-08-01 01:40:09,965 - utils_logger - INFO - Unique links: 86
+2024-08-01 01:40:19,976 - utils_logger - INFO - -----------------------------  GETTING INFO : data scientist ----------------------------
+2024-08-01 01:40:20,553 - utils_logger - INFO - Index 0 : 200
+2024-08-01 01:40:21,499 - utils_logger - INFO - Index 1 : 200
+2024-08-01 01:40:22,149 - utils_logger - INFO - Index 2 : 200
+2024-08-01 01:40:22,823 - utils_logger - INFO - Index 3 : 200
+2024-08-01 01:40:23,582 - utils_logger - INFO - Index 4 : 200
+2024-08-01 01:40:24,257 - utils_logger - INFO - Index 5 : 200
+2024-08-01 01:40:24,901 - utils_logger - INFO - Index 6 : 200
+2024-08-01 01:40:25,576 - utils_logger - INFO - Index 7 : 200
+2024-08-01 01:40:26,084 - utils_logger - INFO - Index 8 : 200
+2024-08-01 01:40:26,707 - utils_logger - INFO - Index 9 : 200
+2024-08-01 01:40:26,850 - utils_logger - INFO - Index 10 : 429
+2024-08-01 01:40:26,851 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:40:32,546 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:40:33,172 - utils_logger - INFO - Index 11 : 200
+2024-08-01 01:40:33,790 - utils_logger - INFO - Index 12 : 200
+2024-08-01 01:40:34,521 - utils_logger - INFO - Index 13 : 200
+2024-08-01 01:40:35,235 - utils_logger - INFO - Index 14 : 200
+2024-08-01 01:40:35,844 - utils_logger - INFO - Index 15 : 200
+2024-08-01 01:40:36,456 - utils_logger - INFO - Index 16 : 200
+2024-08-01 01:40:37,066 - utils_logger - INFO - Index 17 : 200
+2024-08-01 01:40:37,705 - utils_logger - INFO - Index 18 : 200
+2024-08-01 01:40:38,424 - utils_logger - INFO - Index 19 : 200
+2024-08-01 01:40:38,568 - utils_logger - INFO - Index 20 : 429
+2024-08-01 01:40:38,569 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:40:44,219 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:40:44,345 - utils_logger - INFO - Index 21 : 429
+2024-08-01 01:40:44,346 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:40:49,997 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:40:50,685 - utils_logger - INFO - Index 22 : 200
+2024-08-01 01:40:50,842 - utils_logger - INFO - Index 23 : 429
+2024-08-01 01:40:50,842 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:40:56,523 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:40:57,141 - utils_logger - INFO - Index 24 : 200
+2024-08-01 01:40:57,761 - utils_logger - INFO - Index 25 : 200
+2024-08-01 01:40:58,538 - utils_logger - INFO - Index 26 : 200
+2024-08-01 01:40:59,162 - utils_logger - INFO - Index 27 : 200
+2024-08-01 01:40:59,843 - utils_logger - INFO - Index 28 : 200
+2024-08-01 01:41:00,558 - utils_logger - INFO - Index 29 : 200
+2024-08-01 01:41:01,049 - utils_logger - INFO - Index 30 : 200
+2024-08-01 01:41:01,747 - utils_logger - INFO - Index 31 : 200
+2024-08-01 01:41:02,401 - utils_logger - INFO - Index 32 : 200
+2024-08-01 01:41:02,558 - utils_logger - INFO - Index 33 : 429
+2024-08-01 01:41:02,559 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:41:08,258 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:41:08,873 - utils_logger - INFO - Index 34 : 200
+2024-08-01 01:41:09,059 - utils_logger - INFO - Index 35 : 429
+2024-08-01 01:41:09,059 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:41:14,825 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:41:15,445 - utils_logger - INFO - Index 36 : 200
+2024-08-01 01:41:16,131 - utils_logger - INFO - Index 37 : 200
+2024-08-01 01:41:16,880 - utils_logger - INFO - Index 38 : 200
+2024-08-01 01:41:17,617 - utils_logger - INFO - Index 39 : 200
+2024-08-01 01:41:18,262 - utils_logger - INFO - Index 40 : 200
+2024-08-01 01:41:18,435 - utils_logger - INFO - Index 41 : 429
+2024-08-01 01:41:18,436 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:41:24,073 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:41:24,680 - utils_logger - INFO - Index 42 : 200
+2024-08-01 01:41:25,419 - utils_logger - INFO - Index 43 : 200
+2024-08-01 01:41:26,105 - utils_logger - INFO - Index 44 : 200
+2024-08-01 01:41:26,718 - utils_logger - INFO - Index 45 : 200
+2024-08-01 01:41:27,404 - utils_logger - INFO - Index 46 : 200
+2024-08-01 01:41:28,245 - utils_logger - INFO - Index 47 : 200
+2024-08-01 01:41:28,941 - utils_logger - INFO - Index 48 : 200
+2024-08-01 01:41:29,665 - utils_logger - INFO - Index 49 : 200
+2024-08-01 01:41:30,438 - utils_logger - INFO - Index 50 : 200
+2024-08-01 01:41:30,593 - utils_logger - INFO - Index 51 : 429
+2024-08-01 01:41:30,593 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:41:36,309 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:41:36,975 - utils_logger - INFO - Index 52 : 200
+2024-08-01 01:41:37,761 - utils_logger - INFO - Index 53 : 200
+2024-08-01 01:41:38,423 - utils_logger - INFO - Index 54 : 200
+2024-08-01 01:41:39,204 - utils_logger - INFO - Index 55 : 200
+2024-08-01 01:41:39,921 - utils_logger - INFO - Index 56 : 200
+2024-08-01 01:41:40,742 - utils_logger - INFO - Index 57 : 200
+2024-08-01 01:41:41,416 - utils_logger - INFO - Index 58 : 200
+2024-08-01 01:41:41,606 - utils_logger - INFO - Index 59 : 429
+2024-08-01 01:41:41,607 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:41:47,271 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:41:47,842 - utils_logger - INFO - Index 60 : 200
+2024-08-01 01:41:48,452 - utils_logger - INFO - Index 61 : 200
+2024-08-01 01:41:49,167 - utils_logger - INFO - Index 62 : 200
+2024-08-01 01:41:49,989 - utils_logger - INFO - Index 63 : 200
+2024-08-01 01:41:50,641 - utils_logger - INFO - Index 64 : 200
+2024-08-01 01:41:51,345 - utils_logger - INFO - Index 65 : 200
+2024-08-01 01:41:52,035 - utils_logger - INFO - Index 66 : 200
+2024-08-01 01:41:52,666 - utils_logger - INFO - Index 67 : 200
+2024-08-01 01:41:53,357 - utils_logger - INFO - Index 68 : 200
+2024-08-01 01:41:54,036 - utils_logger - INFO - Index 69 : 200
+2024-08-01 01:41:54,231 - utils_logger - INFO - Index 70 : 429
+2024-08-01 01:41:54,232 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:41:59,360 - utils_logger - INFO - 		Retry 1: 429
+2024-08-01 01:41:59,361 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:42:05,063 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:42:05,628 - utils_logger - INFO - Index 71 : 200
+2024-08-01 01:42:06,314 - utils_logger - INFO - Index 72 : 200
+2024-08-01 01:42:06,984 - utils_logger - INFO - Index 73 : 200
+2024-08-01 01:42:07,661 - utils_logger - INFO - Index 74 : 200
+2024-08-01 01:42:08,311 - utils_logger - INFO - Index 75 : 200
+2024-08-01 01:42:08,947 - utils_logger - INFO - Index 76 : 200
+2024-08-01 01:42:09,665 - utils_logger - INFO - Index 77 : 200
+2024-08-01 01:42:10,423 - utils_logger - INFO - Index 78 : 200
+2024-08-01 01:42:10,590 - utils_logger - INFO - Index 79 : 429
+2024-08-01 01:42:10,590 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:42:16,259 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:42:16,790 - utils_logger - INFO - Index 80 : 200
+2024-08-01 01:42:17,469 - utils_logger - INFO - Index 81 : 200
+2024-08-01 01:42:18,151 - utils_logger - INFO - Index 82 : 200
+2024-08-01 01:42:18,892 - utils_logger - INFO - Index 83 : 200
+2024-08-01 01:42:19,543 - utils_logger - INFO - Index 84 : 200
+2024-08-01 01:42:20,245 - utils_logger - INFO - Index 85 : 200
+2024-08-01 01:42:20,328 - utils_logger - INFO - Removed 0 empty rows
+2024-08-01 01:42:20,330 - utils_logger - INFO - Removed 1 duplicates
+2024-08-01 01:42:20,332 - utils_logger - INFO - Extracted 85 number of jobs
+2024-08-01 01:42:20,332 - utils_logger - INFO - -----------------------------  GETTING LINKS : data engineer ----------------------------
+2024-08-01 01:42:20,332 - utils_logger - INFO - Searching for data-engineer
+2024-08-01 01:42:23,125 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:42:31,440 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:42:38,681 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:42:47,217 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:42:55,671 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:44:57,543 - utils_logger - INFO - Getting page_source
+2024-08-01 01:44:58,776 - utils_logger - INFO - Unique links: 88
+2024-08-01 01:45:08,787 - utils_logger - INFO - -----------------------------  GETTING INFO : data engineer ----------------------------
+2024-08-01 01:45:09,428 - utils_logger - INFO - Index 0 : 200
+2024-08-01 01:45:10,083 - utils_logger - INFO - Index 1 : 200
+2024-08-01 01:45:10,771 - utils_logger - INFO - Index 2 : 200
+2024-08-01 01:45:11,437 - utils_logger - INFO - Index 3 : 200
+2024-08-01 01:45:12,048 - utils_logger - INFO - Index 4 : 200
+2024-08-01 01:45:12,692 - utils_logger - INFO - Index 5 : 200
+2024-08-01 01:45:13,345 - utils_logger - INFO - Index 6 : 200
+2024-08-01 01:45:14,115 - utils_logger - INFO - Index 7 : 200
+2024-08-01 01:45:14,711 - utils_logger - INFO - Index 8 : 200
+2024-08-01 01:45:15,361 - utils_logger - INFO - Index 9 : 200
+2024-08-01 01:45:15,506 - utils_logger - INFO - Index 10 : 429
+2024-08-01 01:45:15,506 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:45:21,204 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:45:21,869 - utils_logger - INFO - Index 11 : 200
+2024-08-01 01:45:22,512 - utils_logger - INFO - Index 12 : 200
+2024-08-01 01:45:23,133 - utils_logger - INFO - Index 13 : 200
+2024-08-01 01:45:23,840 - utils_logger - INFO - Index 14 : 200
+2024-08-01 01:45:24,537 - utils_logger - INFO - Index 15 : 200
+2024-08-01 01:45:25,209 - utils_logger - INFO - Index 16 : 200
+2024-08-01 01:45:25,925 - utils_logger - INFO - Index 17 : 200
+2024-08-01 01:45:26,101 - utils_logger - INFO - Index 18 : 429
+2024-08-01 01:45:26,101 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:45:31,763 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:45:31,843 - utils_logger - INFO - Index 19 : 429
+2024-08-01 01:45:31,844 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:45:37,507 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:45:38,064 - utils_logger - INFO - Index 20 : 200
+2024-08-01 01:45:38,747 - utils_logger - INFO - Index 21 : 200
+2024-08-01 01:45:38,915 - utils_logger - INFO - Index 22 : 429
+2024-08-01 01:45:38,916 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:45:44,584 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:45:45,170 - utils_logger - INFO - Index 23 : 200
+2024-08-01 01:45:45,819 - utils_logger - INFO - Index 24 : 200
+2024-08-01 01:45:46,598 - utils_logger - INFO - Index 25 : 200
+2024-08-01 01:45:47,277 - utils_logger - INFO - Index 26 : 200
+2024-08-01 01:45:47,912 - utils_logger - INFO - Index 27 : 200
+2024-08-01 01:45:48,541 - utils_logger - INFO - Index 28 : 200
+2024-08-01 01:45:49,261 - utils_logger - INFO - Index 29 : 200
+2024-08-01 01:45:49,434 - utils_logger - INFO - Index 30 : 429
+2024-08-01 01:45:49,434 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:45:55,254 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:45:55,892 - utils_logger - INFO - Index 31 : 200
+2024-08-01 01:45:56,550 - utils_logger - INFO - Index 32 : 200
+2024-08-01 01:45:57,272 - utils_logger - INFO - Index 33 : 200
+2024-08-01 01:45:57,996 - utils_logger - INFO - Index 34 : 200
+2024-08-01 01:45:58,152 - utils_logger - INFO - Index 35 : 429
+2024-08-01 01:45:58,153 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:46:03,851 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:46:04,488 - utils_logger - INFO - Index 36 : 200
+2024-08-01 01:46:05,134 - utils_logger - INFO - Index 37 : 200
+2024-08-01 01:46:05,729 - utils_logger - INFO - Index 38 : 200
+2024-08-01 01:46:06,372 - utils_logger - INFO - Index 39 : 200
+2024-08-01 01:46:06,956 - utils_logger - INFO - Index 40 : 200
+2024-08-01 01:46:07,699 - utils_logger - INFO - Index 41 : 200
+2024-08-01 01:46:08,344 - utils_logger - INFO - Index 42 : 200
+2024-08-01 01:46:09,057 - utils_logger - INFO - Index 43 : 200
+2024-08-01 01:46:09,809 - utils_logger - INFO - Index 44 : 200
+2024-08-01 01:46:09,987 - utils_logger - INFO - Index 45 : 429
+2024-08-01 01:46:09,988 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:46:15,614 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:46:16,319 - utils_logger - INFO - Index 46 : 200
+2024-08-01 01:46:16,996 - utils_logger - INFO - Index 47 : 200
+2024-08-01 01:46:17,645 - utils_logger - INFO - Index 48 : 200
+2024-08-01 01:46:18,365 - utils_logger - INFO - Index 49 : 200
+2024-08-01 01:46:19,057 - utils_logger - INFO - Index 50 : 200
+2024-08-01 01:46:19,865 - utils_logger - INFO - Index 51 : 200
+2024-08-01 01:46:20,516 - utils_logger - INFO - Index 52 : 200
+2024-08-01 01:46:21,247 - utils_logger - INFO - Index 53 : 200
+2024-08-01 01:46:21,974 - utils_logger - INFO - Index 54 : 200
+2024-08-01 01:46:22,126 - utils_logger - INFO - Index 55 : 429
+2024-08-01 01:46:22,126 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:46:27,930 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:46:28,524 - utils_logger - INFO - Index 56 : 200
+2024-08-01 01:46:29,248 - utils_logger - INFO - Index 57 : 200
+2024-08-01 01:46:30,011 - utils_logger - INFO - Index 58 : 200
+2024-08-01 01:46:30,671 - utils_logger - INFO - Index 59 : 200
+2024-08-01 01:46:31,345 - utils_logger - INFO - Index 60 : 200
+2024-08-01 01:46:32,128 - utils_logger - INFO - Index 61 : 200
+2024-08-01 01:46:32,305 - utils_logger - INFO - Index 62 : 429
+2024-08-01 01:46:32,306 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:46:38,121 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:46:38,737 - utils_logger - INFO - Index 63 : 200
+2024-08-01 01:46:38,966 - utils_logger - INFO - Index 64 : 429
+2024-08-01 01:46:38,967 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:46:44,678 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:46:45,570 - utils_logger - INFO - Index 65 : 200
+2024-08-01 01:46:46,172 - utils_logger - INFO - Index 66 : 200
+2024-08-01 01:46:46,857 - utils_logger - INFO - Index 67 : 200
+2024-08-01 01:46:47,717 - utils_logger - INFO - Index 68 : 200
+2024-08-01 01:46:48,612 - utils_logger - INFO - Index 69 : 200
+2024-08-01 01:46:49,522 - utils_logger - INFO - Index 70 : 200
+2024-08-01 01:46:50,235 - utils_logger - INFO - Index 71 : 200
+2024-08-01 01:46:50,982 - utils_logger - INFO - Index 72 : 200
+2024-08-01 01:46:51,628 - utils_logger - INFO - Index 73 : 200
+2024-08-01 01:46:51,780 - utils_logger - INFO - Index 74 : 429
+2024-08-01 01:46:51,780 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:46:56,903 - utils_logger - INFO - 		Retry 1: 429
+2024-08-01 01:46:56,903 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:47:02,608 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:47:03,210 - utils_logger - INFO - Index 75 : 200
+2024-08-01 01:47:03,878 - utils_logger - INFO - Index 76 : 200
+2024-08-01 01:47:04,576 - utils_logger - INFO - Index 77 : 200
+2024-08-01 01:47:05,256 - utils_logger - INFO - Index 78 : 200
+2024-08-01 01:47:05,941 - utils_logger - INFO - Index 79 : 200
+2024-08-01 01:47:06,634 - utils_logger - INFO - Index 80 : 200
+2024-08-01 01:47:07,343 - utils_logger - INFO - Index 81 : 200
+2024-08-01 01:47:07,967 - utils_logger - INFO - Index 82 : 200
+2024-08-01 01:47:08,684 - utils_logger - INFO - Index 83 : 200
+2024-08-01 01:47:09,439 - utils_logger - INFO - Index 84 : 200
+2024-08-01 01:47:10,080 - utils_logger - INFO - Index 85 : 200
+2024-08-01 01:47:10,769 - utils_logger - INFO - Index 86 : 200
+2024-08-01 01:47:11,437 - utils_logger - INFO - Index 87 : 200
+2024-08-01 01:47:11,520 - utils_logger - INFO - Removed 0 empty rows
+2024-08-01 01:47:11,522 - utils_logger - INFO - Removed 1 duplicates
+2024-08-01 01:47:11,523 - utils_logger - INFO - Extracted 87 number of jobs
+2024-08-01 01:47:11,523 - utils_logger - INFO - -----------------------------  GETTING LINKS : data analyst ----------------------------
+2024-08-01 01:47:11,523 - utils_logger - INFO - Searching for data-analyst
+2024-08-01 01:47:13,170 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:47:21,532 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:47:29,941 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:47:38,286 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:47:46,718 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:49:48,745 - utils_logger - INFO - Getting page_source
+2024-08-01 01:49:49,989 - utils_logger - INFO - Unique links: 95
+2024-08-01 01:49:59,998 - utils_logger - INFO - -----------------------------  GETTING INFO : data analyst ----------------------------
+2024-08-01 01:50:00,593 - utils_logger - INFO - Index 0 : 200
+2024-08-01 01:50:01,329 - utils_logger - INFO - Index 1 : 200
+2024-08-01 01:50:01,964 - utils_logger - INFO - Index 2 : 200
+2024-08-01 01:50:02,616 - utils_logger - INFO - Index 3 : 200
+2024-08-01 01:50:03,436 - utils_logger - INFO - Index 4 : 200
+2024-08-01 01:50:04,096 - utils_logger - INFO - Index 5 : 200
+2024-08-01 01:50:04,838 - utils_logger - INFO - Index 6 : 200
+2024-08-01 01:50:05,549 - utils_logger - INFO - Index 7 : 200
+2024-08-01 01:50:06,257 - utils_logger - INFO - Index 8 : 200
+2024-08-01 01:50:06,964 - utils_logger - INFO - Index 9 : 200
+2024-08-01 01:50:07,129 - utils_logger - INFO - Index 10 : 429
+2024-08-01 01:50:07,130 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:50:12,804 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:50:13,433 - utils_logger - INFO - Index 11 : 200
+2024-08-01 01:50:14,083 - utils_logger - INFO - Index 12 : 200
+2024-08-01 01:50:14,778 - utils_logger - INFO - Index 13 : 200
+2024-08-01 01:50:15,491 - utils_logger - INFO - Index 14 : 200
+2024-08-01 01:50:16,132 - utils_logger - INFO - Index 15 : 200
+2024-08-01 01:50:16,770 - utils_logger - INFO - Index 16 : 200
+2024-08-01 01:50:17,359 - utils_logger - INFO - Index 17 : 200
+2024-08-01 01:50:18,117 - utils_logger - INFO - Index 18 : 200
+2024-08-01 01:50:18,850 - utils_logger - INFO - Index 19 : 200
+2024-08-01 01:50:18,997 - utils_logger - INFO - Index 20 : 429
+2024-08-01 01:50:18,997 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:50:24,768 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:50:25,409 - utils_logger - INFO - Index 21 : 200
+2024-08-01 01:50:25,998 - utils_logger - INFO - Index 22 : 200
+2024-08-01 01:50:26,675 - utils_logger - INFO - Index 23 : 200
+2024-08-01 01:50:27,380 - utils_logger - INFO - Index 24 : 200
+2024-08-01 01:50:28,098 - utils_logger - INFO - Index 25 : 200
+2024-08-01 01:50:28,698 - utils_logger - INFO - Index 26 : 200
+2024-08-01 01:50:29,412 - utils_logger - INFO - Index 27 : 200
+2024-08-01 01:50:30,023 - utils_logger - INFO - Index 28 : 200
+2024-08-01 01:50:30,761 - utils_logger - INFO - Index 29 : 200
+2024-08-01 01:50:30,906 - utils_logger - INFO - Index 30 : 429
+2024-08-01 01:50:30,906 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:50:36,551 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:50:37,120 - utils_logger - INFO - Index 31 : 200
+2024-08-01 01:50:37,762 - utils_logger - INFO - Index 32 : 200
+2024-08-01 01:50:38,510 - utils_logger - INFO - Index 33 : 200
+2024-08-01 01:50:39,225 - utils_logger - INFO - Index 34 : 200
+2024-08-01 01:50:39,913 - utils_logger - INFO - Index 35 : 200
+2024-08-01 01:50:40,558 - utils_logger - INFO - Index 36 : 200
+2024-08-01 01:50:41,339 - utils_logger - INFO - Index 37 : 200
+2024-08-01 01:50:42,075 - utils_logger - INFO - Index 38 : 200
+2024-08-01 01:50:42,742 - utils_logger - INFO - Index 39 : 200
+2024-08-01 01:50:42,906 - utils_logger - INFO - Index 40 : 429
+2024-08-01 01:50:42,906 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:50:48,652 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:50:49,272 - utils_logger - INFO - Index 41 : 200
+2024-08-01 01:50:49,462 - utils_logger - INFO - Index 42 : 429
+2024-08-01 01:50:49,462 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:50:55,237 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:50:55,998 - utils_logger - INFO - Index 43 : 200
+2024-08-01 01:50:56,730 - utils_logger - INFO - Index 44 : 200
+2024-08-01 01:50:57,488 - utils_logger - INFO - Index 45 : 200
+2024-08-01 01:50:58,209 - utils_logger - INFO - Index 46 : 200
+2024-08-01 01:50:58,825 - utils_logger - INFO - Index 47 : 200
+2024-08-01 01:50:59,554 - utils_logger - INFO - Index 48 : 200
+2024-08-01 01:51:00,159 - utils_logger - INFO - Index 49 : 200
+2024-08-01 01:51:00,872 - utils_logger - INFO - Index 50 : 200
+2024-08-01 01:51:01,774 - utils_logger - INFO - Index 51 : 200
+2024-08-01 01:51:01,962 - utils_logger - INFO - Index 52 : 429
+2024-08-01 01:51:01,963 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:51:07,673 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:51:08,100 - utils_logger - INFO - Index 53 : 200
+2024-08-01 01:51:08,924 - utils_logger - INFO - Index 54 : 200
+2024-08-01 01:51:09,678 - utils_logger - INFO - Index 55 : 200
+2024-08-01 01:51:10,474 - utils_logger - INFO - Index 56 : 200
+2024-08-01 01:51:11,236 - utils_logger - INFO - Index 57 : 200
+2024-08-01 01:51:11,898 - utils_logger - INFO - Index 58 : 200
+2024-08-01 01:51:12,604 - utils_logger - INFO - Index 59 : 200
+2024-08-01 01:51:13,276 - utils_logger - INFO - Index 60 : 200
+2024-08-01 01:51:13,975 - utils_logger - INFO - Index 61 : 200
+2024-08-01 01:51:14,723 - utils_logger - INFO - Index 62 : 200
+2024-08-01 01:51:15,547 - utils_logger - INFO - Index 63 : 200
+2024-08-01 01:51:16,353 - utils_logger - INFO - Index 64 : 200
+2024-08-01 01:51:16,571 - utils_logger - INFO - Index 65 : 429
+2024-08-01 01:51:16,571 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:51:22,243 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:51:22,956 - utils_logger - INFO - Index 66 : 200
+2024-08-01 01:51:23,641 - utils_logger - INFO - Index 67 : 200
+2024-08-01 01:51:24,307 - utils_logger - INFO - Index 68 : 200
+2024-08-01 01:51:24,983 - utils_logger - INFO - Index 69 : 200
+2024-08-01 01:51:25,708 - utils_logger - INFO - Index 70 : 200
+2024-08-01 01:51:26,373 - utils_logger - INFO - Index 71 : 200
+2024-08-01 01:51:26,616 - utils_logger - INFO - Index 72 : 429
+2024-08-01 01:51:26,616 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:51:32,296 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:51:33,037 - utils_logger - INFO - Index 73 : 200
+2024-08-01 01:51:33,744 - utils_logger - INFO - Index 74 : 200
+2024-08-01 01:51:34,486 - utils_logger - INFO - Index 75 : 200
+2024-08-01 01:51:35,125 - utils_logger - INFO - Index 76 : 200
+2024-08-01 01:51:35,790 - utils_logger - INFO - Index 77 : 200
+2024-08-01 01:51:36,549 - utils_logger - INFO - Index 78 : 200
+2024-08-01 01:51:37,325 - utils_logger - INFO - Index 79 : 200
+2024-08-01 01:51:38,028 - utils_logger - INFO - Index 80 : 200
+2024-08-01 01:51:38,727 - utils_logger - INFO - Index 81 : 200
+2024-08-01 01:51:38,891 - utils_logger - INFO - Index 82 : 429
+2024-08-01 01:51:38,892 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:51:44,641 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:51:45,277 - utils_logger - INFO - Index 83 : 200
+2024-08-01 01:51:46,165 - utils_logger - INFO - Index 84 : 200
+2024-08-01 01:51:46,738 - utils_logger - INFO - Index 85 : 200
+2024-08-01 01:51:47,516 - utils_logger - INFO - Index 86 : 200
+2024-08-01 01:51:48,250 - utils_logger - INFO - Index 87 : 200
+2024-08-01 01:51:48,991 - utils_logger - INFO - Index 88 : 200
+2024-08-01 01:51:49,611 - utils_logger - INFO - Index 89 : 200
+2024-08-01 01:51:50,212 - utils_logger - INFO - Index 90 : 200
+2024-08-01 01:51:50,869 - utils_logger - INFO - Index 91 : 200
+2024-08-01 01:51:51,036 - utils_logger - INFO - Index 92 : 429
+2024-08-01 01:51:51,036 - utils_logger - INFO - 	Empty soup, trying again in 5 secs...
+2024-08-01 01:51:56,762 - utils_logger - INFO - 	Success : 200
+2024-08-01 01:51:57,368 - utils_logger - INFO - Index 93 : 200
+2024-08-01 01:51:57,981 - utils_logger - INFO - Index 94 : 200
+2024-08-01 01:51:58,063 - utils_logger - INFO - Removed 0 empty rows
+2024-08-01 01:51:58,065 - utils_logger - INFO - Removed 1 duplicates
+2024-08-01 01:51:58,066 - utils_logger - INFO - Extracted 94 number of jobs
+2024-08-01 01:51:58,066 - utils_logger - INFO - No main file, creating new file
+2024-08-01 01:51:58,066 - utils_logger - INFO - Original rows of main_df: 94
+2024-08-01 01:51:58,066 - utils_logger - INFO - Read rows from df 0: 85
+2024-08-01 01:51:58,067 - utils_logger - INFO - Read rows from df 1: 87
+2024-08-01 01:51:58,069 - utils_logger - INFO - 	Added rows: 169
+2024-08-01 01:52:01,339 - utils_logger - INFO - Email sent!
+2024-08-01 01:52:01,340 - utils_logger - INFO - files/BATCH_2024-08-01.xlsx deleted
