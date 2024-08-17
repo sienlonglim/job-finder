@@ -26,7 +26,8 @@ class EmailServer:
         self._app_pass = os.environ['APP_PASS']
         self.smtp_server = smtplib.SMTP_SSL(self.host, self.port)
         self.smtp_server.login(
-                user=self._email_address
+                user=self._email_address,
+                password=self._app_pass
             )
         log.info('Log in successful')
 

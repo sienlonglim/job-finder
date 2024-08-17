@@ -30,6 +30,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Get current time
+        id: current-time
+        uses: josStorer/get-current-time@v2
+
       - name: execute py script
         run: python main.py
 

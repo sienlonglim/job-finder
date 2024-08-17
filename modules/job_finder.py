@@ -55,7 +55,7 @@ class LinkedInJobFinder:
             raise ValueError("Ran into maximum retries for authentication walls")
         else:
             self.driver.get(url)
-            time.sleep(5)
+            time.sleep(3)
             html_source = self.driver.page_source
             soup = BeautifulSoup(html_source, 'html.parser')
             if self.debug:
@@ -159,7 +159,7 @@ class LinkedInJobFinder:
         else:
             log.error(f"No job urls were retrieved for {keyword}")
 
-    def get_individual_job_informations(
+    def get_all_individual_job_informations(
         self
     ) -> dict:
         if (not self.job_url_links_dict) or (len(self.job_url_links_dict.get('job_url_links')) < 1):
@@ -169,7 +169,7 @@ class LinkedInJobFinder:
             for idx, url_link in enumerate(self.job_url_links_dict['job_url_links']):
                 soup = self._get_individual_job_url_soup(url=url_link)
                 if soup is not None:
-                    individual_job_information_dict = self._get_individual_job_url_details(
+                    individual_job_information_dict = self._get_individual_job_url_details_from_soup(
                         soup=soup,
                         index=idx,
                         url=url_link
@@ -192,7 +192,7 @@ class LinkedInJobFinder:
             driver.quit()
             return soup
 
-    def _get_individual_job_url_details(
+    def _get_individual_job_url_details_from_soup(
         self,
         soup: BeautifulSoup,
         index: int,
@@ -260,6 +260,7 @@ class LinkedInJobFinder:
         info['link'] = url
         return info
 
+    @staticmethod
     def process_df(
         data: dict,
         remove_nulls: bool = True,
