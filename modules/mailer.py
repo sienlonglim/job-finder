@@ -29,7 +29,7 @@ class EmailServer:
                 user=self._email_address,
                 password=self._app_pass
             )
-        log.info('Log in successful')
+        log.info('Email login successful')
 
     def _create_MIME_message(
         self,
