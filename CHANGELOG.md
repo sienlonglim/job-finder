@@ -6,6 +6,8 @@
 - Updated config to be py file instead of yaml.
 - Temporary removed output emailing, email contains only run info.
 - To complete S3 integration to save json files to s3 instead.
+- Removed all dead code
+
 ### Added
 - job_finder package
 - mailer.py

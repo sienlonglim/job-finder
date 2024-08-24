@@ -1,8 +1,8 @@
-import dataclasses
+from dataclasses import dataclass
 import os
 
 
-@dataclasses
+@dataclass
 class MainConfig:
     jobs = {
         'data scientist': 10,
@@ -10,4 +10,4 @@ class MainConfig:
         'data engineer': 10
     }
     email_subject = ""
-    email_recipients = os.environ['email_recipients']
+    email_recipients = os.environ['EMAIL_RECIPIENTS']

@@ -25,23 +25,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-
-      - name: Get current time
-        id: current-time
-        uses: josStorer/get-current-time@v2
+          pip freeze
 
       - name: execute py script
         run: python main.py
-
-      # - name: commit files
-      #   run: |
-      #     git config --local user.email "limsienlong@gmail.com"
-      #     git config --local user.name "sienlonglim"
-      #     git add -A
-      #     git diff-index --quiet HEAD || (git commit -a -m "Weekly run" --allow-empty)
-
-      # - name: push changes
-      #   uses: ad-m/github-push-action@v0.6.0
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     branch: master 
