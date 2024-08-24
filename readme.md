@@ -3,6 +3,7 @@
 
 This project involves automation in retrieving job listings from LinkedIn and mailing. Areas include:
 - Web scrapping with Selenium webdriver
-- Data wranling
+- Data wrangling
 - MIME emailing
-- Google docs access
+- S3 bucket upload
+- Unit testing and CI

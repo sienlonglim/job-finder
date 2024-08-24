@@ -2,11 +2,15 @@
 
 ## [2.0.0] 2024-08-17 
 ### Changes
-Code refactor for cleaner repo.
+- Code refactor for cleaner repo.
+- Updated config to be py file instead of yaml.
+- Temporary removed output emailing, email contains only run info.
+- To complete S3 integration to save json files to s3 instead.
 ### Added
-- job_finder.py
+- job_finder package
 - mailer.py
 - CHANGELOG.md
+- AmazonS3 package (WIP)
 
 ## [1.2.1] 2023-01-18 
 ### Changes:
