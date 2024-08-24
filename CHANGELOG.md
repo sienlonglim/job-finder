@@ -1,5 +1,10 @@
 # Change Log
 
+## [2.1.0] 2024-08-24
+### Changes
+- Added S3 integration to save json files to S3.
+- Email output reconfigured to send summary message.
+
 ## [2.0.0] 2024-08-17 
 ### Changes
 - Code refactor for cleaner repo.
@@ -12,7 +17,6 @@
 - job_finder package
 - mailer.py
 - CHANGELOG.md
-- AmazonS3 package (WIP)
 
 ## [1.2.1] 2023-01-18 
 ### Changes:

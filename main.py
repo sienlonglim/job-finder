@@ -1,10 +1,12 @@
 import sys
 import logging
+import json
 from datetime import datetime
 
 from config import MainConfig
 from modules.job_finder.job_finder import LinkedInJobFinder
 from modules.mailer import EmailServer
+from modules.clients.amazon_s3 import AmazonS3
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO, stream=sys.stdout, format="%(message)s")
@@ -21,16 +23,19 @@ if __name__ == '__main__':
         )
         log.info(f"{'-'*20}  GETTING INFO : {keyword} {'-'*20}")
         job_infos = job_finder_resource.get_all_individual_job_informations()
-        df = LinkedInJobFinder.process_dict_to_df(
-            data=job_infos,
-            remove_duplicates=True,
-            remove_nulls=True
-        )
+        json_data = json.dumps(job_infos)
+    s3_client = AmazonS3()
+    s3_client.upload_object(
+        object=json_data,
+        bucket_name=MainConfig.bucket_name,
+        path=MainConfig.bucket_subfolder,
+        filename=f"job-run-{start_time.date().strftime('%Y%m%d')}.json"
+    )
 
     mailer = EmailServer()
     mailer.send_email(
         subject=MainConfig.email_subject,
-        body=f"Completed run with total of {len(df)} jobs retrieved"
+        body=f"Completed run with total of {len(job_infos)} jobs retrieved"
         f"\nStart time: {start_time.strftime('%Y-%m-%d:%H%M')}"
         f"\nEnd time: {datetime.now().strftime('%Y-%m-%d:%H%M')}"
         f"\n\n{MainConfig.email_subject}",
