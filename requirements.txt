@@ -2,11 +2,8 @@ python-dotenv
 requests
 beautifulsoup4
 pandas
-tqdm
-ipywidgets
 xlsxwriter
 openpyxl
-pyyaml
 selenium
 types-beautifulsoup4
 boto3
