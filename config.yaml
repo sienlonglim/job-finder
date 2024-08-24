@@ -1,8 +1,0 @@
-job_titles:
-  - 'data scientist'
-  - 'data engineer'
-  - 'data analyst'
-pages: 25
-email:
-  recipients: ["limsienlong@gmail.com"]
-  subject: "Daily LinkedIn Excel"
