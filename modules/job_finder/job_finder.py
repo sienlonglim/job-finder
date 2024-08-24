@@ -261,11 +261,12 @@ class LinkedInJobFinder:
         return info
 
     @staticmethod
-    def process_df(
+    def process_dict_to_df(
         data: dict,
         remove_nulls: bool = True,
         remove_duplicates: bool = True
     ) -> pd.DataFrame:
+        log.info("Processing to dataframe")
         df = pd.DataFrame.from_dict(data, orient='index')
         df = df.set_index('job_id')
 

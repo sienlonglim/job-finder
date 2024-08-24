@@ -3,10 +3,6 @@ name: scheduled run main.py
 on:
   schedule:
     - cron: '0 0 * * 2,4' # At 8AM for GMT+8, 12AM for UTC, every Tue and Thu
-  # push:
-  #   branches:
-  #     - main
-  #     - master
     
 env:
   email: ${{ secrets.EMAIL }}
@@ -37,15 +33,15 @@ jobs:
       - name: execute py script
         run: python main.py
 
-      - name: commit files
-        run: |
-          git config --local user.email "limsienlong@gmail.com"
-          git config --local user.name "sienlonglim"
-          git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "Weekly run" --allow-empty)
+      # - name: commit files
+      #   run: |
+      #     git config --local user.email "limsienlong@gmail.com"
+      #     git config --local user.name "sienlonglim"
+      #     git add -A
+      #     git diff-index --quiet HEAD || (git commit -a -m "Weekly run" --allow-empty)
 
-      - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master 
+      # - name: push changes
+      #   uses: ad-m/github-push-action@v0.6.0
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     branch: master 

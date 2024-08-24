@@ -2,7 +2,7 @@ import os
 import sys
 import logging
 import smtplib
-from typing import Iterable
+from typing import Iterable, Optional
 
 from email import encoders
 from email.mime.base import MIMEBase
@@ -73,7 +73,7 @@ class EmailServer:
         subject: str,
         body: str,
         recipients: Iterable[str],
-        attachments: Iterable[str]
+        attachments: Optional[Iterable[str]] = None
     ) -> None:
         '''
         Sends an email with the given parameters
@@ -89,10 +89,11 @@ class EmailServer:
             recipients=recipients,
             body=body
         )
-        message = self._add_attachements(
-            message=message,
-            attachments=attachments
-        )
+        if attachments is not None:
+            message = self._add_attachements(
+                message=message,
+                attachments=attachments
+            )
         self.smtp_server.ehlo()
         self.smtp_server.sendmail(
             from_addr=self._email_address,

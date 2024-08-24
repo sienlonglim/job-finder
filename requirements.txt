@@ -9,3 +9,4 @@ openpyxl
 pyyaml
 selenium
 types-beautifulsoup4
+boto3
