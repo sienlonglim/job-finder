@@ -5,13 +5,13 @@ on:
     - cron: '0 0 * * 2,4' # At 8AM for GMT+8, 12AM for UTC, every Tue and Thu
     
 env:
-  email: ${{ secrets.EMAIL }}
-  app_pass: ${{ secrets.APP_PASS }}
-  amazon_s3_bucket_name: ${{ secrets.AMAZON_S3_BUCKET_NAME }}
-  amazon_s3_bucket_subfolder: ${{ secrets.AMAZON_S3_BUCKET_SUBFOLDER }}
-  aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-  region: ${{ secrets.REGION }}
-  email_recipients: ${{ secrets.EMAIL_RECIPIENTS }}
+  EMAIL: ${{ secrets.EMAIL }}
+  APP_PASS: ${{ secrets.APP_PASS }}
+  AMAZON_S3_BUCKET_NAME: ${{ secrets.AMAZON_S3_BUCKET_NAME }}
+  AMAZON_S3_BUCKET_SUBFOLDER: ${{ secrets.AMAZON_S3_BUCKET_SUBFOLDER }}
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+  REGION: ${{ secrets.REGION }}
+  EMAIL_RECIPIENTS: ${{ secrets.EMAIL_RECIPIENTS }}
 
 jobs:
   build:
