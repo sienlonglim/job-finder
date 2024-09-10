@@ -6,7 +6,7 @@ import os
 class MainConfig:
     jobs = {
         'data scientist': 10,
-        # 'data analyst': 10,
+        'data analyst': 10,
         # 'data engineer': 10
     }
     email_subject = "LinkedIn JobFinder Summary"
